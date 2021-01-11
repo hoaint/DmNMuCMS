@@ -1,0 +1,360 @@
+{
+  "web": {
+    "DmN_Donate_Transactions": {
+      "id": {
+        "type": "int",
+        "is_primary_key": 1,
+        "null": 0,
+        "identity": 1,
+        "default": ""
+      },
+      "transaction_id": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "amount": {
+        "type": "float",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "currency": {
+        "type": "varchar(5)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "acc": {
+        "type": "varchar(10)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "server": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "credits": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "order_date": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "status": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "payer_email": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "order_hash": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    },
+    "DmN_Downloads": {
+      "id": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 1,
+        "default": ""
+      },
+      "link_name": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "link_desc": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "link_size": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "link_type": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "link_url": {
+        "type": "varchar(100)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "type": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      }
+    },
+    "DmN_Email_Confirmation": {
+      "id": {
+        "type": "int",
+        "is_primary_key": 1,
+        "null": 0,
+        "identity": 1,
+        "default": ""
+      },
+      "account": {
+        "type": "varchar(32)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "email": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "code": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "old_email": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      }
+    },
+    "DmN_Warehouse_Delete_Log": {
+      "id": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 1,
+        "default": ""
+      },
+      "account": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "server": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "item": {
+        "type": "varchar(64)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "date": {
+        "type": "datetime",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "deleted_by_admin": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      }
+    },
+    "DmN_Votereward_Ranking": {
+      "id": {
+        "type": "int",
+        "is_primary_key": 1,
+        "null": 0,
+        "identity": 1,
+        "default": ""
+      },
+      "account": {
+        "type": "varchar(10)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "character": {
+        "type": "varchar(10)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "server": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "lastvote": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "totalvotes": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "year": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "month": {
+        "type": "char(10)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    },
+    "DmN_Votereward_Xtremetop_Log": {
+      "id": {
+        "type": "int",
+        "is_primary_key": 1,
+        "null": 0,
+        "identity": 1,
+        "default": ""
+      },
+      "memb_guid": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "ip": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "time": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "validated": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      }
+    }
+  },
+  "account": {
+    "MEMB_INFO": {
+      "Admin": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "last_login": {
+        "type": "datetime",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "activated": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "activation_id": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "last_login_ip": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    }
+  },
+  "game": {
+    "Character": {
+      "last_reset_time": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+    "DmN_2CheckOut_Orders": {
+        "query": "CREATE TABLE [dbo].[DmN_2CheckOut_Orders]([id] [int] IDENTITY(1,1) NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_2CheckOut_Packages": {
+        "query": "CREATE TABLE [dbo].[DmN_2CheckOut_Packages]([id] [int] IDENTITY(1,1) NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_2CheckOut_Transactions": {
+        "query": "CREATE TABLE [dbo].[DmN_2CheckOut_Transactions]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Account_Invt": {
+        "query": "CREATE TABLE [dbo].[DmN_Account_Invt]([inv_id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Account_Logs": {
+        "query": "CREATE TABLE [dbo].[DmN_Account_Logs]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Admin_Logins": {
+        "query": "CREATE TABLE [dbo].[DmN_Admin_Logins]([memb___id] [varchar](50) NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Ban_List": {
+        "query": "CREATE TABLE [dbo].[DmN_Ban_List]([id] [int] IDENTITY(1,1) NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_ChangeName_History": {
+        "query": "CREATE TABLE [dbo].[DmN_ChangeName_History]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Donate": {
+        "query": "CREATE TABLE [dbo].[DmN_Donate]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Donate_Fortumo": {
+        "query": "CREATE TABLE [dbo].[DmN_Donate_Fortumo]([payment_id] [varchar](50) NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Donate_Orders": {
+        "query": "CREATE TABLE [dbo].[DmN_Donate_Orders]([id] [int] IDENTITY(1,1) NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Donate_Packages": {
+        "query": "CREATE TABLE [dbo].[DmN_Donate_Packages]([id] [int] IDENTITY(1,1) NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Donate_Transactions": {
+        "query": "CREATE TABLE [dbo].[DmN_Donate_Transactions]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Downloads": {
+        "query": "CREATE TABLE [dbo].[DmN_Downloads]([id] [int] IDENTITY(1,1) NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Email_Confirmation": {
+        "query": "CREATE TABLE [dbo].[DmN_Email_Confirmation]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Gallery": {
+        "query": "CREATE TABLE [dbo].[DmN_Gallery]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_GM_Announcement": {
+        "query": "CREATE TABLE [dbo].[DmN_GM_Announcement]([announcement] [text] NULL) ON [PRIMARY] ",
+        "db": "web"
+    },
+    "DmN_Gm_Credits_Limit": {
+        "query": "CREATE TABLE [dbo].[DmN_Gm_Credits_Limit]([id] [int] IDENTITY(1,1) NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Gm_List": {
+        "query": "CREATE TABLE [dbo].[DmN_Gm_List]([account] [varchar](10) NULL) ON [PRIMARY] ",
+        "db": "web"
+    },
+    "DmN_GM_Logs": {
+        "query": "CREATE TABLE [dbo].[DmN_GM_Logs]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY] ",
+        "db": "web"
+    },
+    "DmN_GoogleAds_Click": {
+        "query": "CREATE TABLE [dbo].[DmN_GoogleAds_Click]([id] [int] IDENTITY(1,1) NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Hidden_Chars": {
+        "query": "CREATE TABLE [dbo].[DmN_Hidden_Chars]([id] [int] IDENTITY(1,1) NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_IP_Log": {
+        "query": "CREATE TABLE [dbo].[DmN_IP_Log]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Login_Attempts": {
+        "query": "CREATE TABLE [dbo].[DmN_Login_Attempts]([ip] [varchar](20) NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Market": {
+        "query": "CREATE TABLE [dbo].[DmN_Market]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Market_Logs": {
+        "query": "CREATE TABLE [dbo].[DmN_Market_Logs]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+	"DmN_Web_Storage": {
+        "query": "CREATE TABLE [dbo].[DmN_Web_Storage]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    }
+}

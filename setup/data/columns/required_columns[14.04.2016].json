@@ -1,0 +1,70 @@
+{
+  "web": {
+    "DmN_Market": {
+      "has_exe_7": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "has_exe_8": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "has_exe_9": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "is_gl": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      }
+    },
+    "DmN_Downloads": {
+      "orders": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      }
+    },
+    "DmN_Vip_Packages": {
+      "is_registration_package": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "change_class_discount ": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      }
+    }
+  },
+  "game": {
+    "Character": {
+      "last_greset_time": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    }
+  }
+}

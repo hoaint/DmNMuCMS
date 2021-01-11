@@ -1,0 +1,426 @@
+{
+  "igcn": {
+    "title": "IGCN",
+    "resets": {
+      "db": "game",
+      "table": "Character",
+      "column": "",
+      "identifier_column": "Name"
+    },
+    "grand_resets": {
+      "db": "game",
+      "table": "Character",
+      "column": "",
+      "identifier_column": "Name"
+    },
+    "wcoins": {
+      "db": "game",
+      "table": "T_InGameShop_Point",
+      "column": "WCoinC",
+      "identifier_column": "AccountID"
+    },
+    "master_level": {
+      "db": "game",
+      "table": "Character",
+      "column": "mLevel",
+      "identifier_column": "Name"
+    },
+    "bc": {
+      "db": "Ranking",
+      "table": "EVENT_INFO_BC_5TH",
+      "column": "Point",
+      "identifier_column": "CharacterName"
+    },
+    "ds": {
+      "db": "Ranking",
+      "table": "EVENT_INFO",
+      "column": "Point",
+      "identifier_column": "CharacterName"
+    },
+    "cc": {
+      "db": "Ranking",
+      "table": "EVENT_INFO_CC",
+      "column": "Wins",
+      "column2": "PKillCount",
+      "column3": "MKillCount",
+      "identifier_column": "Name"
+    },
+    "cs": {
+      "db": "game",
+      "table": "",
+      "column": "",
+      "identifier_column": ""
+    },
+    "duels": {
+      "db": "game",
+      "table": "Character",
+      "column": "WinDuels",
+      "identifier_column": "Name",
+      "column2": "LoseDuels"
+    },
+    "monster_killcount": {
+      "db": "game",
+      "table": "C_Monster_KillCount",
+      "column": "count",
+      "identifier_column": "name",
+      "column2": "MonsterId"
+    }
+  },
+  "igcns10": {
+    "title": "IGCN S10",
+    "resets": {
+      "db": "game",
+      "table": "Character",
+      "column": "",
+      "identifier_column": "Name"
+    },
+    "grand_resets": {
+      "db": "game",
+      "table": "Character",
+      "column": "",
+      "identifier_column": "Name"
+    },
+    "wcoins": {
+      "db": "game",
+      "table": "T_InGameShop_Point",
+      "column": "WCoin",
+      "identifier_column": "AccountID"
+    },
+    "master_level": {
+      "db": "game",
+      "table": "Character",
+      "column": "mLevel",
+      "identifier_column": "Name"
+    },
+    "bc": {
+      "db": "Ranking",
+      "table": "EVENT_INFO_BC_5TH",
+      "column": "Point",
+      "identifier_column": "CharacterName"
+    },
+    "ds": {
+      "db": "Ranking",
+      "table": "EVENT_INFO",
+      "column": "Point",
+      "identifier_column": "CharacterName"
+    },
+    "cc": {
+      "db": "Ranking",
+      "table": "EVENT_INFO_CC",
+      "column": "Wins",
+      "column2": "PKillCount",
+      "column3": "MKillCount",
+      "identifier_column": "Name"
+    },
+    "cs": {
+      "db": "game",
+      "table": "",
+      "column": "",
+      "identifier_column": ""
+    },
+    "duels": {
+      "db": "game",
+      "table": "Character",
+      "column": "WinDuels",
+      "identifier_column": "Name",
+      "column2": "LoseDuels"
+    },
+    "monster_killcount": {
+      "db": "game",
+      "table": "C_Monster_KillCount",
+      "column": "count",
+      "identifier_column": "name",
+      "column2": "MonsterId"
+    }
+  },
+  "ex-team": {
+    "title": "EX-Team",
+    "resets": {
+      "db": "game",
+      "table": "Character",
+      "column": "",
+      "identifier_column": "Name"
+    },
+    "grand_resets": {
+      "db": "game",
+      "table": "Character",
+      "column": "",
+      "identifier_column": "Name"
+    },
+    "wcoins": {
+      "db": "game",
+      "table": "GameShopPoint",
+      "column": "WCoinC",
+      "identifier_column": "AccountID"
+    },
+    "master_level": {
+      "db": "game",
+      "table": "T_SkillTree_Info",
+      "column": "MASTER_LEVEL",
+      "identifier_column": "CHAR_NAME"
+    },
+    "bc": {
+      "db": "custom",
+      "table": "",
+      "column": "",
+      "identifier_column": ""
+    },
+    "ds": {
+      "db": "custom",
+      "table": "",
+      "column": "",
+      "identifier_column": ""
+    },
+    "cc": {
+      "db": "custom",
+      "table": "",
+      "column": "",
+      "identifier_column": ""
+    },
+    "cs": {
+      "db": "custom",
+      "table": "",
+      "column": "",
+      "identifier_column": ""
+    },
+    "duels": {
+      "db": "custom",
+      "table": "",
+      "column": "",
+      "identifier_column": "",
+      "column2": ""
+    }
+  },
+  "mu-engine": {
+    "title": "MuEngine",
+    "resets": {
+      "db": "game",
+      "table": "Character",
+      "column": "Resets",
+      "identifier_column": "Name"
+    },
+    "grand_resets": {
+      "db": "game",
+      "table": "Character",
+      "column": "Grand_Resets",
+      "identifier_column": "Name"
+    },
+    "wcoins": {
+      "db": "account",
+      "table": "MEMB_INFO",
+      "column": "TempCredits",
+      "identifier_column": "memb___id"
+    },
+    "master_level": {
+      "db": "game",
+      "table": "T_MasterLevelSystem",
+      "column": "MASTER_LEVEL",
+      "identifier_column": "CHAR_NAME"
+    },
+    "bc": {
+      "db": "custom",
+      "table": "",
+      "column": "",
+      "identifier_column": ""
+    },
+    "ds": {
+      "db": "custom",
+      "table": "",
+      "column": "",
+      "identifier_column": ""
+    },
+    "cc": {
+      "db": "custom",
+      "table": "",
+      "column": "",
+      "identifier_column": ""
+    },
+    "cs": {
+      "db": "custom",
+      "table": "",
+      "column": "",
+      "identifier_column": ""
+    },
+    "duels": {
+      "db": "custom",
+      "table": "",
+      "column": "",
+      "identifier_column": "",
+      "column2": ""
+    }
+  },
+  "xteam": {
+    "title": "X-Team",
+    "resets": {
+      "db": "game",
+      "table": "Character",
+      "column": "",
+      "identifier_column": "Name"
+    },
+    "grand_resets": {
+      "db": "game",
+      "table": "Character",
+      "column": "",
+      "identifier_column": "Name"
+    },
+    "wcoins": {
+      "db": "game",
+      "table": "CashShopData",
+      "column": "WCoinC",
+      "identifier_column": "AccountID"
+    },
+    "master_level": {
+      "db": "game",
+      "table": "MasterSkillTree",
+      "column": "MasterLevel",
+      "identifier_column": "Name"
+    },
+    "bc": {
+      "db": "game",
+      "table": "RankingBloodCastle",
+      "column": "Score",
+      "identifier_column": "Name"
+    },
+    "ds": {
+      "db": "game",
+      "table": "RankingDevilSquare",
+      "column": "Score",
+      "identifier_column": "Name"
+    },
+    "cc": {
+      "db": "game",
+      "table": "RankingChaosCastle",
+      "column": "Score",
+      "identifier_column": "Name"
+    },
+    "cs": {
+      "db": "game",
+      "table": "RankingCastleSiege",
+      "column": "KillScore",
+      "identifier_column": "Name"
+    },
+    "duels": {
+      "db": "game",
+      "table": "RankingDuel",
+      "column": "WinScore",
+      "identifier_column": "Name",
+      "column2": "LoseScore"
+    }
+  },
+  "zteam": {
+    "title": "Z-Team",
+    "resets": {
+      "db": "game",
+      "table": "Character",
+      "column": "",
+      "identifier_column": "Name"
+    },
+    "grand_resets": {
+      "db": "game",
+      "table": "Character",
+      "column": "",
+      "identifier_column": "Name"
+    },
+    "wcoins": {
+      "db": "",
+      "table": "GameShop_Data",
+      "column": "WCoinC",
+      "identifier_column": "MemberGuid"
+    },
+    "master_level": {
+      "db": "game",
+      "table": "T_MasterLevelSystem",
+      "column": "MASTER_LEVEL",
+      "identifier_column": "CHAR_NAME"
+    },
+    "bc": {
+      "db": "",
+      "table": "",
+      "column": "",
+      "identifier_column": ""
+    },
+    "ds": {
+      "db": "",
+      "table": "",
+      "column": "",
+      "identifier_column": ""
+    },
+    "cc": {
+      "db": "",
+      "table": "",
+      "column": "",
+      "identifier_column": ""
+    },
+    "cs": {
+      "db": "",
+      "table": "",
+      "column": "",
+      "identifier_column": ""
+    },
+    "duels": {
+      "db": "",
+      "table": "",
+      "column": "",
+      "identifier_column": "",
+      "column2": ""
+    }
+  },
+  "titanstech": {
+    "title": "TitansTech",
+    "resets": {
+      "db": "game",
+      "table": "Character",
+      "column": "",
+      "identifier_column": "Name"
+    },
+    "grand_resets": {
+      "db": "game",
+      "table": "Character",
+      "column": "",
+      "identifier_column": "Name"
+    },
+    "wcoins": {
+      "db": "account",
+      "table": "MEMB_INFO",
+      "column": "WCoin",
+      "identifier_column": "memb___id"
+    },
+    "master_level": {
+      "db": "game",
+      "table": "Character",
+      "column": "SCFMasterLevel",
+      "identifier_column": "Name"
+    },
+    "bc": {
+      "db": "",
+      "table": "",
+      "column": "",
+      "identifier_column": ""
+    },
+    "ds": {
+      "db": "",
+      "table": "",
+      "column": "",
+      "identifier_column": ""
+    },
+    "cc": {
+      "db": "",
+      "table": "",
+      "column": "",
+      "identifier_column": ""
+    },
+    "cs": {
+      "db": "",
+      "table": "",
+      "column": "",
+      "identifier_column": ""
+    },
+    "duels": {
+      "db": "",
+      "table": "",
+      "column": "",
+      "identifier_column": "",
+      "column2": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+[03:10AM] [0.0.0.0] Task executed VoteMonthlyReward
+[03:10AM] [0.0.0.0] Task executed BCMonthlyReward
+[03:10AM] [0.0.0.0] Task executed DSMonthlyReward
+[03:10AM] [0.0.0.0] Task executed CCMonthlyReward
+[03:10AM] [0.0.0.0] Task executed DuelerMonthlyReward
+[03:10AM] [0.0.0.0] Task executed RemoveNotVerifiedAccounts
+[03:11AM] [0.0.0.0] Task executed RemoveBans
+[03:11AM] [0.0.0.0] Task executed CheckBans
+[03:11AM] [0.0.0.0] Task executed BulkEmail
+[03:11AM] [0.0.0.0] Task executed ParseMMOTOPVotes
+[03:11AM] [0.0.0.0] Task executed DeleteOldSessions
+[03:11AM] [0.0.0.0] Task executed ParseServerFiles
+[03:12AM] [0.0.0.0] Task executed LastForumTopics
+[03:12AM] [0.0.0.0] Task executed LastMarketItems

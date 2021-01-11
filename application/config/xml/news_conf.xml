@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<news_conf>
+  <news>
+    <module_status>1</module_status>
+    <storage>dmn</storage>
+    <news_per_page>5</news_per_page>
+    <ipb_host></ipb_host>
+    <ipb_user></ipb_user>
+    <ipb_pass></ipb_pass>
+    <ipb_db></ipb_db>
+    <ipb_tb_prefix></ipb_tb_prefix>
+    <ipb_forum_ids></ipb_forum_ids>
+    <rss_feed_url></rss_feed_url>
+    <rss_feed_count>5</rss_feed_count>
+    <cache_time>360</cache_time>
+    <fb_script><![CDATA[]]></fb_script>
+  </news>
+</news_conf>

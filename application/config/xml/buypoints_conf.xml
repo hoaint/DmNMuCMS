@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<buypoints_conf>
+  <buypoints>
+    <module_status>0</module_status>
+    <price>1000</price>
+    <price_type>1</price_type>
+    <allow_external_chars>0</allow_external_chars>
+    <points>10</points>
+  </buypoints>
+</buypoints_conf>

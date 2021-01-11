@@ -1,0 +1,300 @@
+{
+  "web": {
+    "DmN_Refferal_Reward_List": {
+      "id": {
+        "type": "int",
+        "is_primary_key": 1,
+        "null": 0,
+        "identity": 1,
+        "default": ""
+      },
+      "required_lvl": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "required_res": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "required_gres": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "reward": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "reward_type": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((1))"
+      },
+      "server": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "status": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((1))"
+      }
+    },
+    "DmN_Vip_Packages": {
+      "id": {
+        "type": "int",
+        "is_primary_key": 1,
+        "null": 0,
+        "identity": 1,
+        "default": ""
+      },
+      "package_title": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "price": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "payment_type": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "server": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "status": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((1))"
+      },
+      "vip_time": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "reset_price_decrease": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "reset_level_decrease": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "grand_reset_bonus_credits": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "hide_info_discount": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "pk_clear_discount": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "clear_skilltree_discount": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "online_hour_exchange_bonus": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "change_name_discount": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "bonus_credits_for_donate": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "shop_discount": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "connect_member_load": {
+        "type": "varchar(200)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "server_vip_package": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "server_bonus_info": {
+        "type": "text",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    },
+    "DmN_Vip_Users": {
+      "id": {
+        "type": "int",
+        "is_primary_key": 1,
+        "null": 0,
+        "identity": 1,
+        "default": ""
+      },
+      "memb___id": {
+        "type": "varchar(20)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "viptype": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "viptime": {
+        "type": "bigint",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "server": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    },
+    "DmN_Market": {
+      "item_name": {
+        "type": "varchar(100)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    }
+  },
+  "account": {
+    "MEMB_INFO": {
+      "Admin": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "last_login": {
+        "type": "datetime",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "activated": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "activation_id": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "last_login_ip": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    }
+  },
+  "game": {
+    "Character": {
+      "last_reset_time": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    }
+  }
+}

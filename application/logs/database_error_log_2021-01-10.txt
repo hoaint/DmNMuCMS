@@ -1,0 +1,323 @@
+PDOException: SQLSTATE[42S02]: Base table or view not found: 208 [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'T_SkillTree_Info'. (SQLExecute[208] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(1603): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(64): Mcharacter->load_master_level('Mode', 'DEFAULT')
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(1183): Mcharacter->check_char()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->buy_level()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[42S02]: Base table or view not found: 208 [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'T_SkillTree_Info'. (SQLExecute[208] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(1603): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(64): Mcharacter->load_master_level('Mode', 'DEFAULT')
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(1183): Mcharacter->check_char()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->buy_level()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[42S02]: Base table or view not found: 208 [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'T_SkillTree_Info'. (SQLExecute[208] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(1603): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(64): Mcharacter->load_master_level('Mode', 'DEFAULT')
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(1183): Mcharacter->check_char()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->buy_level()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 102 [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near '='. (SQLExecute[102] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(203): db->execute(Array)
+#2 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#3 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#4 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#5 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+================================================================================
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 102 [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near '='. (SQLExecute[102] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(203): db->execute(Array)
+#2 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#3 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#4 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#5 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+================================================================================
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 102 [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near '='. (SQLExecute[102] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(203): db->execute(Array)
+#2 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#3 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#4 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#5 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+================================================================================
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 102 [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near '='. (SQLExecute[102] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(203): db->execute(Array)
+#2 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#3 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#4 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#5 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+================================================================================
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 102 [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near '='. (SQLExecute[102] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(203): db->execute(Array)
+#2 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#3 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#4 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#5 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+================================================================================
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 102 [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near '='. (SQLExecute[102] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(203): db->execute(Array)
+#2 C:\xampp\htdocs\application\controllers\controller.ajax.php(684): Mcharacter->reset_character()
+#3 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#4 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#5 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+================================================================================
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 102 [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near '='. (SQLExecute[102] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(205): db->execute(Array)
+#2 C:\xampp\htdocs\application\controllers\controller.ajax.php(684): Mcharacter->reset_character()
+#3 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#4 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#5 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+================================================================================
+PDOException: SQLSTATE[22001]: String data, right truncated: 8152 [Microsoft][ODBC SQL Server Driver][SQL Server]String or binary data would be truncated. (SQLExecute[8152] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(416): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(220): Mcharacter->clear_inventory(Array)
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(684): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[22001]: String data, right truncated: 8152 [Microsoft][ODBC SQL Server Driver][SQL Server]String or binary data would be truncated. (SQLExecute[8152] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(416): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(220): Mcharacter->clear_inventory(Array)
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(684): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[22001]: String data, right truncated: 8152 [Microsoft][ODBC SQL Server Driver][SQL Server]String or binary data would be truncated. (SQLExecute[8152] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(403): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(207): Mcharacter->clear_inventory(Array)
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[22001]: String data, right truncated: 8152 [Microsoft][ODBC SQL Server Driver][SQL Server]String or binary data would be truncated. (SQLExecute[8152] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(406): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(208): Mcharacter->clear_inventory(Array)
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[22001]: String data, right truncated: 8152 [Microsoft][ODBC SQL Server Driver][SQL Server]String or binary data would be truncated. (SQLExecute[8152] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(415): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(211): Mcharacter->clear_inventory(Array)
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[22001]: String data, right truncated: 8152 [Microsoft][ODBC SQL Server Driver][SQL Server]String or binary data would be truncated. (SQLExecute[8152] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(417): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(211): Mcharacter->clear_inventory(Array)
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[22001]: String data, right truncated: 8152 [Microsoft][ODBC SQL Server Driver][SQL Server]String or binary data would be truncated. (SQLExecute[8152] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(417): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(211): Mcharacter->clear_inventory(Array)
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 102 [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near '@P163333333433333336@P2'. (SQLExecute[102] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(403): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(207): Mcharacter->clear_inventory(Array)
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 102 [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near '@P163333333433333336@P2'. (SQLExecute[102] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(403): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(207): Mcharacter->clear_inventory(Array)
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 102 [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near '@P163333333433333336@P2'. (SQLExecute[102] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(403): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(207): Mcharacter->clear_inventory(Array)
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 102 [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near '@P163333333433333336@P2'. (SQLExecute[102] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(407): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(207): Mcharacter->clear_inventory(Array)
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 102 [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near '@P163333333433333336@P2'. (SQLExecute[102] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(409): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(207): Mcharacter->clear_inventory(Array)
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 102 [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near '@P163333333433333336@P2'. (SQLExecute[102] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(405): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(207): Mcharacter->clear_inventory(Array)
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 102 [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near '@P133336333333333333@P2'. (SQLExecute[102] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(409): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(209): Mcharacter->clear_inventory(Array)
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(413): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(214): Mcharacter->add_bonus_reset_points()
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(413): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(214): Mcharacter->add_bonus_reset_points()
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[07002]: COUNT field incorrect: 0 [Microsoft][ODBC SQL Server Driver]COUNT field incorrect or syntax error (SQLExecute[0] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(413): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(214): Mcharacter->add_bonus_reset_points()
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[07002]: COUNT field incorrect: 0 [Microsoft][ODBC SQL Server Driver]COUNT field incorrect or syntax error (SQLExecute[0] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(415): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(214): Mcharacter->add_bonus_reset_points()
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(415): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(214): Mcharacter->add_bonus_reset_points()
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(415): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(214): Mcharacter->add_bonus_reset_points()
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================

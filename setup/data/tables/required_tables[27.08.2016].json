@@ -1,0 +1,6 @@
+{
+    "DmN_Bulk_Emails": {
+        "query": "CREATE TABLE [dbo].[DmN_Bulk_Emails]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    }
+}

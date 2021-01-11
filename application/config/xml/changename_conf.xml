@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<changename_conf>
+  <changename>
+    <module_status>1</module_status>
+    <price>100</price>
+    <price_type>1</price_type>
+    <forbidden>webzen,admin,test,[GM]</forbidden>
+    <check_guild>1</check_guild>
+    <user_master_level>0</user_master_level>
+    <allowed_pattern>a-zA-Z0-9{}!$%&amp;/()=?^@[]#</allowed_pattern>
+    <max_length>10</max_length>
+  </changename>
+</changename_conf>

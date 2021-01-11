@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<market_conf>
+  <market>
+    <module_status>1</module_status>
+    <items_per_page>20</items_per_page>
+    <price_limit_credits>9999</price_limit_credits>
+    <price_limit_gcredits>9999</price_limit_gcredits>
+    <price_limit_zen>9999999</price_limit_zen>
+    <price_limit_jewels>240</price_limit_jewels>
+    <price_highlight>1000</price_highlight>
+    <sell_tax>15</sell_tax>
+    <sell_item_limit>5</sell_item_limit>
+    <allow_sell_shop_items>1</allow_sell_shop_items>
+    <allow_remove_only_when_expired>0</allow_remove_only_when_expired>
+    <max_exe>6</max_exe>
+  </market>
+</market_conf>

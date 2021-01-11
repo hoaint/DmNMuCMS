@@ -1,0 +1,14 @@
+{
+    "DmN_Donate_CuentaDigital_Orders": {
+        "query": "CREATE TABLE [dbo].[DmN_Donate_CuentaDigital_Orders]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+	"DmN_Donate_CuentaDigital_Packages": {
+        "query": "CREATE TABLE [dbo].[DmN_Donate_CuentaDigital_Packages]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+	"DmN_Donate_CuentaDigital_Transactions": {
+        "query": "CREATE TABLE [dbo].[DmN_Donate_CuentaDigital_Transactions]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "DEFAULT": {
+        "active": 0,
+        "vendor_id": "",
+        "auth_code": "",
+        "public_key": "",
+        "reward_type": 0
+    }
+}

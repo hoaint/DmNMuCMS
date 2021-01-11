@@ -1,0 +1,18 @@
+{
+    "DmN_Votereward_Gtop_Log": {
+        "query": "CREATE TABLE [dbo].[DmN_Votereward_Gtop_Log]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Votereward_Mmoserver_Log": {
+        "query": "CREATE TABLE [dbo].[DmN_Votereward_Mmoserver_Log]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+	"DmN_Votereward_Top100arena_Log": {
+        "query": "CREATE TABLE [dbo].[DmN_Votereward_Top100arena_Log]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+	"DmN_Votereward_Topg_Log": {
+        "query": "CREATE TABLE [dbo].[DmN_Votereward_Topg_Log]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    }
+}

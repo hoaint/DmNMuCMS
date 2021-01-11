@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<modules_conf>
+  <modules>
+    <recent_forum_module>1</recent_forum_module>
+    <recent_forum_rss_url></recent_forum_rss_url>
+    <recent_forum_rss_count>5</recent_forum_rss_count>
+    <recent_forum_rss_cache_time>3600</recent_forum_rss_cache_time>
+    <last_market_items_module>1</last_market_items_module>
+    <last_market_items_count>5</last_market_items_count>
+  </modules>
+</modules_conf>

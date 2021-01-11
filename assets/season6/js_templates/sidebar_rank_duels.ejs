@@ -1,0 +1,29 @@
+<% 
+if(typeof duels != 'undefined'){ 
+if(duels != false){
+%>
+<table class="sidebar_rank" border="0">
+	<tr>
+	<th>#</th>
+	<th><%= App.lc.translate('Name').fetch() %></th>
+	<th><%= App.lc.translate('Win').fetch() %></th>
+	<th><%= App.lc.translate('Lose').fetch() %></th>
+	</tr>
+	<% for(var i=0; i<duels.length; i++) { %>
+	<tr>
+	<td><%= i+1 %>.</td>
+	<td><a href="<%= base_url %>character/<%= duels[i].name_hex %>/<%= server_selected %>"><%= duels[i].name %></a></td>
+	<td><%= duels[i].win %></td>
+	<td><%= duels[i].lose %></td>
+	</tr>
+	<% } %>
+</table>
+<% 
+}
+else{
+%>
+<div class="i_note"><%= App.lc.translate('No Players Found').fetch() %></div>
+<%
+}
+} 
+%>

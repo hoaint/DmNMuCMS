@@ -1,0 +1,61 @@
+{
+	"DmN_Donate_UnitPay_Packages": {
+		"create_query": "CREATE TABLE [dbo].[DmN_Donate_UnitPay_Packages]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+		"id": {
+			"type": "int",
+			"is_primary_key": 1,
+			"null": 0,
+			"identity": 1,
+			"default": ""
+		},
+		"package": {
+			"type": "varchar(50)",
+			"is_primary_key": 0,
+			"null": 1,
+			"identity": 0,
+			"default": ""
+		},
+		"reward": {
+			"type": "int",
+			"is_primary_key": 0,
+			"null": 1,
+			"identity": 0,
+			"default": ""
+		},
+		"price": {
+			"type": "float",
+			"is_primary_key": 0,
+			"null": 1,
+			"identity": 0,
+			"default": ""
+		},
+		"currency": {
+			"type": "varchar(50)",
+			"is_primary_key": 0,
+			"null": 1,
+			"identity": 0,
+			"default": ""
+		},
+		"orders": {
+			"type": "int",
+			"is_primary_key": 0,
+			"null": 0,
+			"identity": 0,
+			"default": "((0))"
+		},
+		"status": {
+			"type": "int",
+			"is_primary_key": 0,
+			"null": 1,
+			"identity": 0,
+			"default": ""
+		},
+		"server": {
+			"type": "varchar(50)",
+			"is_primary_key": 0,
+			"null": 1,
+			"identity": 0,
+			"default": ""
+		}
+	}	
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<main_conf>
+  <main>
+    <servername>DmN MuCMS</servername>
+    <site_url>http://localhost/</site_url>
+    <forum_url>http://localhost/</forum_url>
+    <con_check>1</con_check>
+    <template>season6</template>
+    <timezone>Asia/Ho_Chi_Minh</timezone>
+    <cache_type>file</cache_type>
+    <mem_cached_ip/>
+    <mem_cached_port/>
+    <grand_open_timer/>
+    <grand_open_timer_text>Until server opening</grand_open_timer_text>
+    <maintenance>0</maintenance>
+    <use_ajax_page_load>0</use_ajax_page_load>
+  </main>
+</main_conf>

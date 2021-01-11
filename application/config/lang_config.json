@@ -1,0 +1,14 @@
+{
+    "lang_list": {
+        "English": {
+            "title": "English",
+            "flag": "en",
+            "active": null
+        },
+        "Vietnam": {
+            "title": "Vietnam",
+            "flag": "vn",
+            "active": "1"
+        }
+    }
+}

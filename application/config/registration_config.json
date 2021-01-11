@@ -1,0 +1,17 @@
+{
+    "active": 1,
+    "req_email": 1,
+    "req_secret": 0,
+    "min_username": 6,
+    "max_username": 20,
+    "min_password": 8,
+    "max_password": 20,
+    "password_strength": {
+        "atleast_one_lowercase": 0,
+        "atleast_one_uppercase": 0,
+        "atleast_one_number": 0,
+        "atleast_one_symbol": 0
+    },
+    "email_validation": 0,
+    "generate_password": 0
+}

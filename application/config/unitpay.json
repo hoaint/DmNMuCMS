@@ -1,0 +1,9 @@
+{
+    "DEFAULT": {
+        "active": 0,
+        "domain": "unitpay.ru",
+        "publickey": "",
+        "secretkey": "",
+        "reward_type": 0
+    }
+}

@@ -1,0 +1,116 @@
+{
+  "web": {
+    "DmN_Donate_Transactions": {
+      "country": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    },
+    "DmN_Refferal_Claimed_Rewards": {
+      "ref_account": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    },
+	"DmN_Shop_Card": {
+      "time_added": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    }
+  },
+  "account": {
+    "MEMB_INFO": {
+      "Admin": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "last_login": {
+        "type": "datetime",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "activated": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "activation_id": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "last_login_ip": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "country": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    }
+  },
+  "game": {
+    "Character": {
+      "resets": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "grand_resets": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "last_reset_time": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "last_greset_time": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "mu_id": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 1,
+        "default": ""
+      }
+    }
+  }
+}

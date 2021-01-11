@@ -1,0 +1,882 @@
+[2021-01-10 06-43-02] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 06-43-13] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/registration 
+[2021-01-10 06-44-30] PHP Warning: file_get_contents(C:\xampp\htdocs\application\data\dmn_news.json): failed to open stream: No such file or directory in C:\xampp\htdocs\application\models\model.admin.php:147  @  http://localhost/admincp/news-composer 
+[2021-01-10 06-45-28] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 06-45-33] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 06-45-48] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/registration 
+[2021-01-10 06-45-49] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/downloads 
+[2021-01-10 06-45-50] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/rankings 
+[2021-01-10 06-45-53] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 
+[2021-01-10 06-45-54] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/vote-reward 
+[2021-01-10 06-45-59] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 06-46-33] PHP Warning: file_get_contents(C:\xampp\htdocs\application\data\dmn_news.json): failed to open stream: No such file or directory in C:\xampp\htdocs\application\models\model.admin.php:147  @  http://localhost/admincp/news-composer 
+[2021-01-10 06-47-47] PHP Warning: file_get_contents(C:\xampp\htdocs\application\data\dmn_news.json): failed to open stream: No such file or directory in C:\xampp\htdocs\application\models\model.admin.php:147  @  http://localhost/admincp/news-composer 
+[2021-01-10 06-48-50] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 06-50-04] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 06-50-06] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/home 
+[2021-01-10 06-50-23] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/downloads 
+[2021-01-10 06-50-25] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/rankings 
+[2021-01-10 06-50-31] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/rankings/gm-list 
+[2021-01-10 06-50-35] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/login?return=character-market 
+[2021-01-10 06-50-39] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/lost-password 
+[2021-01-10 06-53-02] PHP Notice: Undefined variable: vip_packages in C:\xampp\htdocs\application\views\admincp\server_manager\view.vip_manager.php:39  @  http://localhost/admincp/vip-editor/hoaint/DEFAULT 
+[2021-01-10 06-53-02] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\views\admincp\server_manager\view.vip_manager.php:39  @  http://localhost/admincp/vip-editor/hoaint/DEFAULT 
+[2021-01-10 06-53-02] PHP Notice: Undefined variable: existing_vip in C:\xampp\htdocs\application\views\admincp\server_manager\view.vip_manager.php:53  @  http://localhost/admincp/vip-editor/hoaint/DEFAULT 
+[2021-01-10 06-53-09] PHP Notice: Undefined variable: vip_packages in C:\xampp\htdocs\application\views\admincp\server_manager\view.vip_manager.php:39  @  http://localhost/admincp/vip-editor/hoaint/DEFAULT 
+[2021-01-10 06-53-09] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\views\admincp\server_manager\view.vip_manager.php:39  @  http://localhost/admincp/vip-editor/hoaint/DEFAULT 
+[2021-01-10 06-53-09] PHP Notice: Undefined variable: existing_vip in C:\xampp\htdocs\application\views\admincp\server_manager\view.vip_manager.php:53  @  http://localhost/admincp/vip-editor/hoaint/DEFAULT 
+[2021-01-10 06-54-05] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 06-54-12] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/registration 
+[2021-01-10 06-55-11] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/registration 
+[2021-01-10 06-55-21] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/registration 
+[2021-01-10 06-56-34] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/registration 
+[2021-01-10 06-58-05] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/registration 
+[2021-01-10 06-58-36] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/registration/success 
+[2021-01-10 06-58-46] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 06-58-55] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 06-58-58] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 06-58-59] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 06-59-02] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 06-59-04] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/exchange-wcoins 
+[2021-01-10 06-59-06] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 06-59-09] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/exchange-online 
+[2021-01-10 06-59-11] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 07-00-21] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 07-00-25] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/downloads 
+[2021-01-10 07-00-27] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/rankings 
+[2021-01-10 07-00-28] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/vote-reward 
+[2021-01-10 07-01-16] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 07-01-31] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 07-01-53] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 14-15-50] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/home 
+[2021-01-10 14-15-54] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/registration 
+[2021-01-10 14-15-54] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/registration 
+[2021-01-10 14-15-57] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/downloads 
+[2021-01-10 14-15-58] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/downloads 
+[2021-01-10 14-15-59] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/rankings 
+[2021-01-10 14-15-59] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 
+[2021-01-10 14-16-01] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/vote-reward 
+[2021-01-10 14-16-15] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 14-16-36] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/exchange-online 
+[2021-01-10 14-16-38] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 14-16-41] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/buy-level 
+[2021-01-10 14-18-29] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/buy-level 
+[2021-01-10 14-22-09] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/home 
+[2021-01-10 14-22-15] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/vote-reward 
+[2021-01-10 14-22-29] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/vote-reward 
+[2021-01-10 14-22-48] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/home 
+[2021-01-10 14-25-41] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 15-37-18] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 19-19-18] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 19-19-25] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/media/wallpapers 
+[2021-01-10 19-19-28] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/media/screenshots 
+[2021-01-10 19-19-31] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/registration 
+[2021-01-10 19-19-35] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/settings 
+[2021-01-10 19-19-39] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-logs 
+[2021-01-10 19-19-46] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-10 19-19-51] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/market 
+[2021-01-10 19-19-53] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-10 19-19-55] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse/web 
+[2021-01-10 19-19-56] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/market 
+[2021-01-10 19-19-59] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-10 19-20-01] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/market/history 
+[2021-01-10 19-20-28] PHP Warning: file_get_contents(C:\xampp\htdocs\application\data\dmn_news.json): failed to open stream: No such file or directory in C:\xampp\htdocs\application\models\model.admin.php:147  @  http://localhost/admincp/news-composer 
+[2021-01-10 19-30-17] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 
+[2021-01-10 19-30-33] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/index/2 
+[2021-01-10 19-31-51] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-10 19-32-10] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/market 
+[2021-01-10 19-32-11] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-10 19-32-12] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/market 
+[2021-01-10 19-32-14] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/market/history 
+[2021-01-10 19-32-16] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-10 19-32-16] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse/web 
+[2021-01-10 19-32-39] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-10 19-32-44] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 
+[2021-01-10 19-32-51] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/index/5 
+[2021-01-10 19-32-58] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/index/7 
+[2021-01-10 19-33-01] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/index/6 
+[2021-01-10 19-33-25] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/home 
+[2021-01-10 19-33-26] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/registration 
+[2021-01-10 19-33-28] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/downloads 
+[2021-01-10 19-33-32] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 
+[2021-01-10 19-33-41] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/boots 
+[2021-01-10 19-33-44] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/shields 
+[2021-01-10 19-33-48] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/shields/2 
+[2021-01-10 19-36-34] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/market 
+[2021-01-10 19-36-37] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-10 19-36-38] PHP Warning: file(C:\xampp\htdocs\application\data\shop\shop_ref_type.dmn): failed to open stream: No such file or directory in C:\xampp\htdocs\application\libraries\lib.iteminfo.php:672  @  http://localhost/warehouse/item_info 
+[2021-01-10 19-36-38] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\libraries\lib.iteminfo.php:673  @  http://localhost/warehouse/item_info 
+[2021-01-10 19-36-57] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 19-37-01] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 19-39-06] PHP Warning: file_get_contents(C:\xampp\htdocs\application\data\dmn_news.json): failed to open stream: No such file or directory in C:\xampp\htdocs\application\models\model.admin.php:147  @  http://localhost/admincp/news-composer 
+[2021-01-10 19-56-14] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 19-56-23] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 19-56-33] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/home 
+[2021-01-10 19-56-41] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-logs 
+[2021-01-10 19-56-44] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/settings 
+[2021-01-10 19-57-02] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/donate 
+[2021-01-10 19-57-04] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 
+[2021-01-10 19-57-06] PHP Warning: A non-numeric value encountered in C:\xampp\htdocs\application\models\model.shop.php:500  @  http://localhost/shop/cart 
+[2021-01-10 19-57-06] PHP Warning: A non-numeric value encountered in C:\xampp\htdocs\application\models\model.shop.php:500  @  http://localhost/shop/cart 
+[2021-01-10 19-57-06] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/cart 
+[2021-01-10 19-57-08] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/market 
+[2021-01-10 19-57-10] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-10 19-57-12] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 19-57-14] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-logs 
+[2021-01-10 19-57-18] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/settings 
+[2021-01-10 20-00-30] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/settings 
+[2021-01-10 20-00-50] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 20-00-52] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 20-02-55] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 20-03-01] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 20-03-17] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 20-03-18] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 20-08-54] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 20-09-06] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 20-09-12] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 20-09-15] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/reset-stats 
+[2021-01-10 20-13-19] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 
+[2021-01-10 20-13-22] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/index/2 
+[2021-01-10 20-15-24] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/bows-crossbows 
+[2021-01-10 20-15-26] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/spears 
+[2021-01-10 20-15-28] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories 
+[2021-01-10 20-15-33] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/2 
+[2021-01-10 20-15-36] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/3 
+[2021-01-10 20-15-38] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/4 
+[2021-01-10 20-15-41] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/5 
+[2021-01-10 20-16-19] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-10 20-22-44] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-10 20-22-50] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse/web 
+[2021-01-10 20-22-53] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-10 20-23-23] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse/web 
+[2021-01-10 20-23-45] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/settings 
+[2021-01-10 20-23-47] PHP Warning: A non-numeric value encountered in C:\xampp\htdocs\application\models\model.shop.php:500  @  http://localhost/shop/cart 
+[2021-01-10 20-23-47] PHP Warning: A non-numeric value encountered in C:\xampp\htdocs\application\models\model.shop.php:500  @  http://localhost/shop/cart 
+[2021-01-10 20-23-47] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/cart 
+[2021-01-10 20-23-49] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/market 
+[2021-01-10 20-23-57] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/market/history 
+[2021-01-10 20-23-58] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse/web 
+[2021-01-10 20-24-09] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 
+[2021-01-10 20-24-14] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/armors 
+[2021-01-10 20-24-17] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/armors/4 
+[2021-01-10 20-24-23] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/armors/3 
+[2021-01-10 20-25-46] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-10 20-29-28] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/vote-reward 
+[2021-01-10 20-29-32] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 
+[2021-01-10 20-29-36] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/rankings 
+[2021-01-10 20-29-38] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/rankings/online-players/DEFAULT 
+[2021-01-10 20-29-40] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 20-29-42] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 
+[2021-01-10 20-29-49] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/miscellaneous-items-ii 
+[2021-01-10 20-29-57] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/maces-scepters 
+[2021-01-10 20-29-59] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/spears 
+[2021-01-10 20-30-01] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/bows-crossbows 
+[2021-01-10 20-30-04] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/miscellaneous-items-ii 
+[2021-01-10 20-30-08] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/scrolls 
+[2021-01-10 20-30-08] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/boots 
+[2021-01-10 20-30-10] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories 
+[2021-01-10 20-30-17] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories 
+[2021-01-10 20-30-20] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/2 
+[2021-01-10 20-30-22] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/3 
+[2021-01-10 20-30-31] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/3 
+[2021-01-10 20-30-55] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/3 
+[2021-01-10 20-31-01] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/3 
+[2021-01-10 20-31-02] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/2 
+[2021-01-10 20-31-04] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/3 
+[2021-01-10 20-31-08] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/3 
+[2021-01-10 20-31-11] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/3 
+[2021-01-10 20-31-19] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 20-31-22] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 20-31-25] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats/4d6f6465 
+[2021-01-10 20-31-29] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 20-31-34] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/hide-character-info 
+[2021-01-10 20-31-41] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 20-31-42] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/exchange-wcoins 
+[2021-01-10 20-31-45] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 20-31-48] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warp-char 
+[2021-01-10 20-31-54] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 20-31-57] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warp-char 
+[2021-01-10 20-32-00] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 20-32-05] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/zen-wallet 
+[2021-01-10 20-32-18] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 20-40-38] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 20-47-42] PHP Warning: scandir(C:\xampp\htdocs\\assets\flags,C:\xampp\htdocs\\assets\flags): The system cannot find the file specified. (code: 2) in C:\xampp\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-10 20-47-42] PHP Warning: scandir(C:\xampp\htdocs\\assets\flags): failed to open dir: No such file or directory in C:\xampp\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-10 20-47-42] PHP Warning: scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-10 20-47-42] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\models\model.admin.php:2282  @  http://localhost/admincp/add-language 
+[2021-01-10 20-48-27] PHP Notice: Undefined variable: translations in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/en_GB 
+[2021-01-10 20-48-27] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/en_GB 
+[2021-01-10 20-48-51] PHP Notice: Undefined variable: translations in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/en_GB 
+[2021-01-10 20-48-51] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/en_GB 
+[2021-01-10 20-49-29] PHP Notice: Undefined variable: translations in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/en_GB 
+[2021-01-10 20-49-29] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/en_GB 
+[2021-01-10 20-49-42] PHP Warning: scandir(C:\xampp\htdocs\\assets\flags,C:\xampp\htdocs\\assets\flags): The system cannot find the file specified. (code: 2) in C:\xampp\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-10 20-49-42] PHP Warning: scandir(C:\xampp\htdocs\\assets\flags): failed to open dir: No such file or directory in C:\xampp\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-10 20-49-42] PHP Warning: scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-10 20-49-42] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\models\model.admin.php:2282  @  http://localhost/admincp/add-language 
+[2021-01-10 20-52-22] PHP Notice: Undefined index: config in C:\xampp\htdocs\application\controllers\controller.admincp.php:4687  @  http://localhost/admincp/import-language 
+[2021-01-10 20-52-22] PHP Warning: array_keys() expects parameter 1 to be array, null given in C:\xampp\htdocs\application\controllers\controller.admincp.php:4687  @  http://localhost/admincp/import-language 
+[2021-01-10 20-52-22] PHP Notice: Undefined index: lang_list in C:\xampp\htdocs\application\controllers\controller.admincp.php:4690  @  http://localhost/admincp/import-language 
+[2021-01-10 20-52-22] PHP Warning: array_key_exists() expects parameter 2 to be array, null given in C:\xampp\htdocs\application\controllers\controller.admincp.php:4690  @  http://localhost/admincp/import-language 
+[2021-01-10 20-52-22] PHP Notice: Undefined index: config in C:\xampp\htdocs\application\controllers\controller.admincp.php:4693  @  http://localhost/admincp/import-language 
+[2021-01-10 20-52-22] PHP Notice: Undefined index: config in C:\xampp\htdocs\application\controllers\controller.admincp.php:4694  @  http://localhost/admincp/import-language 
+[2021-01-10 20-52-22] PHP Notice: Undefined index: config in C:\xampp\htdocs\application\controllers\controller.admincp.php:4695  @  http://localhost/admincp/import-language 
+[2021-01-10 20-52-22] PHP Notice: Undefined property: admincp::$translation, did you mean $translations? in C:\xampp\htdocs\application\controllers\controller.admincp.php:4697  @  http://localhost/admincp/import-language 
+[2021-01-10 20-53-05] PHP Warning: scandir(C:\xampp\htdocs\\assets\flags,C:\xampp\htdocs\\assets\flags): The system cannot find the file specified. (code: 2) in C:\xampp\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-10 20-53-05] PHP Warning: scandir(C:\xampp\htdocs\\assets\flags): failed to open dir: No such file or directory in C:\xampp\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-10 20-53-05] PHP Warning: scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-10 20-53-05] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\models\model.admin.php:2282  @  http://localhost/admincp/add-language 
+[2021-01-10 20-53-19] PHP Warning: scandir(C:\xampp\htdocs\\assets\flags,C:\xampp\htdocs\\assets\flags): The system cannot find the file specified. (code: 2) in C:\xampp\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-10 20-53-19] PHP Warning: scandir(C:\xampp\htdocs\\assets\flags): failed to open dir: No such file or directory in C:\xampp\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-10 20-53-19] PHP Warning: scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-10 20-53-19] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\models\model.admin.php:2282  @  http://localhost/admincp/add-language 
+[2021-01-10 20-53-19] PHP Notice: Undefined index: flag in C:\xampp\htdocs\application\models\model.admin.php:2271  @  http://localhost/admincp/add-language 
+[2021-01-10 20-53-19] PHP Notice: Undefined property: admincp::$translation, did you mean $translations? in C:\xampp\htdocs\system\model.class.php:9  @  http://localhost/admincp/add-language 
+[2021-01-10 20-55-15] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 20-55-38] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 20-55-40] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 20-57-25] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 20-59-28] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/character-market 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-30] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-41] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-43] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Notice: Undefined offset: 0 in C:\xampp\htdocs\vendor\gettext\gettext\src\translator_functions.php:22  @  http://localhost/ 
+[2021-01-10 20-59-45] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 21-06-27] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 21-06-35] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 21-06-39] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-06-54] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 21-06-58] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-10 21-07-08] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 21-07-11] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-12-44] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 21-12-47] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-12-47] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-13-42] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-14-00] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-14-03] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-14-35] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-14-44] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-15-22] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-15-48] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-16-19] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-16-26] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-17-16] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-17-46] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-17-54] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-19-07] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-19-49] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-20-00] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-20-36] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-21-04] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-21-50] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-22-19] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-22-45] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-23-53] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-24-02] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-26-45] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-27-09] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-28-24] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-31-02] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-31-21] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-32-28] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-38-51] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-39-06] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-39-47] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-39-53] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-43-26] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-43-37] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-45-44] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-45-57] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-46-18] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-46-26] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 21-46-29] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 21-46-33] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 21-46-35] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats/4d6f6465 
+[2021-01-10 21-53-24] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 
+[2021-01-10 21-53-26] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/index/5 
+[2021-01-10 21-53-29] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/index/7 
+[2021-01-10 21-53-34] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/gloves 
+[2021-01-10 21-53-37] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/pants 
+[2021-01-10 21-53-41] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/helms 
+[2021-01-10 21-53-42] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/maces-scepters 
+[2021-01-10 21-53-44] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/spears 
+[2021-01-10 21-53-45] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/bows-crossbows 
+[2021-01-10 21-53-45] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories 
+[2021-01-10 21-53-50] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories 
+[2021-01-10 21-53-53] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories 
+[2021-01-10 21-55-43] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories 
+[2021-01-10 21-55-45] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/5 
+[2021-01-10 21-55-47] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/4 
+[2021-01-10 21-55-50] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/3 
+[2021-01-10 21-55-52] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/5 
+[2021-01-10 21-55-54] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/4 
+[2021-01-10 21-55-56] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/3 
+[2021-01-10 21-55-59] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/5 
+[2021-01-10 21-56-03] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/market 
+[2021-01-10 21-56-04] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse/web 
+[2021-01-10 21-56-39] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-10 21-56-54] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse/web 
+[2021-01-10 21-56-56] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-10 22-04-56] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 22-04-59] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-05-15] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-06-12] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-07-18] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-07-26] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-09-01] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-09-21] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-09-28] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-10-07] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-11-31] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-11-57] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-12-06] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-12-47] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-13-13] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-14-13] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-14-30] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-15-25] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-15-33] PHP Notice: Array to string conversion in C:\xampp\htdocs\application\models\model.character.php:417  @  http://localhost/ajax/reset_character 
+[2021-01-10 22-15-43] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-16-51] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-16-56] PHP Notice: Array to string conversion in C:\xampp\htdocs\application\models\model.character.php:210  @  http://localhost/ajax/reset_character 
+[2021-01-10 22-17-22] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-17-25] PHP Notice: Array to string conversion in C:\xampp\htdocs\application\models\model.character.php:210  @  http://localhost/ajax/reset_character 
+[2021-01-10 22-18-16] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-18-24] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-20-01] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-20-16] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-32-05] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-32-19] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-32-23] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 22-32-26] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 22-32-28] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats/4d6f6465 
+[2021-01-10 22-32-38] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 22-32-40] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-32-52] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 
+[2021-01-10 22-32-55] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 22-32-59] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/reset-stats 
+[2021-01-10 22-33-09] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 22-33-10] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-33-20] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-33-38] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-35-22] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-37-46] PHP Notice: Undefined variable: translations in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/vi_VN 
+[2021-01-10 22-37-46] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/vi_VN 
+[2021-01-10 22-37-59] PHP Notice: Undefined variable: translations in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/vi_VN 
+[2021-01-10 22-37-59] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/vi_VN 
+[2021-01-10 22-38-20] PHP Notice: Undefined variable: translations in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/vi_VN 
+[2021-01-10 22-38-20] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/vi_VN 
+[2021-01-10 22-38-23] PHP Notice: Undefined variable: translations in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/en_GB 
+[2021-01-10 22-38-23] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/en_GB 
+[2021-01-10 22-38-30] PHP Notice: Undefined variable: translations in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/vi_VN 
+[2021-01-10 22-38-30] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/vi_VN 
+[2021-01-10 22-40-04] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-40-37] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-42-10] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-42-55] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-43-03] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-43-10] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-43-14] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-43-16] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-43-17] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-43-18] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-43-19] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-43-19] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-43-20] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-43-21] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-43-22] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-43-39] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-43-59] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-44-25] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-44-34] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-45-00] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-45-42] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-49-21] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-49-26] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-56-50] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-56-54] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-56-58] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 22-57-04] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 22-57-05] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats/4d6f6465 
+[2021-01-10 22-57-32] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats/4d6f6465 
+[2021-01-10 22-57-35] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 22-57-40] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-57-56] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 22-57-58] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-58-02] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 22-58-02] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 22-58-05] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 22-58-07] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats/4d6f6465 
+[2021-01-10 22-59-32] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 22-59-35] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 22-59-48] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-00-01] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-00-03] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-00-05] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats/4d6f6465 
+[2021-01-10 23-01-27] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-01-29] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-01-37] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-01-39] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-01-40] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats/4d6f6465 
+[2021-01-10 23-02-18] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-02-20] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-02-26] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-02-27] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-02-28] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats/4d6f6465 
+[2021-01-10 23-03-23] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-03-26] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-03-37] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-03-39] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-03-43] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats/4d6f6465 
+[2021-01-10 23-03-43] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats/4d6f6465 
+[2021-01-10 23-04-47] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-04-50] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-04-57] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-04-59] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-05-02] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats/4d6f6465 
+[2021-01-10 23-05-49] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-05-53] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-05-53] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-06-07] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-06-10] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-06-33] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-06-35] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-06-45] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-06-47] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-06-52] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats/4d6f6465 
+[2021-01-10 23-08-49] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-08-51] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-08-59] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-09-00] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-09-05] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-09-07] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-09-14] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-09-16] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-10-49] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-10-52] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-11-00] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-11-01] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-11-37] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-10 23-11-40] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-11-42] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-11-50] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-11-52] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-11-55] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-11-56] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-12-03] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-12-05] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-13-21] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-13-25] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-13-28] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-13-40] PHP Warning: A non-numeric value encountered in C:\xampp\htdocs\application\models\model.shop.php:500  @  http://localhost/shop/cart 
+[2021-01-10 23-13-40] PHP Warning: A non-numeric value encountered in C:\xampp\htdocs\application\models\model.shop.php:500  @  http://localhost/shop/cart 
+[2021-01-10 23-13-40] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/cart 
+[2021-01-10 23-13-42] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-13-43] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-13-51] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-13-53] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-13-55] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-13-57] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-14-05] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-14-07] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-14-16] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-14-23] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/change-name 
+[2021-01-10 23-14-37] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/change-name-history 
+[2021-01-10 23-14-43] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-14-46] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-15-18] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-15-20] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-15-35] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-15-36] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-15-45] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-15-46] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-19-29] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-19-33] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-19-35] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-19-44] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-19-46] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-19-51] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-19-52] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-20-03] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-20-05] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-23-37] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-23-43] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-23-45] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-23-56] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-24-03] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-24-05] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-24-08] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-24-09] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-24-20] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-24-22] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/market 
+[2021-01-10 23-24-24] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-10 23-24-26] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-24-28] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-34-44] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-35-09] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-36-36] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-44-24] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-44-26] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-46-31] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-46-33] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-46-43] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-46-45] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-46-53] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-46-55] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-46-59] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-47-01] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-47-09] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-47-11] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-48-56] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-49-03] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-49-17] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-49-21] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-49-22] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-49-25] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-49-27] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-50-56] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-51-02] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-51-13] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-51-16] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-51-17] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats/44554d41 
+[2021-01-10 23-51-50] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-51-51] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-51-55] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-51-57] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-53-51] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-53-55] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-53-59] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-54-08] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-57-32] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-57-40] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-57-52] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-57-54] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-10 23-58-02] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-58-03] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-58-49] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-10 23-58-56] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-10 23-58-58] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-11 00-00-25] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-11 00-00-29] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-11 00-00-34] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 00-00-35] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-11 00-00-42] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 00-00-43] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-11 00-00-46] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 00-00-47] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-11 00-00-52] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 00-01-01] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-11 00-01-05] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 00-01-06] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-11 00-07-19] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-11 00-07-27] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-11 00-07-37] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 00-07-38] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-11 00-07-40] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 00-07-41] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-11 00-07-50] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 00-07-51] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-11 00-07-53] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 00-07-54] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-11 00-08-12] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 00-08-13] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-11 00-09-07] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-11 00-09-12] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 00-09-14] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-11 00-09-27] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 
+[2021-01-11 00-09-29] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 00-09-31] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-11 00-09-41] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 00-09-43] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-11 00-09-53] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/settings 
+[2021-01-11 00-09-56] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 
+[2021-01-11 00-09-59] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/index/5 
+[2021-01-11 00-10-02] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/index/7 
+[2021-01-11 00-10-05] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-11 00-10-18] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-11 00-10-19] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse/web 
+[2021-01-11 00-10-20] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-11 00-10-25] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 00-10-30] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-11 00-10-37] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-11 00-10-40] PHP Warning: A non-numeric value encountered in C:\xampp\htdocs\application\models\model.shop.php:500  @  http://localhost/shop/cart 
+[2021-01-11 00-10-40] PHP Warning: A non-numeric value encountered in C:\xampp\htdocs\application\models\model.shop.php:500  @  http://localhost/shop/cart 
+[2021-01-11 00-10-40] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/cart 
+[2021-01-11 00-10-42] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/market 
+[2021-01-11 00-10-43] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-11 00-10-46] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 00-10-47] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-11 00-15-38] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-11 00-15-42] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-11 00-15-58] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 00-16-00] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-11 00-16-06] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 00-16-08] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-11 00-16-36] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 00-16-37] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-11 00-16-46] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 00-16-48] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/add-stats 
+[2021-01-11 09-09-00] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-11 09-09-05] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-11 09-09-41] PHP Warning: file_get_contents(C:\xampp\htdocs\application\data\dmn_news.json): failed to open stream: No such file or directory in C:\xampp\htdocs\application\models\model.admin.php:147  @  http://localhost/admincp/news-composer 
+[2021-01-11 09-15-24] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/registration 
+[2021-01-11 09-15-53] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/registration/success 
+[2021-01-11 09-16-04] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 09-16-11] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-11 09-16-16] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 
+[2021-01-11 09-16-21] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/gloves 
+[2021-01-11 09-16-25] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/spears 
+[2021-01-11 09-16-28] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/bows-crossbows 
+[2021-01-11 09-16-28] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/maces-scepters 
+[2021-01-11 09-16-37] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories 
+[2021-01-11 09-16-43] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/2 
+[2021-01-11 09-21-05] PHP Notice: Undefined variable: translations in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/vi_VN 
+[2021-01-11 09-21-05] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/vi_VN 
+[2021-01-11 09-44-49] PHP Warning: scandir(C:\xampp\htdocs\\assets\flags,C:\xampp\htdocs\\assets\flags): The system cannot find the file specified. (code: 2) in C:\xampp\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-11 09-44-49] PHP Warning: scandir(C:\xampp\htdocs\\assets\flags): failed to open dir: No such file or directory in C:\xampp\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-11 09-44-49] PHP Warning: scandir(): (errno 2): No such file or directory in C:\xampp\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-11 09-44-49] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\models\model.admin.php:2282  @  http://localhost/admincp/add-language 
+[2021-01-11 09-45-56] PHP Notice: Undefined variable: translations in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/en_GB 
+[2021-01-11 09-45-56] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/en_GB 
+[2021-01-11 09-47-34] PHP Notice: Undefined variable: translations in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/en_GB 
+[2021-01-11 09-47-34] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/en_GB 
+[2021-01-11 09-48-06] PHP Notice: Undefined variable: translations in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/en_GB 
+[2021-01-11 09-48-06] PHP Warning: Invalid argument supplied for foreach() in C:\xampp\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/en_GB 
+[2021-01-11 14-30-58] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-11 14-31-37] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/vote-reward 
+[2021-01-11 14-31-38] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 
+[2021-01-11 14-31-40] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 

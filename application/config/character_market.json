@@ -1,0 +1,12 @@
+{
+    "DEFAULT": {
+        "active": 0,
+        "characters_per_page": 25,
+        "sale_tax": 0,
+        "sale_price_minimum": 5000,
+        "sale_price_maximum": 15000,
+        "allow_sell_with_guild": 1,
+        "allow_sell_with_gens": 1,
+        "allow_remove_before_expires": 0
+    }
+}

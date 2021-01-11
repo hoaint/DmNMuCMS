@@ -1,0 +1,28 @@
+{
+    "DEFAULT": {
+        "db": "MuOnline",
+        "db_acc": "MuOnline",
+        "title": "Default",
+        "visible": 1,
+        "identity_column_character": "id",
+        "inv_size": "3776",
+        "wh_size": "3840",
+        "inv_multiplier": 236,
+        "wh_multiplier": 240,
+        "wh_hor_size": 8,
+        "wh_ver_size": 15,
+        "item_size": 32,
+        "gs_list": "main",
+        "gs_ip": "127.0.0.1",
+        "gs_port": "55901",
+        "max_players": "500",
+        "version": "Season 6",
+        "exp": "1x",
+        "drop": "1%",
+        "job_rate": "0",
+        "jos_rate": "0",
+        "jol_rate": "0",
+        "cm_rate": "0"
+    },
+    "USE_MULTI_ACCOUNT_DB": false
+}

@@ -1,0 +1,27 @@
+<% 
+if(typeof guilds != 'undefined'){ 
+if(guilds != false){
+%>
+<table class="sidebar_rank" border="0">
+	<tr>
+	<th>#</th>
+	<th><%= App.lc.translate('Name').fetch() %></th>
+	<th><%= App.lc.translate('Score').fetch() %></th>
+	</tr>
+	<% for(var i=0; i<guilds.length; i++) { %>
+	<tr>
+	<td><%= i+1 %>. <img src="<%= base_url %>rankings/get_mark/<%= guilds[i].mark %>/16" style="border: 0;" /></td>
+	<td><a href="<%= base_url %>guild/<%= guilds[i].name_hex %>/<%= server_selected %>"><%= guilds[i].name %></a></td>
+	<td><%= guilds[i].score %></td>
+	</tr>
+	<% } %>
+</table>
+<% 
+}
+else{
+%>
+<div class="i_note"><%= App.lc.translate('No Guilds Found').fetch() %></div>
+<%
+}
+} 
+%>

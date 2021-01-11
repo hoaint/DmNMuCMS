@@ -1,0 +1,27 @@
+<% 
+if(typeof online != 'undefined'){ 
+if(online != false){
+%>
+<table class="sidebar_rank" border="0">
+	<tr>
+	<th>#</th>
+	<th><%= App.lc.translate('Name').fetch() %></th>
+	<th><%= App.lc.translate('Online Time').fetch() %></th>
+	</tr>
+	<% for(var i=0; i<online.length; i++) { %>
+	<tr>
+	<td><%= i+1 %>. <% if(config.online.display_country == 1) { %><span class="f16"><span class="flag <%= online[i].country %>"></span></span><% } %></td>
+	<td><a href="<%= base_url %>character/<%= online[i].name_hex %>/<%= server_selected %>"><%= online[i].name %></a></td>
+	<td><%= online[i].h %>&nbsp;<%= App.lc.translate('H').fetch() %>&nbsp;<%= online[i].m %>&nbsp;<%= App.lc.translate('Min').fetch() %></td>
+	</tr>
+	<% } %>
+</table>
+<% 
+}
+else{
+%>
+<div class="i_note"><%= App.lc.translate('No Players Found').fetch() %></div>
+<%
+}
+} 
+%>

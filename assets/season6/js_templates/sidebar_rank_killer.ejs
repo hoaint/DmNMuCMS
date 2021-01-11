@@ -1,0 +1,27 @@
+<% 
+if(typeof killer != 'undefined'){ 
+if(killer != false){
+%>
+<table class="sidebar_rank" border="0">
+	<tr>
+	<th>#</th>
+	<th><%= App.lc.translate('Name').fetch() %></th>
+	<th><%= App.lc.translate('PK Count').fetch() %></th>
+	</tr>
+	<% for(var i=0; i<killer.length; i++) { %>
+	<tr>
+	<td><%= i+1 %>. <% if(config.killer.display_country == 1) { %><span class="f16"><span class="flag <%= killer[i].country %>"></span></span><% } %></td>
+	<td><a href="<%= base_url %>character/<%= killer[i].name_hex %>/<%= server_selected %>"><%= killer[i].name %></a></td>
+	<td><%= killer[i].PkCount %></td>
+	</tr>
+	<% } %>
+</table>
+<% 
+}
+else{
+%>
+<div class="i_note"><%= App.lc.translate('No Players Found').fetch() %></div>
+<%
+}
+} 
+%>

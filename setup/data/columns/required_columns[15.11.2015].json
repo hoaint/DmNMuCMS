@@ -1,0 +1,245 @@
+{
+  "web": {
+    "DmN_Donate_PayCall_Orders": {
+      "id": {
+        "type": "int",
+        "is_primary_key": 1,
+        "null": 0,
+        "identity": 1,
+        "default": ""
+      },
+      "amount": {
+        "type": "float",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "credits": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "account": {
+        "type": "varchar(20)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "server": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "hash": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    },
+    "DmN_Donate_PayCall_Packages": {
+      "id": {
+        "type": "int",
+        "is_primary_key": 1,
+        "null": 0,
+        "identity": 1,
+        "default": ""
+      },
+      "package": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "reward": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "price": {
+        "type": "float",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "orders": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "status": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "server": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    },
+    "DmN_Donate_PayCall_Transactions": {
+      "id": {
+        "type": "int",
+        "is_primary_key": 1,
+        "null": 0,
+        "identity": 1,
+        "default": ""
+      },
+      "transaction_id": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "amount": {
+        "type": "float",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "acc": {
+        "type": "varchar(10)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "server": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "credits": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "order_date": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "order_hash": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    },
+    "DmN_Donate_SuperRewards": {
+      "id": {
+        "type": "int",
+        "is_primary_key": 1,
+        "null": 0,
+        "identity": 1,
+        "default": ""
+      },
+      "trans_id": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "uid": {
+        "type": "varchar(20)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "server": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "new": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "total": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "order_date": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    },
+    "DmN_Refferal_Claimed_Rewards": {
+      "id": {
+        "type": "int",
+        "is_primary_key": 1,
+        "null": 0,
+        "identity": 1,
+        "default": ""
+      },
+      "reward_id": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "account": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "character": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "server": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<account_conf>
+  <account>
+    <account_logs_per_page>30</account_logs_per_page>
+    <hide_char_enabled>1</hide_char_enabled>
+    <hide_char_days>30</hide_char_days>
+    <hide_char_price>200</hide_char_price>
+    <hide_char_price_type>1</hide_char_price_type>
+    <max_char_zen>2000000000</max_char_zen>
+    <max_ware_zen>2000000000</max_ware_zen>
+    <online_trade_reward>100</online_trade_reward>
+    <online_trade_reward_type>1</online_trade_reward_type>
+    <allow_mail_change>1</allow_mail_change>
+    <allow_recover_masterkey>0</allow_recover_masterkey>
+  </account>
+</account_conf>

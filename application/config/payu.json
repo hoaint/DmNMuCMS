@@ -1,0 +1,10 @@
+{
+    "DEFAULT": {
+        "active": 0,
+        "user_id": "",
+        "auth_key": "",
+        "md5_key1": "",
+        "md5_key2": "",
+        "reward_type": 0
+    }
+}

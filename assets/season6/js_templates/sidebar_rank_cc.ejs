@@ -1,0 +1,27 @@
+<% 
+if(typeof cc != 'undefined'){ 
+if(cc != false){
+%>
+<table class="sidebar_rank" border="0">
+	<tr>
+	<th>#</th>
+	<th><%= App.lc.translate('Name').fetch() %></th>
+	<th><%= App.lc.translate('Score').fetch() %></th>
+	</tr>
+	<% for(var i=0; i<cc.length; i++) { %>
+	<tr>
+	<td><%= i+1 %>.</td>
+	<td><a href="<%= base_url %>character/<%= cc[i].name_hex %>/<%= server_selected %>"><%= cc[i].name %></a></td>
+	<td><%= cc[i].score %></td>
+	</tr>
+	<% } %>
+</table>
+<% 
+}
+else{
+%>
+<div class="i_note"><%= App.lc.translate('No Players Found').fetch() %></div>
+<%
+}
+} 
+%>

@@ -1,0 +1,42 @@
+<% 
+if(typeof killer != 'undefined'){ 
+if(killer != false){
+%>
+<table class="ranking-table">
+	<tdead>
+	<tr class="main-tr">
+		<th style="text-align:center;">#</th>
+		<th style="text-align:center;"><%= App.lc.translate('Name').fetch() %></th>
+		<th style="text-align:center;"><%= App.lc.translate('PK Count').fetch() %></th>
+		<th style="text-align:center;"><%= App.lc.translate('PK Level').fetch() %></th>
+		<th style="text-align:center;"><%= App.lc.translate('PK Time').fetch() %></th>
+		<% if(config.killer.display_master_level == 1) { %><th style="text-align:center;"><%= App.lc.translate('MasterLevel').fetch() %></th><% } %>
+		<% if(config.killer.display_resets == 1) { %><th style="text-align:center;"><%= App.lc.translate('Resets').fetch() %><% if(config.killer.display_gresets == 1) { %><sup style="color: red;"><%= App.lc.translate('GR').fetch() %></sup><% } %></th><% } %>
+	</tr>
+	</tdead>
+	<tbody>
+	<% for(var i=0; i<killer.length; i++) { %>
+	<tr>
+		<td style="text-align:center;"><%= i+1 %> <% if(config.killer.display_country == 1) { %><span class="f16"><span class="flag <%= killer[i].country %>"></span></span><% } %></td>
+		<td><a href="<%= base_url %>character/<%= killer[i].name_hex %>/<%= server_selected %>"><%= killer[i].name %></a></td>
+		<td><%= killer[i].PkCount %></td>
+		<td style="text-align:center;"><%= killer[i].PkLevel %></td>
+		<td style="text-align:center;"><%= killer[i].PkTime %></td>
+		<% if(config.killer.display_master_level == 1) { %><td style="text-align:center;"><%= killer[i].mlevel %></td><% } %>
+		<% if(config.killer.display_resets == 1) { %><td style="text-align:center;"><%= killer[i].resets %><% if(config.killer.display_gresets == 1) { %><sup style="color: red;"><%= killer[i].gresets %></sup><% } %></td><% } %>
+	</tr>  
+	<% } %>
+	</tbody>
+</table>  
+<% if(typeof cache_time != 'undefined'){ %>
+<div style="text-align: right;padding-top: 15px;"><%= cache_time %></div>
+<% } %>
+<% 
+}
+else{
+%>
+<div style="padding: 0 30px 0px 50px;"><div class="i_note"><%= App.lc.translate('No Players Found').fetch() %></div></div>
+<%
+}
+} 
+%>

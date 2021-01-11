@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<media_conf>
+  <media>
+    <module_status>1</module_status>
+    <images_per_page>30</images_per_page>
+  </media>
+</media_conf>

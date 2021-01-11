@@ -1,0 +1,140 @@
+{
+  "web": {
+    "DmN_Bulk_Emails": {
+      "id": {
+        "type": "int",
+        "is_primary_key": 1,
+        "null": 0,
+        "identity": 1,
+        "default": ""
+      },
+      "subject": {
+        "type": "nvarchar(200)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "seo_subject": {
+        "type": "varchar(200)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "body": {
+        "type": "ntext",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "recipient_list": {
+        "type": "text",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "sending_started": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "sending_finished": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "sent_to": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "(0)"
+      },
+      "failed": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "(0)"
+      },
+      "is_finished": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "(0)"
+      },
+      "server": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    }
+  },
+  "account": {
+    "MEMB_INFO": {
+      "Admin": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "last_login": {
+        "type": "datetime",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "activated": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 0,
+        "identity": 0,
+        "default": "((0))"
+      },
+      "activation_id": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "last_login_ip": {
+        "type": "varchar(50)",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    }
+  },
+  "game": {
+    "Character": {
+      "last_reset_time": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      },
+      "last_greset_time": {
+        "type": "int",
+        "is_primary_key": 0,
+        "null": 1,
+        "identity": 0,
+        "default": ""
+      }
+    }
+  }
+}

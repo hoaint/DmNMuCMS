@@ -1,0 +1,87 @@
+{
+  "quearies": {
+    "igcn": {
+      "title": "IGCN Vip",
+      "db": "account",
+      "check": "SELECT Date, Type FROM T_VIPList WHERE AccountID = :account",
+      "update": "UPDATE T_VIPList SET Date = :until_date, Type = :type WHERE AccountID = :account",
+      "insert": "INSERT INTO T_VIPList (AccountID, Date, Type) VALUES (:account, :until_date, :type)",
+      "vip_codes": {
+        "vip_bronze": {
+          "title": "Bronze",
+          "code": 1
+        },
+        "vip_silver": {
+          "title": "Silver",
+          "code": 2
+        },
+        "vip_gold": {
+          "title": "Gold",
+          "code": 3
+        },
+        "vip_platinum": {
+          "title": "Platinum",
+          "code": 4
+        }
+      }
+    },
+    "zteam": {
+      "title": "Z-Team Vip",
+      "db": "account",
+      "check": "SELECT ExpireDate AS Date, PayCode AS Type FROM PremiumData WHERE AccountID = :account",
+      "update": "UPDATE PremiumData SET ExpireDate = :until_date WHERE AccountID = :account",
+      "insert": "INSERT INTO PremiumData (AccountID, ExpireDate, PayCode) VALUES (:account, :until_date, :type)",
+      "vip_codes": {
+        "vip_bronze": {
+          "title": "Bronze",
+          "code": 1
+        },
+        "vip_silver": {
+          "title": "Silver",
+          "code": 2
+        },
+        "vip_gold": {
+          "title": "Gold",
+          "code": 3
+        }
+      }
+    },
+    "xteam": {
+      "title": "X-Team Vip",
+      "db": "account",
+      "check": "SELECT AccountExpireDate AS Date, AccountLevel AS Type FROM MEMB_INFO WHERE memb___id = :account",
+      "update": "UPDATE MEMB_INFO SET AccountExpireDate = :until_date, AccountLevel = :type WHERE memb___id = :account",
+      "insert": "",
+      "vip_codes": {
+        "vip_bronze": {
+          "title": "Bronze",
+          "code": 1
+        },
+        "vip_silver": {
+          "title": "Silver",
+          "code": 2
+        },
+        "vip_gold": {
+          "title": "Gold",
+          "code": 3
+        }
+      }
+    },
+    "muengine": {
+      "title": "MuEngine Vip",
+      "db": "account",
+      "check": "SELECT vipstamp AS Date FROM MEMB_INFO WHERE memb___id = :account",
+      "update": "UPDATE MEMB_INFO SET vipstamp = :until_date WHERE memb___id = :account",
+      "insert": "",
+      "vip_codes": {}
+    },
+		"exteam": {
+      "title": "Ex-Team Vip",
+      "db": "game",
+      "check": "SELECT PremiumTime AS Date FROM Character WHERE AccountId = :account",
+      "update": "UPDATE Character SET PremiumTime = :until_date WHERE AccountId = :account",
+      "insert": "",
+      "vip_codes": {}
+    }
+  }
+}

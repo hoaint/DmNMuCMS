@@ -1,0 +1,66 @@
+<% 
+if(typeof gens != 'undefined'){ 
+if(gens != false){
+%>
+<table align="center" width="20%">
+	<tr>
+		<td colspan="2">
+			<span style="height:25px;background:#cdcdcd url(<%= base_url %>/assets/<%= tmp_dir %>/images/orangeslider.jpg) repeat-x;border:1px solid white;display:block;color:black;font-size:14pt;">
+				<span style="float:left; padding-top: 2px;">&nbsp;<%= gens.info.duprian %></span>
+				<span style="float:right;padding-top: 2px;"><%= gens.info.vanert %>&nbsp;</span>
+				<div style="background:url(<%= base_url %>/assets/<%= tmp_dir %>/images/greenslider.jpg);width:<%= gens.info.perc_d %>%;height:25px;"></div>
+			</span>
+		</td>
+	</tr>
+	<tr>
+		<td width="50%" align="center" valign="top">
+			<div style="height:5px;"></div>
+			<a href="javascript:void();" style="text-decoration:none;margin-left:1pt;width:137px;position:absolute;background:url(<%= base_url %>/assets/<%= tmp_dir %>/images/transblack.png);padding:5pt;border:1px solid black;display:block;color:white;font-size:10pt;"><%= App.lc.translate('Duprian').fetch() %></a>
+			<img src="<%= base_url %>/assets/<%= tmp_dir %>/images/Duprian.jpg" style="width:154px;" />
+		</td>
+		<td width="50%" align="center" valign="top">
+			<div style="height:5px;"></div>
+			<a href="javascript:void();" style="text-decoration:none;margin-left:1pt;width:137px;position:absolute;background:url(<%= base_url %>/assets/<%= tmp_dir %>/images/transblack.png);padding:5pt;border:1px solid black;display:block;color:white;font-size:10pt;"><%= App.lc.translate('Vanert').fetch() %></a>
+			<img src="<%= base_url %>/assets/<%= tmp_dir %>/images/Vanert.jpg" style="width:154px;" />
+		</td>
+	</tr>
+</table>
+<table class="ranking-table">
+	<thead>
+	<tr class="main-tr">
+		<th style="text-align:center;">#</th>
+		<th style="text-align:center;"><%= App.lc.translate('Name').fetch() %></th>
+		<th style="text-align:center;"><%= App.lc.translate('Contribution').fetch() %></th>
+		<th style="text-align:center;"><%= App.lc.translate('Gens Family').fetch() %></th>
+		<th style="text-align:center;"><%= App.lc.translate('Rank').fetch() %></th>
+	</tr>
+	</thead>
+	<tbody>
+	
+	<% 
+		delete gens['info']; 
+		var arr = $.map(gens, function(el) { return el; });
+		for(var i=0; i<arr.length; i++) { 
+	%>
+	<tr>
+		<td style="text-align:center;"><%= i+1 %></td>
+		<td><a href="<%= base_url %>character/<%= arr[i].name_hex %>/<%= server_selected %>"><%= arr[i].name %></a></td>
+		<td><%= arr[i].contr %></td>
+		<td><img src="<%= base_url %>/assets/<%= tmp_dir %>/images/<%= arr[i].type %>.gif" border="0" /></td>
+		<td><%= arr[i].rank %></td>
+	</tr>  
+	<% } %>
+	</tbody>
+</table>  
+<% if(typeof cache_time != 'undefined'){ %>
+<div style="text-align: right;padding-top: 15px;"><%= cache_time %></div>
+<% } %>
+<% 
+}
+else{
+%>
+<div style="padding: 0 30px 0px 50px;"><div class="i_note"><%= App.lc.translate('No Players Found').fetch() %></div></div>
+<%
+}
+} 
+%>

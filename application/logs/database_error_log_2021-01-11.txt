@@ -1,0 +1,89 @@
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 102 [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near '@P163333333433333336@P2'. (SQLExecute[102] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.character.php(403): db->execute(Array)
+#2 C:\xampp\htdocs\application\models\model.character.php(207): Mcharacter->clear_inventory(Array)
+#3 C:\xampp\htdocs\application\controllers\controller.ajax.php(683): Mcharacter->reset_character()
+#4 C:\xampp\htdocs\system\router.class.php(80): ajax->reset_character()
+#5 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#6 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+================================================================================
+SELECT Top 25 payment_id, sender, account, server, credits FROM DmN_Donate_Fortumo WHERE id Not IN (SELECT Top 0 id FROM DmN_Donate_Fortumo ORDER BY id DESC) ORDER BY id DESC
+================================================================================
+PDOException: SQLSTATE[42S22]: Column not found: 207 [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'id'. (SQLExecute[207] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:98
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(98): PDO->query('SELECT Top 25 p...')
+#1 C:\xampp\htdocs\application\models\model.admin.php(709): db->query('SELECT Top 25 p...')
+#2 C:\xampp\htdocs\application\controllers\controller.admincp.php(2834): Madmin->load_fortumo_transactions(1, 25, '-', 'All')
+#3 C:\xampp\htdocs\system\router.class.php(80): admincp->logs_fortumo_transactions()
+#4 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#5 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+================================================================================
+PDOException: SQLSTATE[42S02]: Base table or view not found: 208 [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'DmN_Shop_Credits'. (SQLExecute[208] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\helpers\helper.website.php(440): db->execute(Array)
+#2 C:\xampp\htdocs\application\views\season6\view.right_sidebar.php(9): website->get_user_credits_balance('hoaint116', 'DEFAULT', 1, '8')
+#3 C:\xampp\htdocs\system\load.class.php(66): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\application\views\season6\home\view.home.php(62): load->view('season6\\view.ri...')
+#5 C:\xampp\htdocs\system\load.class.php(66): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\application\controllers\controller.home.php(27): load->view('season6\\home\\vi...', Array)
+#7 C:\xampp\htdocs\system\router.class.php(80): home->index()
+#8 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#9 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+================================================================================
+PDOException: SQLSTATE[42S02]: Base table or view not found: 208 [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'DmN_Shop_Credits'. (SQLExecute[208] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\helpers\helper.website.php(440): db->execute(Array)
+#2 C:\xampp\htdocs\application\views\season6\view.right_sidebar.php(9): website->get_user_credits_balance('hoaint116', 'DEFAULT', 1, '8')
+#3 C:\xampp\htdocs\system\load.class.php(66): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\application\views\season6\rankings\view.index.php(145): load->view('season6\\view.ri...')
+#5 C:\xampp\htdocs\system\load.class.php(66): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\application\controllers\controller.rankings.php(33): load->view('season6\\ranking...', Array)
+#7 C:\xampp\htdocs\system\router.class.php(80): rankings->index()
+#8 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#9 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+================================================================================
+PDOException: SQLSTATE[42S02]: Base table or view not found: 208 [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'DmN_Downloads'. (SQLExecute[208] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\models\model.downloads.php(16): db->execute(Array)
+#2 C:\xampp\htdocs\application\controllers\controller.downloads.php(21): Mdownloads->load_downloads(0)
+#3 C:\xampp\htdocs\system\router.class.php(80): downloads->index()
+#4 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#5 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+================================================================================
+PDOException: SQLSTATE[42S02]: Base table or view not found: 208 [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'DmN_Shop_Credits'. (SQLExecute[208] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\helpers\helper.website.php(440): db->execute(Array)
+#2 C:\xampp\htdocs\application\views\season6\view.right_sidebar.php(9): website->get_user_credits_balance('hoaint116', 'DEFAULT', 1, '8')
+#3 C:\xampp\htdocs\system\load.class.php(66): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\application\views\season6\rankings\view.index.php(145): load->view('season6\\view.ri...')
+#5 C:\xampp\htdocs\system\load.class.php(66): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\application\controllers\controller.rankings.php(33): load->view('season6\\ranking...', Array)
+#7 C:\xampp\htdocs\system\router.class.php(80): rankings->index()
+#8 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#9 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+================================================================================
+PDOException: SQLSTATE[42S02]: Base table or view not found: 208 [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'DmN_Shop_Credits'. (SQLExecute[208] at ext\pdo_odbc\odbc_stmt.c:260) in C:\xampp\htdocs\application\libraries\lib.db.php:149
+Stack trace:
+#0 C:\xampp\htdocs\application\libraries\lib.db.php(149): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\application\helpers\helper.website.php(440): db->execute(Array)
+#2 C:\xampp\htdocs\application\views\season6\view.right_sidebar.php(9): website->get_user_credits_balance('hoaint116', 'DEFAULT', 1, '8')
+#3 C:\xampp\htdocs\system\load.class.php(66): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\application\views\season6\home\view.home.php(62): load->view('season6\\view.ri...')
+#5 C:\xampp\htdocs\system\load.class.php(66): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\application\controllers\controller.home.php(27): load->view('season6\\home\\vi...', Array)
+#7 C:\xampp\htdocs\system\router.class.php(80): home->index()
+#8 C:\xampp\htdocs\system\dmn.php(25): router->route(Object(request))
+#9 C:\xampp\htdocs\index.php(33): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+================================================================================

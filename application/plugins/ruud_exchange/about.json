@@ -1,0 +1,10 @@
+{
+  "name": "Ruud Exchange",
+  "version": "1.0.1",
+  "description": "This plugin allows your players to exchange their web or game currency for ruud.",
+  "developed_by": "neo6",
+  "website": "http://dmncms.net",
+  "change_log":{
+	"1.0.0": "Initial Release"
+  }
+}

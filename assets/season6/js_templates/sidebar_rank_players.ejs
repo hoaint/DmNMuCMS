@@ -1,0 +1,29 @@
+<% 
+if(typeof players != 'undefined'){ 
+if(players != false){
+%>
+<table class="sidebar_rank" border="0">
+	<tr>
+	<th>#</th>
+	<th><%= App.lc.translate('Name').fetch() %></th>
+	<th><%= App.lc.translate('LvL').fetch() %><% if(config.player.display_master_level == 1) { %><sup style="color: red;"><%=App.lc.translate('ML').fetch() %></sup><%}%></th>
+	<th><% if(config.player.display_resets == 1) { %><%= App.lc.translate('Res').fetch() %><%}%><% if(config.player.display_gresets == 1) { %><sup style="color: red;"><%= App.lc.translate('GR').fetch() %></sup><%}%></th>
+	</tr>
+	<% for(var i=0; i<players.length; i++) { %>
+	<tr>
+	<td><%= i+1 %>. <% if(config.player.display_country == 1) { %><span class="f16"><span class="flag <%= players[i].country %>"></span></span><% } %></td>
+	<td><a href="<%= base_url %>character/<%= players[i].name_hex %>/<%= server_selected %>"><%= players[i].name %></a></td>
+	<td><%= players[i].level %><% if(config.player.display_master_level == 1) { %><sup style="color: red;"><%= players[i].mlevel %></sup><%}%></td>
+	<td><% if(config.player.display_resets == 1) { %><%= players[i].resets %><%}%><% if(config.player.display_gresets == 1) { %><sup style="color: red;"><%= players[i].gresets %></sup><%}%></td>
+	</tr>
+	<% } %>
+</table>
+<% 
+}
+else{
+%>
+<div class="i_note"><%= App.lc.translate('No Players Found').fetch() %></div>
+<%
+}
+} 
+%>

@@ -1,0 +1,86 @@
+<script type="text/javascript">
+$(document).ready(function(){
+	$('div[id^="rank_by_class"] a').each(function(){
+		$(this).on("click", function(e){
+			e.preventDefault();
+			var c_class = $(this).attr("id").split("_")[2],
+				server = $(this).attr("id").split("_").slice(3).join('_');
+			App.populateRanking('players', server, c_class);
+		});
+	});
+});	
+</script>
+<div id="rank_by_class" style="text-align:center;">
+	<a href="javascript:;" class="custom_button" id="class_rankings_all_<%= server_selected %>"><%= App.lc.translate('All').fetch() %></a>		
+	<a href="javascript:;" class="custom_button" id="class_rankings_dw_<%= server_selected %>"">DW / SM / GM / SW</a>		
+	<a href="javascript:;" class="custom_button" id="class_rankings_dk_<%= server_selected %>"">DK / BK / BM / DrK</a>		
+	<a href="javascript:;" class="custom_button" id="class_rankings_fe_<%= server_selected %>"">FE / ME / HE / NE</a>
+	<br>
+	<a href="javascript:;" class="custom_button" id="class_rankings_mg_<%= server_selected %>"">MG / DM / MK</a>		
+	<a href="javascript:;" class="custom_button" id="class_rankings_dl_<%= server_selected %>"">DL / LE / ER</a>		
+	<a href="javascript:;" class="custom_button" id="class_rankings_su_<%= server_selected %>"">SU / BS / DIM / DS</a>	
+	<a href="javascript:;" class="custom_button" id="class_rankings_rf_<%= server_selected %>"">RF / FM / FB</a>		
+	<a href="javascript:;" class="custom_button" id="class_rankings_gl_<%= server_selected %>"">GL / ML / SL</a>	
+	<a href="javascript:;" class="custom_button" id="class_rankings_rw_<%= server_selected %>"">RW / RSM / GRM / MRW</a>			
+	<a href="javascript:;" class="custom_button" id="class_rankings_sl_<%= server_selected %>"">SLR / RSL / MSL / SLT</a>
+</div>
+<br />
+<% 
+if(typeof players != 'undefined'){ 
+if(players != false){
+%>
+<table class="ranking-table">
+	<thead>
+	<tr class="main-tr">
+		<th style="text-align:center;">#</th>
+		<th style="text-align:center;"><%= App.lc.translate('Name').fetch() %></th>
+		<th style="text-align:center;"><%= App.lc.translate('Class').fetch() %></th>
+		<th style="text-align:center;"><%= App.lc.translate('LvL').fetch() %><% if(config.player.display_master_level == 1) { %><sup style="color: red;"><%=App.lc.translate('ML').fetch() %></sup><%}%></th>
+		<% if(config.player.display_resets == 1) { %><th style="text-align:center;"><%= App.lc.translate('Resets').fetch() %><% if(config.player.display_gresets == 1) { %><sup style="color: red;"><%= App.lc.translate('GR').fetch() %></sup><% } %></th><% } %>
+		<th style="text-align:center;" class="end"><%= App.lc.translate('Location').fetch() %></th>
+	</tr>
+	</thead>
+	<tbody>
+	<% for(var i=0; i<players.length; i++) { %>
+	<tr>
+		<td style="text-align:center;"><%= i+1 %> <% if(config.player.display_country == 1) { %><span class="f16"><span class="flag <%= players[i].country %>"></span></span><% } %></td>
+		<td> <a href="<%= base_url %>character/<%= players[i].name_hex %>/<%= server_selected %>"><%= players[i].name %></a> <% if(config.player.display_status == 1) { if(players[i].status == 1){ %><img src="<%= base_url %>assets/<%= tmp_dir %>/images/online.png" title="Online" /><% }else{ %><img src="<%= base_url %>assets/<%= tmp_dir %>/images/offline.png" title="Offline" /> <% }} %></td>
+		<td><%= players[i].class %></td>
+		<td style="text-align:center;"><%= players[i].level %><% if(config.player.display_master_level == 1) { %><sup style="color: red;"><%= players[i].mlevel %></sup><% } %></td>
+		
+		<% if(config.player.display_resets == 1) { %><td style="text-align:center;"><%= players[i].resets %><% if(config.player.display_gresets == 1) { %><sup style="color: red;"><%= players[i].gresets %></sup><% } %></td><% } %>
+		<td class="end"><% if(!players[i].hidden){ %><%= players[i].loc %><% } else { %><%= App.lc.translate('hidden').fetch() %><% } %></td>
+	</tr>  
+	<% } %>
+	</tbody>
+</table>  
+<% if(typeof cache_time != 'undefined'){ %>
+<div style="text-align: right;padding-top: 15px;font-size:10px;color:brown;"><%= cache_time %></div>
+<% } %>
+<% 
+}
+else{
+%>
+<div style="padding: 0 30px 0px 50px;"><div class="i_note"><%= App.lc.translate('No Players Found').fetch() %></div></div>
+<%
+}
+} 
+%>
+<div style="text-align:left;">
+	<h2 style="padding: 5px 5px 0px 2px;letter-spacing: 1px;font-size: 20px;"><%= App.lc.translate('Search Character').fetch() %></h2>
+	<div>
+	<form method="post" action="<%= base_url %>rankings/search/<%= server_selected %>">
+		<table>
+			<tr>
+				<td>
+					<input type="text" id="name" name="name" value="" />
+				</td>
+				<td>
+					<button type="submit" class="custom_button"><%= App.lc.translate('Submit').fetch() %></button>
+				</td>
+			</tr>
+		</table>
+	</form>
+	</div>
+</div>
+	

@@ -1,0 +1,34 @@
+{
+    "DmN_Donate_PayCall_Orders": {
+        "query": "CREATE TABLE [dbo].[DmN_Donate_PayCall_Orders]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+	"DmN_Donate_PayCall_Packages": {
+        "query": "CREATE TABLE [dbo].[DmN_Donate_PayCall_Packages]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+	"DmN_Donate_PayCall_Transactions": {
+        "query": "CREATE TABLE [dbo].[DmN_Donate_PayCall_Transactions]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+	"DmN_Donate_SuperRewards": {
+        "query": "CREATE TABLE [dbo].[DmN_Donate_SuperRewards]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+	"DmN_Refferal_Claimed_Rewards": {
+        "query": "CREATE TABLE [dbo].[DmN_Refferal_Claimed_Rewards]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+	"DmN_Refferal_Reward_List": {
+        "query": "CREATE TABLE [dbo].[DmN_Refferal_Reward_List]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+	"DmN_Vip_Packages": {
+        "query": "CREATE TABLE [dbo].[DmN_Vip_Packages]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+	"DmN_Vip_Users": {
+        "query": "CREATE TABLE [dbo].[DmN_Vip_Users]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    }
+}

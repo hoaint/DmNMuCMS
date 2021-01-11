@@ -1,0 +1,74 @@
+[
+	{
+        "file": "constants.php",
+        "dir": "0"
+    },
+    {
+        "file": "license.txt",
+        "dir": "0"
+    },
+    {
+        "file": "assets\\rules.html",
+        "dir": "0"
+    },
+    {
+        "file": "assets\\uploads",
+        "dir": "1"
+    },
+    {
+        "file": "assets\\uploads\\attachment",
+        "dir": "1"
+    },
+    {
+        "file": "assets\\uploads\\normal",
+        "dir": "1"
+    },
+    {
+        "file": "assets\\uploads\\thumb",
+        "dir": "1"
+    },
+    {
+        "file": "assets\\item_images",
+        "dir": "1"
+    },
+    {
+        "file": "application\\config",
+        "dir": "1"
+    },
+    {
+        "file": "application\\config\\xml",
+        "dir": "1"
+    },
+	{
+        "file": "application\\data",
+        "dir": "1"
+    },
+    {
+        "file": "application\\data\\cache",
+        "dir": "1"
+    },
+	{
+        "file": "application\\data\\Tracy",
+        "dir": "1"
+    },
+	{
+        "file": "application\\data\\plugins",
+        "dir": "1"
+    },
+    {
+        "file": "application\\data\\sessions",
+        "dir": "1"
+    },
+    {
+        "file": "application\\localization",
+        "dir": "1"
+    },
+    {
+        "file": "application\\logs",
+        "dir": "1"
+    },
+    {
+        "file": "setup\\data",
+        "dir": "1"
+    }
+]

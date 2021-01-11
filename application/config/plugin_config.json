@@ -1,0 +1,256 @@
+{
+    "character_market": {
+        "installed": 1,
+        "module_url": "http:\/\/localhost\/character-market",
+        "admin_module_url": "http:\/\/localhost\/character-market\/admin",
+        "is_public": 0,
+        "is_multi_server": 1,
+        "main_menu_item": 0,
+        "sidebar_user_item": 0,
+        "sidebar_public_item": 1,
+        "account_panel_item": 1,
+        "donation_panel_item": 0,
+        "description": "Sell & Buy Characters",
+        "about": {
+            "name": "character_market",
+            "version": false,
+            "description": false,
+            "developed_by": false,
+            "website": false,
+            "update_url": false
+        }
+    },
+    "convert_items": {
+        "installed": 1,
+        "module_url": "http:\/\/localhost\/convert-items",
+        "admin_module_url": "http:\/\/localhost\/convert-items\/admin",
+        "is_public": 0,
+        "is_multi_server": 1,
+        "main_menu_item": 0,
+        "sidebar_user_item": 0,
+        "sidebar_public_item": 0,
+        "account_panel_item": 0,
+        "donation_panel_item": 0,
+        "description": "",
+        "about": {
+            "name": "convert_items",
+            "version": false,
+            "description": false,
+            "developed_by": false,
+            "website": false,
+            "update_url": false
+        }
+    },
+    "credits_to_credits": {
+        "installed": 1,
+        "module_url": "http:\/\/localhost\/credits-to-credits",
+        "admin_module_url": "http:\/\/localhost\/credits-to-credits\/admin",
+        "is_public": 0,
+        "is_multi_server": 1,
+        "main_menu_item": 0,
+        "sidebar_user_item": 0,
+        "sidebar_public_item": 0,
+        "account_panel_item": 1,
+        "donation_panel_item": 0,
+        "description": "Here you can exchange web\/game currency for other web\/game currency.",
+        "about": {
+            "name": "credits_to_credits",
+            "version": false,
+            "description": false,
+            "developed_by": false,
+            "website": false,
+            "update_url": false
+        }
+    },
+    "credits_to_zen": {
+        "installed": 1,
+        "module_url": "http:\/\/localhost\/credits-to-zen",
+        "admin_module_url": "http:\/\/localhost\/credits-to-zen\/admin",
+        "is_public": 0,
+        "is_multi_server": 1,
+        "main_menu_item": 0,
+        "sidebar_user_item": 0,
+        "sidebar_public_item": 0,
+        "account_panel_item": 1,
+        "donation_panel_item": 0,
+        "description": "Here you can exchange web\/game currency for zen.",
+        "about": {
+            "name": "credits_to_zen",
+            "version": false,
+            "description": false,
+            "developed_by": false,
+            "website": false,
+            "update_url": false
+        }
+    },
+    "mercadopago": {
+        "installed": 1,
+        "module_url": "http:\/\/localhost\/mercadopago",
+        "admin_module_url": "http:\/\/localhost\/mercadopago\/admin",
+        "is_public": 0,
+        "is_multi_server": 1,
+        "main_menu_item": 0,
+        "sidebar_user_item": 0,
+        "sidebar_public_item": 0,
+        "account_panel_item": 0,
+        "donation_panel_item": 1,
+        "description": "Donate with MercadoPago",
+        "about": {
+            "name": "mercadopago",
+            "version": false,
+            "description": false,
+            "developed_by": false,
+            "website": false,
+            "update_url": false
+        }
+    },
+    "monster_kill": {
+        "installed": 1,
+        "module_url": "http:\/\/localhost\/rankings\/monster-kill",
+        "admin_module_url": "http:\/\/localhost\/rankings\/monster-kill\/admin",
+        "is_public": 1,
+        "is_multi_server": 1,
+        "main_menu_item": 0,
+        "sidebar_user_item": 0,
+        "sidebar_public_item": 0,
+        "account_panel_item": 0,
+        "donation_panel_item": 0,
+        "rankings_panel_item": 1,
+        "description": "Here you can see monster kill rankings.",
+        "about": {
+            "name": "Top Monster Killers",
+            "version": "1.0.0",
+            "description": "This plugin allows your see players who have killed most monsters.",
+            "developed_by": "neo6",
+            "website": "http:\/\/dmncms.net",
+            "change_log": {
+                "1.0.0": "Initial Release"
+            }
+        }
+    },
+    "paddle": {
+        "installed": 1,
+        "module_url": "http:\/\/localhost\/paddle",
+        "admin_module_url": "http:\/\/localhost\/paddle\/admin",
+        "is_public": 0,
+        "is_multi_server": 1,
+        "main_menu_item": 0,
+        "sidebar_user_item": 0,
+        "sidebar_public_item": 0,
+        "account_panel_item": 0,
+        "donation_panel_item": 1,
+        "description": "Donate with Paddle",
+        "about": {
+            "name": "Paddle",
+            "version": "1.0.0",
+            "description": "https:\/\/www.paddle.com payment system",
+            "developed_by": "neo6",
+            "website": "http:\/\/dmncms.net"
+        }
+    },
+    "payu": {
+        "installed": 1,
+        "module_url": "http:\/\/localhost\/payu",
+        "admin_module_url": "http:\/\/localhost\/payu\/admin",
+        "is_public": 0,
+        "is_multi_server": 1,
+        "main_menu_item": 0,
+        "sidebar_user_item": 0,
+        "sidebar_public_item": 0,
+        "account_panel_item": 0,
+        "donation_panel_item": 1,
+        "description": "Donate with PayU",
+        "about": {
+            "name": "PayU",
+            "version": "1.0.0",
+            "description": "https:\/\/www.payu.com payment system",
+            "developed_by": "neo6",
+            "website": "http:\/\/dmncms.net"
+        }
+    },
+    "ruud_exchange": {
+        "installed": 1,
+        "module_url": "http:\/\/localhost\/ruud-exchange",
+        "admin_module_url": "http:\/\/localhost\/ruud-exchange\/admin",
+        "is_public": 0,
+        "is_multi_server": 1,
+        "main_menu_item": 0,
+        "sidebar_user_item": 0,
+        "sidebar_public_item": 0,
+        "account_panel_item": 1,
+        "donation_panel_item": 0,
+        "description": "Here you can exchange web or game currency for ruud.",
+        "about": {
+            "name": "Ruud Exchange",
+            "version": "1.0.1",
+            "description": "This plugin allows your players to exchange their web or game currency for ruud.",
+            "developed_by": "neo6",
+            "website": "http:\/\/dmncms.net",
+            "change_log": {
+                "1.0.0": "Initial Release"
+            }
+        }
+    },
+    "unitpay": {
+        "installed": 1,
+        "module_url": "http:\/\/localhost\/unitpay",
+        "admin_module_url": "http:\/\/localhost\/unitpay\/admin",
+        "is_public": 0,
+        "is_multi_server": 1,
+        "main_menu_item": 0,
+        "sidebar_user_item": 0,
+        "sidebar_public_item": 0,
+        "account_panel_item": 0,
+        "donation_panel_item": 1,
+        "description": "Donate with UnitPay",
+        "about": {
+            "name": "UnitPay",
+            "version": "1.0.0",
+            "description": "https:\/\/www.unitpay.ru payment system",
+            "developed_by": "neo6",
+            "website": "http:\/\/dmncms.net"
+        }
+    },
+    "workshop": {
+        "installed": 1,
+        "module_url": "http:\/\/localhost\/workshop",
+        "admin_module_url": "http:\/\/localhost\/workshop\/admin",
+        "is_public": 0,
+        "is_multi_server": 1,
+        "main_menu_item": 0,
+        "sidebar_user_item": 0,
+        "sidebar_public_item": 0,
+        "account_panel_item": 1,
+        "donation_panel_item": 0,
+        "description": "Item WorkShop",
+        "about": {
+            "name": "workshop",
+            "version": false,
+            "description": false,
+            "developed_by": false,
+            "website": false,
+            "update_url": false
+        }
+    },
+    "zen_exchange": {
+        "installed": 1,
+        "module_url": "http:\/\/localhost\/zen-exchange",
+        "admin_module_url": "http:\/\/localhost\/zen-exchange\/admin",
+        "is_public": 0,
+        "is_multi_server": 1,
+        "main_menu_item": 0,
+        "sidebar_user_item": 0,
+        "sidebar_public_item": 0,
+        "account_panel_item": 1,
+        "donation_panel_item": 0,
+        "description": "Here you can exchange zen for web or game currency.",
+        "about": {
+            "name": "zen_exchange",
+            "version": false,
+            "description": false,
+            "developed_by": false,
+            "website": false,
+            "update_url": false
+        }
+    }
+}

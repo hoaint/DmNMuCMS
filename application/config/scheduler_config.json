@@ -1,0 +1,81 @@
+{
+    "type": 3,
+    "key": "97c1cdf581adcb89653a64404e0592dd",
+    "tasks": {
+        "VoteMonthlyReward": {
+            "time": "5 0 1 * *",
+            "status": 1,
+            "desc": "Add monthly rewards to top voters"
+        },
+        "BCMonthlyReward": {
+            "time": "6 0 1 * *",
+            "status": 1,
+            "desc": "Add monthly rewards to top BC ranked players"
+        },
+        "DSMonthlyReward": {
+            "time": "7 0 1 * *",
+            "status": 1,
+            "desc": "Add monthly rewards to top DS ranked players"
+        },
+        "CCMonthlyReward": {
+            "time": "8 0 1 * *",
+            "status": 1,
+            "desc": "Add monthly rewards to top CC ranked players"
+        },
+        "DuelerMonthlyReward": {
+            "time": "9 0 1 * *",
+            "status": 1,
+            "desc": "Add monthly rewards to top duelers"
+        },
+        "RemoveExpiredVip": {
+            "time": "30 * * * *",
+            "status": 1,
+            "desc": "Disable vip on expired vip accounts"
+        },
+        "RemoveNotVerifiedAccounts": {
+            "time": "0 12 * * 0",
+            "status": 1,
+            "desc": "Remove not verified accounts after period of time"
+        },
+        "RemoveBans": {
+            "time": "*\/20 * * * *",
+            "status": 1,
+            "desc": "Unban users whos ban period has ended"
+        },
+        "CheckBans": {
+            "time": "*\/30 * * * *",
+            "status": 1,
+            "desc": "Check bans in server, and add to website ban list"
+        },
+        "BulkEmail": {
+            "time": "*\/15 * * * *",
+            "status": 1,
+            "desc": "Send bul emails"
+        },
+        "ParseMMOTOPVotes": {
+            "time": "59 * * * *",
+            "status": 1,
+            "desc": "Parse http:\/\/mu.mmotop.ru votes and reward users"
+        },
+        "DeleteOldSessions": {
+            "time": "25 *\/3 * * *",
+            "status": 1,
+            "desc": "Clear expired user session data"
+        },
+        "ParseServerFiles": {
+            "time": "3 *\/12 * * *",
+            "status": 1,
+            "desc": "Parser server file data"
+        },
+        "LastForumTopics": {
+            "time": "*\/20 * * * *",
+            "status": 1,
+            "desc": "Load lattest forum topics"
+        },
+        "LastMarketItems": {
+            "time": "*\/5 * * * *",
+            "status": 1,
+            "desc": "Load lattest market items"
+        }
+    }
+}

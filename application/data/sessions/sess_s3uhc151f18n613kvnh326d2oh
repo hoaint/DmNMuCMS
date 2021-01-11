@@ -1,0 +1,1 @@
+allow_step_2|b:1;allow_step_3|b:1;db|a:7:{s:4:"host";s:14:"127.0.0.1,1433";s:4:"user";s:2:"sa";s:4:"pass";s:6:"123456";s:6:"web_db";s:8:"DmNMuCMS";s:6:"driver";s:8:"pdo_odbc";s:6:"acc_db";s:8:"MuOnline";s:7:"char_db";s:8:"MuOnline";}allow_step_4|b:1;allow_step_5|b:1;allow_step_9|b:1;overwrite_old_tables|i:1;insert_sql_data|i:1;setup_versions|a:0:{}setup_mu_versions|s:1:"3";

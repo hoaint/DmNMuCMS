@@ -1,0 +1,8 @@
+{
+    "DEFAULT": {
+        "active": 0,
+        "client_id": "",
+        "client_secret": "",
+        "reward_type": 0
+    }
+}

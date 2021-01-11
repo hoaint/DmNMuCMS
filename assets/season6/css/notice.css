@@ -1,0 +1,93 @@
+#notifier-box {
+	position: fixed;
+	top: 10px;
+	right: 20px;
+	z-index: 9999;
+}
+
+div.message-box {
+	background: #111;
+	background: rgba(0, 0, 0, .8);	
+	margin: 0 0 10px 0;
+	padding: 10px;
+	width: 300px;	
+	color: #888; font-size: 13px; font-family: 'PT Sans Narrow', Ubuntu, Tahoma, Arial, sans-serif;	
+	-webkit-box-shadow: 0 0 10px #999;
+	-moz-box-shadow: 0 0 10px #999;
+	-o-box-shadow: 0 0 10px #999;
+	box-shadow: 0 0 10px #999;	
+	-webkit-text-shadow: 0 1px 0 #000;
+	-moz-text-shadow: 0 1px 0 #000;
+	-o-text-shadow: 0 1px 0 #000;
+	text-shadow: 0 1px 0 #000;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;	
+}
+
+div.message-box:hover {
+	background: #111;
+	background: rgba(0, 0, 0, .9);
+}
+
+div.message-box div.success {
+	color: #61cd07; font-size: 14px; font-family: 'PT Sans Narrow', Ubuntu, Tahoma, Arial, sans-serif;
+	margin: 0 0 10px 0;
+}
+
+div.message-box div.error {
+	color: #FC0F0F; font-size: 14px; font-family: 'PT Sans Narrow', Ubuntu, Tahoma, Arial, sans-serif;
+	margin: 0 0 10px 0;
+}
+
+div.message-box a.message-close {
+	background: #000 url('../images/message-close.png') center no-repeat;
+	width: 15px; height: 15px;
+	display: block; float: right;	
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;	
+	-webkit-opacity: .2;
+	-moz-opacity: .2;
+	-o-opacity: .2;
+	opacity: .2;
+}
+
+div.message-box:hover a.message-close {
+	-webkit-opacity: .5;
+	-moz-opacity: .5;
+	-o-opacity: .5;
+	opacity: .5;
+}
+
+div.message-box a.message-close:hover {
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	-o-opacity: 1;
+	opacity: 1;
+}
+
+div.message-box div.message-body {
+	overflow: hidden;
+}
+
+div.message-box div.message-body div.thumb {
+	width: 48px;
+	height: 48px;
+	margin: 0 10px 0 0;
+	float: left;
+	
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+}
+
+div.message-box div.message-body div.thumb img {
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius:2px;
+	border-radius: 2px;
+}

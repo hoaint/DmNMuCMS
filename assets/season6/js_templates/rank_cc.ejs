@@ -1,0 +1,37 @@
+<% 
+if(typeof cc != 'undefined'){ 
+if(cc != false){
+%>
+<table class="ranking-table">
+	<thead>
+	<tr class="main-tr">
+		<th style="text-align:center;">#</th>
+		<th style="text-align:center;"><%= App.lc.translate('Name').fetch() %></th>
+		<th style="text-align:center;"><% if(typeof cc[0].pkillcount != 'undefined'){ %><%= App.lc.translate('Win').fetch() %><% }else{ %><%= App.lc.translate('Score').fetch() %><% } %></th>
+		<% if(typeof cc[0].pkillcount != 'undefined'){ %><th style="text-align:center;"><%= App.lc.translate('Player KillCount').fetch() %></th><% } %>
+		<% if(typeof cc[0].mkillcount != 'undefined'){ %><th style="text-align:center;"><%= App.lc.translate('Monster KillCount').fetch() %></th><% } %>
+	</tr>
+	<tbody>
+	<% for(var i=0; i< cc.length; i++) { %>
+	<tr>
+		<td style="text-align:center;"><%= i+1 %></td>
+		<td><a href="<%= base_url %>character/<%= cc[i].name_hex %>/<%= server_selected %>"><%= cc[i].name %></a></td>
+		<td style="text-align:center;"><%= cc[i].score %></td>
+		<% if(typeof cc[i].pkillcount != 'undefined'){ %><td style="text-align:center;"><%= cc[i].pkillcount %></td><% } %>
+		<% if(typeof cc[i].mkillcount != 'undefined'){ %><td style="text-align:center;"><%= cc[i].mkillcount %></td><% } %>
+	</tr>  
+	<% } %>
+	</tbody>
+</table>  
+<% if(typeof cache_time != 'undefined'){ %>
+<div style="text-align: right;padding-top: 15px;"><%= cache_time %></div>
+<% } %>
+<% 
+}
+else{
+%>
+<div style="padding: 0 30px 0px 50px;"><div class="i_note"><%= App.lc.translate('No Players Found').fetch() %></div></div>
+<%
+}
+} 
+%>

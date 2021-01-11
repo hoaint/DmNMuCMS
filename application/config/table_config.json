@@ -1,0 +1,61 @@
+{
+    "DEFAULT": {
+        "resets": {
+            "db": "game",
+            "table": "Character",
+            "column": "resets",
+            "identifier_column": "Name"
+        },
+        "grand_resets": {
+            "db": "game",
+            "table": "Character",
+            "column": "grand_resets",
+            "identifier_column": "Name"
+        },
+        "wcoins": {
+            "db": "game",
+            "table": "CashShopData",
+            "column": "WCoinC",
+            "identifier_column": "AccountID"
+        },
+        "master_level": {
+            "db": "game",
+            "table": "MasterSkillTree",
+            "column": "MasterLevel",
+            "identifier_column": "Name"
+        },
+        "bc": {
+            "db": "custom",
+            "table": "RankingBloodCastle",
+            "column": "Score",
+            "identifier_column": "Name"
+        },
+        "ds": {
+            "db": "custom",
+            "table": "RankingDevilSquare",
+            "column": "Score",
+            "identifier_column": "Name"
+        },
+        "cc": {
+            "db": "custom",
+            "table": "RankingChaosCastle",
+            "column": "Score",
+            "identifier_column": "Name",
+            "column2": "",
+            "column3": ""
+        },
+        "cs": {
+            "db": "custom",
+            "table": "RankingCastleSiege",
+            "column": "KillScore",
+            "identifier_column": "Name"
+        },
+        "duels": {
+            "db": "custom",
+            "table": "RankingDuel",
+            "column": "WinScore",
+            "identifier_column": "Name",
+            "column2": "LoseScore"
+        }
+    }
+}

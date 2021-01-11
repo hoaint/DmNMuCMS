@@ -1,0 +1,8 @@
+{
+    "DEFAULT": {
+        "active": 0,
+        "top": 100,
+        "cache_time": 360,
+        "monsters": ""
+    }
+}

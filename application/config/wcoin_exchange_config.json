@@ -1,0 +1,10 @@
+{
+    "DEFAULT": {
+        "active": "1",
+        "reward_coin": "1",
+        "credits_type": "1",
+        "change_back": "0",
+        "min_rate": "1",
+        "display_wcoins": 1
+    }
+}

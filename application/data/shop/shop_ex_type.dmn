@@ -1,0 +1,8 @@
+1|1|Increases Mana After monster +Mana/8|0|2|Increases Life After monster +Life/8|0|3|Increase attacking(wizardly)speed+7|0|4|Increase Damage +2%|0|5|Increase Damage +level/20|0|6|Excellent Damage Rate +10%|
+2|1|Increase Zen After Hunt +40%|2|2|Defense success rate +10%|2|3|Reflect damage +5%|2|4|Damage decrease +4%|2|5|Increase MaxMana +4%|2|6|Increase MaxHP +4%|
+3|1|HP +115 Increase|3|2|MP +115 Increase|3|3|Ignore enemys defensive power by 3%|3|4|Max AG +50 Increase|3|5|Increase attacking(wizardly)speed+5|3|6|NO EFFECT|
+4|1|Fenrir +Damage|4|2|Fenrir +Defense|4|3|Fenrir +Illusion|
+5|1|Increase Zen After Hunt +40%|5|2|Defense success rate +10%|5|3|Reflect damage +5%|5|4|Damage decrease +4%|5|5|Increase MaxMana +4%|5|6|Increase MaxHP +4%|
+6|1|Ingore opponents defensive power by 5%|6|2|Returns the enemys attack power in 5%|6|3|Complete recovery of life in 5% rate|6|4|Complete recover of Mana in 5% rate|6|5|NO EFFECT|6|6|NO EFFECT|
+7|1|Chance of Double Damage +4%|7|2|Chance of Damage From Breaking Enemy's Defense +4%|7|3|Complete recovery of life in 4% rate|7|4|NO EFFECT|7|5|NO EFFECT|7|6|NO EFFECT|
+8|1|Chance of Damage From Breaking Enemy's Defense +3%|8|2|Chance of Fully Recovering Life +5%|8|3|NO EFFECT|8|4|NO EFFECT|8|5|NO EFFECT|8|6|NO EFFECT|

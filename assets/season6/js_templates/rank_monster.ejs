@@ -1,0 +1,71 @@
+<script type="text/javascript">
+$(document).ready(function(){
+	$('div[id^="rank_by_class"] a').each(function(){
+		$(this).on("click", function(e){
+			e.preventDefault();
+			var c_npc = $(this).attr("id").split("_")[2],
+				server = $(this).attr("id").split("_").slice(3).join('_');
+			App.populateRanking('monster', server, c_npc, 1);
+		});
+	});
+});	
+</script>
+<div id="rank_by_class" style="text-align:center;">
+	<a href="javascript:;" class="custom_button" id="monster_rankings_all_<%= server_selected %>"><%= App.lc.translate('All').fetch() %></a>		
+	<a href="javascript:;" class="custom_button" id="monster_rankings_18_<%= server_selected %>"">Gorgon</a>		
+	<a href="javascript:;" class="custom_button" id="monster_rankings_25_<%= server_selected %>"">Ice Queen</a>		
+	<a href="javascript:;" class="custom_button" id="monster_rankings_44_<%= server_selected %>"">Red Dragon</a>
+	<br>
+	<a href="javascript:;" class="custom_button" id="monster_rankings_49_<%= server_selected %>"">Hydra</a>		
+	<a href="javascript:;" class="custom_button" id="monster_rankings_55_<%= server_selected %>"">Death King</a>		
+	<a href="javascript:;" class="custom_button" id="monster_rankings_59_<%= server_selected %>"">Zaikan</a>	
+	<a href="javascript:;" class="custom_button" id="monster_rankings_275_<%= server_selected %>"">Kundun</a>	
+	<br>
+	<a href="javascript:;" class="custom_button" id="monster_rankings_295_<%= server_selected %>"">Erohim</a>		
+	<a href="javascript:;" class="custom_button" id="monster_rankings_340_<%= server_selected %>"">Dark Elf</a>		
+	<a href="javascript:;" class="custom_button" id="monster_rankings_349_<%= server_selected %>"">Balgass</a>	
+	<a href="javascript:;" class="custom_button" id="monster_rankings_361_<%= server_selected %>"">Nightmare</a>	
+	<br>
+	<a href="javascript:;" class="custom_button" id="monster_rankings_362_<%= server_selected %>"">Maya Hand Left</a>		
+	<a href="javascript:;" class="custom_button" id="monster_rankings_363_<%= server_selected %>"">Maya Hand Right</a>		
+	<a href="javascript:;" class="custom_button" id="monster_rankings_459_<%= server_selected %>"">Selupan</a>	
+	<a href="javascript:;" class="custom_button" id="monster_rankings_561_<%= server_selected %>"">Medusa</a>
+	<br>
+	<a href="javascript:;" class="custom_button" id="monster_rankings_673_<%= server_selected %>"">Lord Silvester</a>		
+	<a href="javascript:;" class="custom_button" id="monster_rankings_734_<%= server_selected %>"">Lord of Ferea</a>		
+	<a href="javascript:;" class="custom_button" id="monster_rankings_746_<%= server_selected %>"">Knicks</a>			
+</div>
+<br />
+<% 
+if(typeof monster != 'undefined'){ 
+if(monster != false){
+%>
+<table class="ranking-table">
+	<thead>
+	<tr class="main-tr">
+		<th style="text-align:center;">#</th>
+		<th style="text-align:center;"><%= App.lc.translate('Name').fetch() %></th>
+		<th style="text-align:center;"><%= App.lc.translate('Killed Monsters').fetch() %></th>
+	</tr>
+	<tbody>
+	<% for(var i=0; i< monster.length; i++) { %>
+	<tr>
+		<td style="text-align:center;"><%= i+1 %></td>
+		<td><a href="<%= base_url %>character/<%= bin2hex(monster[i].name) %>/<%= server_selected %>"><%= monster[i].name %></a></td>
+		<td style="text-align:center;"><%= monster[i].count %></td>
+	</tr>  
+	<% } %>
+	</tbody>
+</table>  
+<% if(typeof cache_time != 'undefined'){ %>
+<div style="text-align: right;padding-top: 15px;"><%= cache_time %></div>
+<% } %>
+<% 
+}
+else{
+%>
+<div style="padding: 0 30px 0px 50px;"><div class="i_note"><%= App.lc.translate('No Players Found').fetch() %></div></div>
+<%
+}
+} 
+%>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<credits_DEFAULT_conf>
+  <credits_DEFAULT>
+    <db_1>web</db_1>
+    <table_1>DmN_Shop_Credits</table_1>
+    <account_column_1>memb___id</account_column_1>
+    <credits_column_1>credits</credits_column_1>
+    <title_1>Credits</title_1>
+    <db_2>web</db_2>
+    <table_2>DmN_Shop_Credits</table_2>
+    <account_column_2>memb___id</account_column_2>
+    <credits_column_2>credits2</credits_column_2>
+    <title_2>Gold Credits</title_2>
+    <db_3>web</db_3>
+    <table_3>DmN_Shop_Credits</table_3>
+    <account_column_3>memb___id</account_column_3>
+    <credits_column_3>credits3</credits_column_3>
+    <title_3>Web Zen</title_3>
+  </credits_DEFAULT>
+</credits_DEFAULT_conf>

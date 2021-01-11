@@ -1,0 +1,33 @@
+<script type="text/javascript">
+$(document).ready(function () {
+	$('a[id^="lattest_"]').each(function () {
+		App.initializeTooltip($(this), true, 'warehouse/item_info_image');
+	});
+});	
+</script>
+<% 
+if(typeof items != 'undefined'){ 
+if(items != false){
+%>
+<ul class="style3">
+<% 
+for(var i=0; i< items.length; i++) { 
+	var first = (i == 0) ? 'class="first"' : '';
+%>
+<li <%=first%>>
+	<div style="float:left;display:block;">
+		<a id="lattest_<%= i+1 %>" href="<%= base_url %>market/buy/<%= items[i].id %>" data-info="<%= items[i].item %>"><%= items[i].name %></a>
+	</div>
+	<div style="float:right;display:block;"><%= items[i].price %></div>
+</li>
+<% } %>
+</ul>
+<%
+}
+else{
+%>
+	<div class="i_note"><%= App.lc.translate('No Items Found.').fetch() %></div>
+<%
+}
+} 
+%>

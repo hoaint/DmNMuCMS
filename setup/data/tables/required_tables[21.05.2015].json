@@ -1,0 +1,98 @@
+{
+    "DmN_Mmotop_Stats": {
+        "query": "CREATE TABLE [dbo].[DmN_Mmotop_Stats]([unid] [int] NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_OnlineCheck": {
+        "query": "CREATE TABLE [dbo].[DmN_OnlineCheck]([id] [int] IDENTITY(1,1) NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_PagSeguro_Orders": {
+        "query": "CREATE TABLE [dbo].[DmN_PagSeguro_Orders]([id] [int] PRIMARY KEY IDENTITY(1,1) NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_PagSeguro_Packages": {
+        "query": "CREATE TABLE [dbo].[DmN_PagSeguro_Packages]([id] [int] IDENTITY(1,1) NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_PagSeguro_Transactions": {
+        "query": "CREATE TABLE [dbo].[DmN_PagSeguro_Transactions]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_PayGoal_Log": {
+        "query": "CREATE TABLE [dbo].[DmN_PayGoal_Log]([message_id] [varchar](50) NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Refferals": {
+        "query": "CREATE TABLE [dbo].[DmN_Refferals]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Shop_Card": {
+        "query": "CREATE TABLE [dbo].[DmN_Shop_Card]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Shop_Credits": {
+        "query": "CREATE TABLE [dbo].[DmN_Shop_Credits]([memb___id] [varchar](20) NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Shop_Custom_Price_List": {
+        "query": "CREATE TABLE [dbo].[DmN_Shop_Custom_Price_List]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY] ",
+        "db": "web"
+    },
+    "DmN_Shop_Harmony": {
+        "query": "CREATE TABLE [dbo].[DmN_Shop_Harmony]([id] [int] IDENTITY(1,1) NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Shop_Logs": {
+        "query": "CREATE TABLE [dbo].[DmN_Shop_Logs]([memb___id] [varchar](20) NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Shop_Sockets": {
+        "query": "CREATE TABLE [dbo].[DmN_Shop_Sockets]([id] [int] IDENTITY(1,1) NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Shopp": {
+        "query": "CREATE TABLE [dbo].[DmN_Shopp]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_User_Salts": {
+        "query": "CREATE TABLE [dbo].[DmN_User_Salts]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_VipSystem": {
+        "query": "CREATE TABLE [dbo].[DmN_VipSystem]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Votereward": {
+        "query": "CREATE TABLE [dbo].[DmN_Votereward]([id] [int] IDENTITY(1,1) NOT NULL) ON [PRIMARY] ",
+        "db": "web"
+    },
+    "DmN_Votereward_Log": {
+        "query": "CREATE TABLE [dbo].[DmN_Votereward_Log]([id] [int] IDENTITY(1,1) NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Votereward_Ranking": {
+        "query": "CREATE TABLE [dbo].[DmN_Votereward_Ranking]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Votereward_Xtremetop_Log": {
+        "query": "CREATE TABLE [dbo].[DmN_Votereward_Xtremetop_Log]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Warehouse_Delete_Log": {
+        "query": "CREATE TABLE [dbo].[DmN_Warehouse_Delete_Log]([id] [int] IDENTITY(1,1) NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Support_Departments": {
+        "query": "CREATE TABLE [dbo].[DmN_Support_Departments]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Support_Replies": {
+        "query": "CREATE TABLE [dbo].[DmN_Support_Replies]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+    "DmN_Support_Tickets": {
+        "query": "CREATE TABLE [dbo].[DmN_Support_Tickets]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    }
+}

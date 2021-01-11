@@ -1,0 +1,11 @@
+{
+    "DEFAULT": {
+        "active": 1,
+        "levels": {
+            "400": {
+                "price": "9999",
+                "payment_type": "1"
+            }
+        }
+    }
+}

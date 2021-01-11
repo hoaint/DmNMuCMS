@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<buygm_conf>
+  <buygm>
+    <module_status>0</module_status>
+    <gm_ctlcode>32</gm_ctlcode>
+    <price>5000</price>
+    <price_t>1</price_t>
+  </buygm>
+</buygm_conf>

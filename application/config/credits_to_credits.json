@@ -1,0 +1,8 @@
+{
+    "DEFAULT": {
+        "active": 0,
+        "max_credits": 1000,
+        "ratio": "1\/1",
+        "exchange_type": 1
+    }
+}

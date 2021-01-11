@@ -1,0 +1,774 @@
+<% if(typeof item != 'undefined' && typeof config != 'undefined'){ %>
+<script src="<%= base_url %>assets/default_assets/js/webshop.js"></script>
+<script type="text/javascript">	
+	var webshop = new DmNWebshop();
+	var discount = ((Date.parse('<%= config.discount_time %>') / 1000) >= Math.round((new Date()).getTime() / 1000)) ? <%= config.discount %> : 0;	
+	webshop.set_item_id(<%= item.id %>);
+	webshop.set_item_cat(<%= item.original_item_cat %>);
+	webshop.set_item_price(<%= item.price_p %>);
+	webshop.set_discount(discount);
+	webshop.set_discount_percents(<%= config.discount_perc %>);
+	webshop.set_gold_discount(<%= config.gold_credits_price %>);
+	webshop.set_exe_price(<%= config.exe_price %>);
+	webshop.set_lvl_price(<%= config.lvl_price %>);
+	webshop.set_opt_price(<%= config.opt_price %>);
+	webshop.set_luck_price(<%= config.luck_price %>);
+	webshop.set_skill_price(<%= config.skill_price %>);
+	webshop.set_anc_price([<%= config.anc1_price %>, <%= config.anc2_price %>]);
+	webshop.set_fenrir_price([<%= config.dfenrir_price %>, <%= config.pfenrir_price %>, <%= config.gfenrir_price %>]);
+	webshop.set_ref_price(<%= config.ref_price %>);
+	webshop.set_element_type_price(<%= config.element_type_price %>);
+	webshop.set_element_rank_1_price(<%= config.element_rank_1_price %>);
+	webshop.set_element_rank_2_price(<%= config.element_rank_2_price %>);
+	webshop.set_element_rank_3_price(<%= config.element_rank_3_price %>);
+	webshop.set_element_rank_4_price(<%= config.element_rank_4_price %>);
+	webshop.set_element_rank_5_price(<%= config.element_rank_5_price %>);
+	webshop.set_wing_element_main_price(<%= config.wing_element_main_price %>);
+	webshop.set_wing_element_additional_price(<%= config.wing_element_additional_price %>);
+	webshop.set_wing_element_additional2_price(<%= config.wing_element_additional2_price %>);
+	webshop.set_wing_element_additional3_price(<%= config.wing_element_additional3_price %>);
+	webshop.set_wing_element_additional4_price(<%= config.wing_element_additional4_price %>);
+	webshop.set_wing_element_additional5_price(<%= config.wing_element_additional5_price %>);
+	webshop.set_pentagram_anger_slot_price(<%= config.pentagram_slot_anger_price %>);
+	webshop.set_pentagram_blessing_slot_price(<%= config.pentagram_slot_blessing_price %>);
+	webshop.set_pentagram_integrity_slot_price(<%= config.pentagram_slot_integrity_price %>);
+	webshop.set_pentagram_divinity_slot_price(<%= config.pentagram_slot_divinity_price %>);
+	webshop.set_pentagram_gale_slot_price(<%= config.pentagram_slot_gale_price %>);
+	webshop.set_exe_limit(<%= config.exe_limit %>);
+	webshop.set_allow_exeanc(<%= config.allow_exe_anc %>);
+	webshop.set_allow_harmonyanc(<%= config.allow_anc_harmony %>);
+	webshop.equal_seeds(<%= config.equal_seed %>);
+	webshop.equal_sockets(<%= config.equal_socket %>);
+	webshop.set_vip(<%= is_vip %>);
+	webshop.set_vip_discount(<%= vip_discount %>);
+	$(document).ready(function(){
+		webshop.intializeCalculator();
+		<% if(item.payment_type  != 0){ %>
+		$('#buy_item').on('click', function(e){
+			webshop.buyItem(<%= item.payment_type %>, 1);
+			e.preventDefault();
+		});
+		$('#add_to_card').on('click', function(e){
+			webshop.buyItem(<%= item.payment_type %>, 2);
+			e.preventDefault();
+		});
+		<% } else { %>
+		$('#buy_item_switch').on('click', function(e){
+			webshop.buyItem($('input:radio[name=payment_method]:checked').val(), 1);
+			e.preventDefault();
+		});
+		$('#add_to_card_item_switch').on('click', function(e){
+			webshop.buyItem($('input:radio[name=payment_method_2]:checked').val(), 2);
+			e.preventDefault();
+		});
+		<% } %>
+		if(discount){}
+		$('input[id^="gold_credits_"]').next().click(function(){		
+			$(this).addClass("span_red");		
+			$('input[id^="credits_"]').next().removeClass("span_red");
+		});
+		$('input[id^="credits_"]').next().click(function() {
+			$(this).addClass("span_red");		
+			$('input[id^="gold_credits_"]').next().removeClass("span_red");
+		});
+	});	
+</script>
+<form method="POST" action="" name="buy_item" id="item_form">
+	<div id="item_buy">
+		<div id="item_buy_left">
+			<div id="item_image_bg"><%= item.image %></div>
+			<div class="item_info" title="<%= item.name %>"><div class="info"><%= set_limit(item.name, 15, '...') %></div></div>
+			<div class="item_info"><div class="info"><%= App.lc.translate('Bought').fetch() %> <span class="btimes" id="total_bought"><%= item.total_bought %></span> <%= App.lc.translate('Times').fetch() %></div></div>
+			<% if(item.payment_type == 1){ %>
+			<div class="item_info"><div class="info"><%= App.lc.translate('Price').fetch() %> <span class="btimes" id="total_credits"><%= item.price_p %></span> <span class="normalcr"><%= credits %></span></div></div>
+			<% } else if(item.payment_type == 2){ %>
+			<div class="item_info"><div class="info"><%= App.lc.translate('Price').fetch() %> <span class="btimes" id="total_credits_g"><%= Math.floor(parseInt(item.price_p) + ((parseInt(config.gold_credits_price) * item.price_p) / 100)) %></span> <span class="goldcr"><%= g_credits %></span></div></div>
+			<% } else{ %>
+			<div class="item_info"><div class="info"><%= App.lc.translate('Price').fetch() %> <span class="btimes" id="total_credits_g"><%= Math.floor(parseInt(item.price_p) + ((parseInt(config.gold_credits_price) * item.price_p) / 100)) %></span> <span class="goldcr"><%= g_credits %></span></div></div>
+			<div class="item_info"><div class="info"><%= App.lc.translate('Price').fetch() %> <span class="btimes" id="total_credits"><%= item.price_p %></span> <span class="normalcr"><%= credits %></span></div></div>
+			<% } %>
+		</div>
+		<div id="item_buy_right">
+			<% if(mu_version >= 4 && ((item.original_item_cat == 12 && item.item_id == 221) || (item.original_item_cat == 12 && item.item_id == 231) || (item.original_item_cat == 12 && item.item_id == 241) || (item.original_item_cat == 12 && item.item_id == 251) || (item.original_item_cat == 12 && item.item_id == 261))){ %>
+			<div class="opt_title"><%= App.lc.translate('Element Type').fetch() %>:</div>
+			<div class="opt">
+				<select id="element_type" name="element_type">
+					<option value="0">None</option>
+					<option value="1">Fire</option>
+					<option value="2">Water</option>
+					<option value="3">Earth</option>
+					<option value="4">Wind</option>
+					<option value="5">Darkness</option>
+				</select>
+				<span id="credits_element_type">0</span> <%= App.lc.translate('Points').fetch() %>
+			</div>
+			<div class="opt_title"><%= App.sprintf(App.lc.translate('Rank %d').fetch(), 1) %>:</div>
+			<div class="opt">
+				<select id="element_rank_1" name="element_rank_1">
+					<option value="0">None</option>
+					<% if(item.original_item_cat == 12 && item.item_id == 221){ %>
+					<option value="1">Elemental Dmg +%d</option>
+					<% } %>
+					<% if(item.original_item_cat == 12 && item.item_id == 231){ %>
+					<option value="1">Elemental Defense +%d</option>
+					<% } %>
+					<% if(item.original_item_cat == 12 && item.item_id == 241){ %>
+					<option value="1">Elemental Attack Success Rate +%d</option>
+					<% } %>
+					<% if(item.original_item_cat == 12 && item.item_id == 251){ %>
+					<option value="1">Elemental Defense Success Rate +%d</option>
+					<% } %>
+					<% if(item.original_item_cat == 12 && item.item_id == 261){ %>
+						<% if(mu_version >= 5){ %>
+						<option value="1">Elemental Damage (II) +%d</option>
+						<option value="2">Elemental Defense (II) +%d</option>
+						<option value="3">Elemental Attack Success Rate (II) +%d</option>
+						<option value="4">Elemental Defense Success Rate (II) +%d</option>
+						<option value="5">Elemental Damage (III) +%d</option>
+						<option value="6">Elemental Defense (III) +%d</option>
+						<% } else { %>
+						<option value="1">Elemental Debuff Success Rate +%d</option>
+						<% } %>
+					<% } %>
+				</select>
+				<input type="number" min="0" max="10" value="0" name="rank_1_lvl" id="rank_1_lvl" step="1"/>
+				<span id="credits_element_rank_1">0</span> Pt
+			</div>	
+			<div class="opt_title"><%= App.sprintf(App.lc.translate('Rank %d').fetch(), 2) %>:</div>
+			<div class="opt">
+				<select id="element_rank_2" name="element_rank_2">
+					<option value="0">None</option>
+					<% if(item.original_item_cat == 12 && (item.item_id == 221 || item.item_id == 241)){ %>
+					<option value="1">+%d%% Attack Against Fire Element</option>
+					<option value="2">+%d%% Attack Against Water Element</option>
+					<option value="3">+%d%% Attack Against Earth Element</option>
+					<option value="4">+%d%% Attack Against Wind Element</option>
+					<option value="5">+%d%% Attack Against Darkness Element</option>
+					<% } %>
+					<% if(item.original_item_cat == 12 && (item.item_id == 231 || item.item_id == 251)){ %>
+					<option value="1">+%d%% Defense Against Fire Element</option>
+					<option value="2">+%d%% Defense Against Water Element</option>
+					<option value="3">+%d%% Defense Against Earth Element</option>
+					<option value="4">+%d%% Defense Against Wind Element</option>
+					<option value="5">+%d%% Defense Against Darkness Element</option>
+					<% } %>
+					<% if(item.original_item_cat == 12 && item.item_id == 261){ %>				
+						<% if(mu_version >= 5){ %>
+						<option value="1">Absorb Shield - 30% chance to absorb %d% damage as SD</option>
+						<option value="2">Absorb Shield - 30% chance to absorb %d% damage as Life</option>
+						<option value="3">Bastion - Protection is activated for %d seconds. By 50% chance when SD is below 20%</option>
+						<% } else { %>
+						<option value="1">Strength +%d</option>
+						<option value="2">Agility +%d</option>
+						<option value="3">Energy +%d</option>
+						<option value="4">Stamina +%d</option>
+						<% } %>
+					<% } %>
+				</select>
+				<input type="number" min="0" max="10" value="0" name="rank_2_lvl" id="rank_2_lvl" step="1"/>
+				<span id="credits_element_rank_2">0</span> Pt
+			</div>
+			<div class="opt_title"><%= App.sprintf(App.lc.translate('Rank %d').fetch(), 3) %>:</div>
+			<div class="opt">
+				<select id="element_rank_3" name="element_rank_3">
+					<option value="0">None</option>
+					<% if(item.original_item_cat == 12 && (item.item_id == 221 || item.item_id == 241)){ %>
+					<option value="1">Element Attack Dmg (in PvP) +%d</option>
+					<option value="2">Element Attack Dmg (in Raids) +%d</option>
+					<% } %>
+					<% if(item.original_item_cat == 12 && (item.item_id == 231 || item.item_id == 251)){ %>
+					<option value="1">Element Defense (in PvP) +%d</option>
+					<option value="2">Element Defense (in Raids) +%d</option>
+					<% } %>
+					<% if(item.original_item_cat == 12 && item.item_id == 261){ %>					
+						<% if(mu_version >= 5){ %>
+						<option value="1">Bleeding - A durable effect invoking %d damage to the target with certain chance when attacking</option>
+						<option value="2">Paralyzing - Chance to decrease target\'s Moving speed and every Healing ability by %d%</option>
+						<option value="3">Binding - Immobilize the target by holding its leg with certain chance when attacking.</option>
+						<option value="4">Punish - 30% chance to inflict damage (%d% percents of target\'s Max Life) upon Critical Elemental Damage</option>
+						<option value="5">Blinding - Chance to greatly target\'s Attack Success Rate by %d% when attacking</option>
+						<% } else { %>
+						<option value="1">Maximum HP +%d</option>
+						<option value="2">Maximum Mana +%d</option>
+						<option value="3">Maximum AG +%d</option>
+						<option value="4">Maximum SP +%d</option>
+						<% } %>
+					<% } %>
+				</select>
+				<input type="number" min="0" max="10" value="0" name="rank_3_lvl" id="rank_3_lvl" step="1"/>
+				<span id="credits_element_rank_3">0</span> Pt
+			</div>
+			<div class="opt_title"><%= App.sprintf(App.lc.translate('Rank %d').fetch(), 4) %>:</div>
+			<div class="opt">
+				<select id="element_rank_4" name="element_rank_4">
+					<option value="0">None</option>
+					<% if(item.original_item_cat == 12 && (item.item_id == 221 || item.item_id == 241)){ %>
+					<option value="1">Ranged Elemental Attack Dmg (in PvP) +%d</option>
+					<option value="2">Melee Elemental Attack Dmg (in PvP) +%d</option>
+					<% } %>
+					<% if(item.original_item_cat == 12 && (item.item_id == 231 || item.item_id == 251)){ %>
+					<option value="1">Ranged Elemental Defense (in PvP) +%d</option>
+					<option value="2">Melee Elemental Defense (in PvP) +%d</option>
+					<% } %>
+					<% if(item.original_item_cat == 12 && item.item_id == 261){ %>
+						<% if(mu_version >= 5){ %>
+						<option value="1">Can use Immune Skill I</option>
+						<option value="2">Can use Immune Skill II</option>
+						<% } else { %>
+						<option value="1">Elemental Attack Excellent Rate (in PvP) +%d%%</option>
+						<option value="2">Elemental Attack Excellent Rate (in Raids) +%d%%</option>
+						<% } %>
+					<% } %>
+				</select>
+				<input type="number" min="0" max="10" value="0" name="rank_4_lvl" id="rank_4_lvl" step="1"/>
+				<span id="credits_element_rank_4">0</span> Pt
+			</div>	
+			<div class="opt_title"><%= App.sprintf(App.lc.translate('Rank %d').fetch(), 5) %>:</div>
+			<div class="opt">
+				<select id="element_rank_5" name="element_rank_5">
+					<option value="0">None</option>
+					<% if(item.original_item_cat == 12 && item.item_id == 221){ %>
+					<option value="1">Elemental Critical Rate (in PvP) +%d%%</option>
+					<option value="2">Elemental Critical Rate (in Raids) +%d%%</option>
+					<% } %>
+					<% if(item.original_item_cat == 12 && item.item_id == 231){ %>
+					<option value="1">Elemental Dmg (in PvP) +%d%%</option>
+					<option value="2">Elemental Dmg (in Raids) +%d%%</option>
+					<% } %>
+					<% if(item.original_item_cat == 12 && item.item_id == 241){ %>
+					<option value="1">Elemental Damage (in PvP) +%d%%</option>
+					<option value="2">Elemental Damage (in Raids) +%d%%</option>
+					<% } %>
+					<% if(item.original_item_cat == 12 && item.item_id == 251){ %>
+					<option value="1">Elemental Damage Absorb (in PvP) +%d%%</option>
+					<option value="2">Elemental Damage Absorb (in Raids) +%d%%</option>
+					<% } %>
+					<% if(item.original_item_cat == 12 && item.item_id == 261){ %>
+						<% if(mu_version >= 5){ %>
+						<option value="1">Can use Berserker Skill I</option>
+						<% } else { %>
+						<option value="1">Additional Elemental Occurrence Chance +%d%%</option>
+						<% } %>
+					<% } %>
+				</select>
+				<input type="number" min="0" max="10" value="0" name="rank_5_lvl" id="rank_5_lvl" step="1"/>
+				<span id="credits_element_rank_5">0</span> Pt
+			</div>
+			<% } else if(mu_version >= 4 && (item.original_item_cat == 12 && (item.item_id == 200 || item.item_id == 201 || item.item_id == 202 || item.item_id == 203 || item.item_id == 204 || item.item_id == 205 || item.item_id == 206 || item.item_id == 207 || item.item_id == 208 || item.item_id == 209 || item.item_id == 210 || item.item_id == 211 || item.item_id == 212 || item.item_id == 213 || item.item_id == 214 || item.item_id == 217 || item.item_id == 306 || item.item_id == 307 || item.item_id == 308))){ %>
+			<%
+			if(item.max_item_lvl != 0){
+			%>
+			<div class="opt_title"><%= App.lc.translate('Item Level').fetch() %>:</div>
+			<div class="opt">
+				<select id="item_level" name="item_level">
+					<option value="0" selected="selected">+ 0</option>
+					<% for(var i=1; i<=item.max_item_lvl; i++){ %>
+					<option value="<%= i %>">+ <%= i %></option>
+					<% } %>
+				</select>
+				<span id="credits_level">0</span> <%= App.lc.translate('Points').fetch() %>
+			</div>
+			<% 
+			}
+			%>
+			<div class="opt_title"><%= App.lc.translate('Element Type').fetch() %>:</div>
+			<div class="opt">
+				<select id="element_type" name="element_type">
+					<option value="0"><%= App.lc.translate('None').fetch() %></option>
+					<option value="1"><%= App.lc.translate('Fire').fetch() %></option>
+					<option value="2"><%= App.lc.translate('Water').fetch() %></option>
+					<option value="3"><%= App.lc.translate('Earth').fetch() %></option>
+					<option value="4"><%= App.lc.translate('Wind').fetch() %></option>
+					<option value="5"><%= App.lc.translate('Darkness').fetch() %></option>
+				</select>
+				<span id="credits_element_type">0</span> <%= App.lc.translate('Points').fetch() %>
+			</div>
+			<div class="opt_title">Slot of Anger:</div>
+			<div class="opt">
+				<input type="checkbox" id="slot_anger" name="slot_anger" value="1" /> 
+				<span id="credits_slot_anger">0</span> <%= App.lc.translate('Points').fetch() %>
+			</div>
+			<div class="opt_title">Slot of Blessing:</div>
+			<div class="opt">
+				<input type="checkbox" id="slot_blessing" name="slot_blessing" value="1" /> 
+				<span id="credits_slot_blessing">0</span> <%= App.lc.translate('Points').fetch() %>
+			</div>
+			<div class="opt_title">Slot of Integrity:</div>
+			<div class="opt">
+				<input type="checkbox" id="slot_integrity" name="slot_integrity" value="1" /> 
+				<span id="credits_slot_integrity">0</span> <%= App.lc.translate('Points').fetch() %>
+			</div>
+			<div class="opt_title">Slot of Divinity:</div>
+			<div class="opt">
+				<input type="checkbox" id="slot_divinity" name="slot_divinity" value="1" /> 
+				<span id="credits_slot_divinity">0</span> <%= App.lc.translate('Points').fetch() %>
+			</div>
+			<div class="opt_title">Slot of Gale:</div>
+			<div class="opt">
+				<input type="checkbox" id="slot_gale" name="slot_gale" value="1" /> 
+				<span id="credits_slot_gale">0</span> <%= App.lc.translate('Points').fetch() %>
+			</div>
+			<% 
+			} else{
+			if(item.max_item_lvl == 0 && item.max_item_opt == 0 && item.luck == 0 && item.data.skill == 0 && item.use_refinary == 0 && item.use_harmony == 0 && item.exetype == -1 && item.use_sockets == 0){
+			%>
+				<div class="full"><%= App.lc.translate('This item has no options to select.').fetch() %></div>
+			<%
+			}
+			if(item.max_item_lvl != 0){
+			%>
+			<div class="opt_title"><%= App.lc.translate('Item Level').fetch() %>:</div>
+			<div class="opt">
+				<select id="item_level" name="item_level">
+					<option value="0" selected="selected">+ 0</option>
+					<% for(var i=1; i<=item.max_item_lvl; i++){ %>
+					<option value="<%= i %>">+ <%= i %></option>
+					<% } %>
+				</select>
+				<span id="credits_level">0</span> <%= App.lc.translate('Points').fetch() %>
+			</div>
+			<% 
+			}
+			if(item.max_item_opt != 0){ %>
+			<div class="opt_title">
+				<% if(item.item_cat == 13 && item.item_id != 24){ %>
+				<%= App.lc.translate('Automatic HP Recovery').fetch() %>:
+				<% }else if(item.item_cat == 13 && item.item_id == 24){ %>
+				<%= App.lc.translate('Max Mana Increase').fetch() %>:
+				<% }else if(item.item_cat < 5){ %>
+				<%= App.lc.translate('Additional Damage').fetch() %>:
+				<% }else{ %>
+				<%= App.lc.translate('Additional Defense').fetch() %>:
+				<% } %>	
+			</div>
+			<div class="opt">
+				<select id="item_opt" name="item_opt">
+				<% if(item.item_cat == 13){ %>
+				<option value="0" selected="selected">0%</option>
+				<% }else{ %>
+				<option value="0" selected="selected">0</option>
+				<% } %>
+				<% for(var i=1; i<=item.max_item_opt; ++i){ %>
+					<% if(item.item_cat == 13){ 
+						var view_i = i+'%';
+					}else{
+						var view_i = (i*((item.item_cat == 6) ? 5 : 4));
+					} %>
+					<option value="<%= i %>"><%= view_i %></option>
+				<% } %>
+			</select>
+			<span id="credits_opt">0</span> <%= App.lc.translate('Points').fetch() %>
+			</div>
+			<% 
+			} 
+			if(item.luck == 1){
+			%>
+			<div class="opt_title"><%= App.lc.translate('Item Luck').fetch() %>:</div>
+			<div class="opt">
+				<input type="checkbox" id="item_luck" name="item_luck" value="1" /> 
+				<span id="credits_luck">0</span> <%= App.lc.translate('Points').fetch() %>
+			</div>
+			<% 
+			} 
+			if(item.data.skill != 0){
+			%>
+			<div class="opt_title"><%= App.lc.translate('Item Skill').fetch() %>:</div>
+			<div class="opt">
+				<input type="checkbox" id="item_skill" name="item_skill" value="1" /> 
+				<span id="credits_skill">0</span> <%= App.lc.translate('Points').fetch() %>
+			</div>
+			<% 
+			} 
+			if(item.use_refinary == 1){
+			%>
+			<div class="opt_title"><%= App.lc.translate('Refinery Option').fetch() %>:</div>
+			<div class="opt">
+				<input id="item_ref" type="checkbox" name="item_ref" value="1"> 
+				<span id="credits_ref">0</span> <%= App.lc.translate('Points').fetch() %>
+			</div>
+			<% 
+			}
+			if(config.use_harmony == 1){
+			if(item.use_harmony == 1){
+			%>
+			<div class="opt_title"><%= App.lc.translate('Harmony Option').fetch() %>:</div>
+			<div class="opt">
+				<select id="item_harm" name="item_harm">
+					<option value="" selected="selected"><%= App.lc.translate(' - Select - ').fetch() %></option>
+					<% if(item.original_item_cat < 5){ %>
+					<option value="1">Min. attack increase</option>
+					<option value="2">Max. attack increase</option>
+					<option value="3">Required strength decrease</option>
+					<option value="4">Required agility decrease</option>
+					<option value="5">Attack (Max, Min)</option>
+					<option value="6">Critical Damage increase</option>
+					<option value="7">Skill Damage increase</option>
+					<option value="8">Attack Success Rate (PvP) increase</option>
+					<option value="9">SD Reduction</option>
+					<option value="10">SD Ignore Rate</option>
+					<% }else if(item.original_item_cat == 5){ %>
+					<option value="1">Wizardly attack increase</option>
+					<option value="2">Required strength decrease</option>
+					<option value="3">Required agility decrease</option>
+					<option value="4">Skill Damage increase</option>
+					<option value="5">Critical Damage increase</option>
+					<option value="6">SD Reduction</option>";
+					<option value="7">Attack Success Rate (PvP) increase</option>
+					<option value="8">SD Ignore Rate</option>
+					<% }else{ %>
+					<option value="1">Defense increase</option>
+					<option value="2">Max. AG Increase</option>
+					<option value="3">Max. HP increase</option>
+					<option value="4">Life auto increment increase</option>
+					<option value="5">Mana auto increment increase</option>
+					<option value="6">Defense success rate increase(PVP)</option>
+					<option value="7">Damage decrement increase</option>
+					<option value="8">SD Ratio Rate increase</option>
+					<% } %>
+				</select>
+			</div>
+			<div id="harmonyoption" style="display: none;">
+				<div class="opt_title"><%= App.lc.translate('Harmony Value').fetch() %>:</div>
+				<div class="opt" id="harmonyvalue"><%= App.lc.translate('Select Harmony Option').fetch() %></div>
+				<div class="opt_title"><%= App.lc.translate('Harmony Price').fetch() %>:</div>
+				<div class="opt"><span id="credits_harm">0</span> <%= App.lc.translate('Points').fetch() %></div>
+			</div>
+			<% 
+			}
+			}
+			var show_anc = false;
+			var anc_html = '';
+			for(var i=0; i<item.ancient_info.length; i++){
+				var anc = item.ancient_info[i].split("|");
+				if(anc[0] == item.original_item_cat){
+					if((anc[1] == item.item_id) && (anc[3] != 0 || anc[4] != 0)){
+						show_anc = true;
+						anc_html += '<div class="opt_title">'+ App.lc.translate('Ancient Set').fetch() +':</div><div class="opt"><select id="item_anc" name="item_anc"><option selected="selected" value="">'+ App.lc.translate(' - Select - ').fetch() +'</option>';
+						var anc_title = anc[2].split("-");
+						for(var ii=0; ii<anc_title.length; ii++){
+							if(anc_title[ii] != ''){
+								if(anc[2+(ii+1)] != 0){
+									anc_html += '<option value="'+parseInt(ii+1)+'">'+anc_title[ii]+'</option>';
+								}
+							}
+						}
+						anc_html += '</select> <span id="credits_ancient"> 0</span> '+ App.lc.translate('Points').fetch() +'</div>';
+					}
+				}
+			}
+			if(show_anc == true)
+			{
+			%>
+			<%= anc_html %>
+			<% } %>
+			<% if(item.exetype == 11){ %>
+			<div class="opt_title"><%= App.lc.translate('Main').fetch() %>:</div>
+			<div class="opt">
+				<select id="wing_main_element" name="wing_main_element">
+					<option value="0">None</option>
+					<option value="1">Elemental DEF</option>
+				</select>
+				<input type="number" min="0" max="15" value="0" name="wing_main_element_lvl" id="wing_main_element_lvl" step="1"/>
+				<span id="credits_wing_main_element">0</span> Pt
+			</div>	
+			<div class="opt_title"><%= App.lc.translate('Additional').fetch() %>:</div>
+			<div class="opt">
+				<select id="wing_additional_element" name="wing_additional_element">
+					<option value="0">None</option>
+					<option value="1">Elemental Damage Increase</option>
+					<option value="16">Elemental Attack Success Rate Increase</option>
+					<option value="32">Elemental Defense Success Rate Increase</option>
+					<option value="48">Elemental Damage (II) Increase</option>
+					<option value="64">Elemental Defense (II) Increase</option>
+					<option value="80">Elemental Attack Success Rate (II) Increase</option>
+					<option value="96">Elemental Defense Success Rate (II) Increase</option>
+				</select>
+				<input type="number" min="0" max="15" value="0" name="wing_additional_element_lvl" id="wing_additional_element_lvl" step="1"/>
+				<span id="credits_wing_additional_element">0</span> Pt
+			</div>	
+			<div class="opt_title"><%= App.lc.translate('#1').fetch() %>:</div>
+			<div class="opt">
+				<select id="wing_additional2_element" name="wing_additional2_element">
+					<option value="0">None</option>
+					<option value="1">Mana full recovery probability X% increase</option>
+					<option value="16">Chance of full recovery of life X% increase</option>
+					<option value="32">The probability of returning enemy damage X%</option>
+					<option value="48">Chacce to ignore enemy defense X% increase</option>
+					<option value="64">Attack (spell) speed %d increase</option>
+					<option value="80">Probability of excellent damage increased X%</option>
+					<option value="96">Double damage chance X% increased</option>
+					<option value="112">Force %d increased</option>
+					<option value="128">Increase stamina %d</option>
+					<option value="144">%d increase in energy</option>
+					<option value="160">Agility increased by %d</option>
+				</select>
+				<input type="number" min="0" max="3" value="0" name="wing_additional2_element_lvl" id="wing_additional2_element_lvl" step="1"/>
+				<span id="credits_wing_additional2_element">0</span> Pt
+			</div>
+			<div class="opt_title"><%= App.lc.translate('#2').fetch() %>:</div>
+			<div class="opt">
+				<select id="wing_additional3_element" name="wing_additional3_element">
+					<option value="0">None</option>
+					<option value="1">Mana full recovery probability X% increase</option>
+					<option value="16">Chance of full recovery of life X% increase</option>
+					<option value="32">The probability of returning enemy damage X%</option>
+					<option value="48">Chacce to ignore enemy defense X% increase</option>
+					<option value="64">Attack (spell) speed %d increase</option>
+					<option value="80">Probability of excellent damage increased X%</option>
+					<option value="96">Double damage chance X% increased</option>
+					<option value="112">Force %d increased</option>
+					<option value="128">Increase stamina %d</option>
+					<option value="144">%d increase in energy</option>
+					<option value="160">Agility increased by %d</option>
+				</select>
+				<input type="number" min="0" max="3" value="0" name="wing_additional3_element_lvl" id="wing_additional3_element_lvl" step="1"/>
+				<span id="credits_wing_additional3_element">0</span> Pt
+			</div>
+			<div class="opt_title"><%= App.lc.translate('#3').fetch() %>:</div>
+			<div class="opt">
+				<select id="wing_additional4_element" name="wing_additional4_element">
+					<option value="0">None</option>
+					<option value="1">Mana full recovery probability X% increase</option>
+					<option value="16">%d chance of full recovery of life X% increase</option>
+					<option value="32">The probability of returning enemy damage X%</option>
+					<option value="48">%d chnace to ignore enemy defense X% increase</option>
+					<option value="64">Attack (spell) speed %d increase</option>
+					<option value="80">Probability of excellent damage increased X%</option>
+					<option value="96">Double damage chance X% increased</option>
+					<option value="112">Force %d increased</option>
+					<option value="128">Increase stamina %d</option>
+					<option value="144">%d increase in energy</option>
+					<option value="160">Agility increased by %d</option>
+				</select>
+				<input type="number" min="0" max="3" value="0" name="wing_additional4_element_lvl" id="wing_additional4_element_lvl" step="1"/>
+				<span id="credits_wing_additional4_element">0</span> Pt
+			</div>
+			<div class="opt_title"><%= App.lc.translate('#4').fetch() %>:</div>
+			<div class="opt">
+				<select id="wing_additional5_element" name="wing_additional5_element">
+					<option value="0">None</option>
+					<option value="1">Mana full recovery probability X% increase</option>
+					<option value="16">Chance of full recovery of life X% increase</option>
+					<option value="32">The probability of returning enemy damage X%</option>
+					<option value="48">Chacce to ignore enemy defense X% increase</option>
+					<option value="64">Attack (spell) speed %d increase</option>
+					<option value="80">Probability of excellent damage increased X%</option>
+					<option value="96">Double damage chance X% increased</option>
+					<option value="112">Force %d increased</option>
+					<option value="128">Increase stamina %d</option>
+					<option value="144">%d increase in energy</option>
+					<option value="160">Agility increased by %d</option>
+				</select>
+				<input type="number" min="0" max="3" value="0" name="wing_additional5_element_lvl" id="wing_additional5_element_lvl" step="1"/>
+				<span id="credits_wing_additional5_element">0</span> Pt
+			</div>
+			<% } %>
+			<% if(item.use_sockets != 1 || mu_version <= 5){ %>
+			<% if(item.exetype == 1){ %>
+			<div class="opt_title">Increases Mana After monster +Mana/8</div>
+			<div class="opt"><input id="ex1" name="exe[]" type="checkbox" value="1"></div>
+			<div class="opt_title">Increases Life After monster +Life/8</div>
+			<div class="opt"><input id="ex2" name="exe[]" type="checkbox" value="2"></div>
+			<div class="opt_title">Increase attacking(wizardly)speed+7</div>
+			<div class="opt"><input id="ex3" name="exe[]" type="checkbox" value="3"></div>
+			<div class="opt_title">Increase Damage +2%</div>
+			<div class="opt"><input id="ex4" name="exe[]" type="checkbox" value="4"></div>
+			<div class="opt_title">Increase Damage +level/20</div>
+			<div class="opt"><input id="ex5" name="exe[]" type="checkbox" value="5"></div>
+			<div class="opt_title">Excellent Damage Rate +10%</div>
+			<div class="opt"><input id="ex6" name="exe[]" type="checkbox" value="6"></div>
+			<% }else if(item.exetype == 9){ %>
+			<div class="opt_title">Increases Mana After monster +Mana/8</div>
+			<div class="opt"><input id="ex1" name="exe[]" type="checkbox" value="1"></div>
+			<div class="opt_title">Increases Life After monster +Life/8</div>
+			<div class="opt"><input id="ex2" name="exe[]" type="checkbox" value="2"></div>
+			<div class="opt_title">Increase attacking(wizardly)speed+7</div>
+			<div class="opt"><input id="ex3" name="exe[]" type="checkbox" value="3"></div>
+			<div class="opt_title">Excellent Damage Rate +10%</div>
+			<div class="opt"><input id="ex6" name="exe[]" type="checkbox" value="6"></div>
+			<div class="opt_title">ATK DMG increases by %.1f every 20Lv</div>
+			<div class="opt"><input id="ex7" name="exe[]" type="checkbox" value="7"></div>
+			<div class="opt_title">Increased by ATK DMG %d</div>
+			<div class="opt"><input id="ex8" name="exe[]" type="checkbox" value="8"></div>
+			<% }else if(item.exetype == 2){ %>
+			<div class="opt_title">Increase Zen After Hunt +40%</div>
+			<div class="opt"><input id="ex1" name="exe[]" type="checkbox" value="1"></div>
+			<div class="opt_title">Defense success rate +10%</div>
+			<div class="opt"><input id="ex2" name="exe[]" type="checkbox" value="2"></div>
+			<div class="opt_title">Reflect damage +5%</div>
+			<div class="opt"><input id="ex3" name="exe[]" type="checkbox" value="3"></div>
+			<div class="opt_title">Damage decrease +4%</div>
+			<div class="opt"><input id="ex4" name="exe[]" type="checkbox" value="4"></div>
+			<div class="opt_title">Increase MaxMana +4%</div>
+			<div class="opt"><input id="ex5" name="exe[]" type="checkbox" value="5"></div>
+			<div class="opt_title">Increase MaxHP +4%</div>
+			<div class="opt"><input id="ex6" name="exe[]" type="checkbox" value="6"></div>
+			<% }else if(item.exetype == 10){ %>
+			<div class="opt_title">Defense success rate +10%</div>
+			<div class="opt"><input id="ex2" name="exe[]" type="checkbox" value="2"></div>
+			<div class="opt_title">Reflect damage +5%</div>
+			<div class="opt"><input id="ex3" name="exe[]" type="checkbox" value="3"></div>
+			<div class="opt_title">Increase Maximum Life by %d</div>
+			<div class="opt"><input id="ex7" name="exe[]" type="checkbox" value="7"></div>
+			<div class="opt_title">Increase Maximum Mana by %d</div>
+			<div class="opt"><input id="ex8" name="exe[]" type="checkbox" value="8"></div>
+			<div class="opt_title">Decrease Damage By %d</div>
+			<div class="opt"><input id="ex9" name="exe[]" type="checkbox" value="9"></div>
+			<div class="opt_title">Increases the amount of Zen acquired for hunting monsters by %d%%</div>
+			<div class="opt"><input id="ex10" name="exe[]" type="checkbox" value="10"></div>
+			<% }else if(item.exetype == 3){ %>
+			<div class="opt_title">HP +115 Increase</div>
+			<div class="opt"><input id="ex1" name="exe[]" type="checkbox" value="1"></div>
+			<div class="opt_title">MP +115 Increase</div>
+			<div class="opt"><input id="ex2" name="exe[]" type="checkbox" value="2"></div>
+			<div class="opt_title">Ignore enemys defensive power by 3%</div>
+			<div class="opt"><input id="ex3" name="exe[]" type="checkbox" value="3"></div>
+			<div class="opt_title">Max AG +50 Increase</div>
+			<div class="opt"><input id="ex4" name="exe[]" type="checkbox" value="4"></div>
+			<div class="opt_title">Increase attacking(wizardly)speed+5</div>
+			<div class="opt"><input id="ex5" name="exe[]" type="checkbox" value="5"></div>
+			<div style="display: none;"><div class="opt_title">Empty</div>
+			<div class="opt"><input id="ex6" name="exe[]" type="checkbox" value="6"></div></div>
+			<% }else if(item.exetype == 4){ %>
+			<div class="opt_title">Fenrir +Damage</div>
+			<div class="opt"><input id="fenrir1" name="fenrir" type="radio" value="1"></div>
+			<div class="opt_title">Fenrir +Defense</div>
+			<div class="opt"><input id="fenrir2" name="fenrir" type="radio" value="2"></div>
+			<div class="opt_title">Fenrir +Illusion</div>
+			<div class="opt"><input id="fenrir3" name="fenrir" type="radio" value="4"></div>	
+			<div class="opt_title">Fenrir Price:</div>
+			<div class="opt"><span id="credits_fenrir">0</span> Points</div>
+			<% }else if(item.exetype == 5){ %>
+			<div class="opt_title">Increase MaxHP +4%</div>
+			<div class="opt"><input id="ex1" name="exe[]" type="checkbox" value="6"></div>
+			<div class="opt_title">Increase MaxMana +4</div>
+			<div class="opt"><input id="ex2" name="exe[]" type="checkbox" value="5"></div>
+			<div class="opt_title">Damage decrease +4%</div>
+			<div class="opt"><input id="ex3" name="exe[]" type="checkbox" value="4"></div>
+			<div class="opt_title">Reflect damage +5%</div>
+			<div class="opt"><input id="ex4" name="exe[]" type="checkbox" value="3"></div>
+			<div class="opt_title">Defense success rate +10%</div>
+			<div class="opt"><input id="ex5" name="exe[]" type="checkbox" value="2"></div>
+			<div class="opt_title">Increase Zen After Hunt +40%</div>
+			<div class="opt"><input id="ex6" name="exe[]" type="checkbox" value="1"></div>
+			<% }else if(item.exetype == 6){ %>
+			<div class="opt_title">Ingore opponents defensive power by 5%</div>
+			<div class="opt"><input id="ex1" name="exe[]" type="checkbox" value="1"></div>
+			<div class="opt_title">Returns the enemy's attack power in 5%</div>
+			<div class="opt"><input id="ex2" name="exe[]" type="checkbox" value="2"></div>
+			<div class="opt_title">Complete recovery of life in 5% rate</div>
+			<div class="opt"><input id="ex3" name="exe[]" type="checkbox" value="3"></div>
+			<div class="opt_title">Complete recover of Mana in 5% rate</div>
+			<div class="opt"><input id="ex4" name="exe[]" type="checkbox" value="4"></div>
+			<div style="display: none;"><div class="opt_title">Empty</div>
+			<div class="opt"><input id="ex5" name="exe[]" type="checkbox" value="5"></div>
+			<div class="opt_title">Empty</div>
+			<div class="opt"><input id="ex6" name="exe[]" type="checkbox" value="6"></div></div>
+			<% }else if(item.exetype == 7){ %>
+			<div class="opt_title">Chance of Double Damage +4%</div>
+			<div class="opt"><input id="ex1" name="exe[]" type="checkbox" value="1"></div>		
+			<div class="opt_title">Chance of Damage From Breaking Enemy's Defense +4</div>
+			<div class="opt"><input id="ex2" name="exe[]" type="checkbox" value="2"></div>
+			<div class="opt_title">Complete recovery of life in 4% rate</div>
+			<div class="opt"><input id="ex3" name="exe[]" type="checkbox" value="3"></div>		
+			<div style="display: none;"><div class="opt_title">Complete recover of Mana in 5% rate</div>	
+			<div class="opt"><input id="ex4" name="exe[]" type="checkbox" value="4"></div>
+			<div class="opt_title">Empty</div>
+			<div class="opt"><input id="ex5" name="exe[]" type="checkbox" value="5"></div>
+			<div class="opt_title">Empty</div>
+			<div class="opt"><input id="ex6" name="exe[]" type="checkbox" value="6"></div></div>
+			<% }else if(item.exetype == 8){ %>
+			<div class="opt_title">Chance of Damage From Breaking Enemy's Def +3%</div>
+			<div class="opt"><input id="ex1" name="exe[]" type="checkbox" value="1"></div>
+			<div class="opt_title">Chance of Fully Recovering Life +5%</div>
+			<div class="opt"><input id="ex2" name="exe[]" type="checkbox" value="2"></div>
+			<div style="display: none;">
+			<div class="opt_title">Empty</div>
+			<div class="opt"><input id="ex3" name="exe[]" type="checkbox" value="3"></div>
+			<div class="opt_title">Empty</div>
+			<div class="opt"><input id="ex4" name="exe[]" type="checkbox" value="4"></div>
+			<div class="opt_title">Empty</div>
+			<div class="opt"><input id="ex5" name="exe[]" type="checkbox" value="5"></div>
+			<div class="opt_title">Empty</div>
+			<div class="opt"><input id="ex6" name="exe[]" type="checkbox" value="6"></div></div>
+			<% }else{} %>	
+			<% if(item.exetype != -1 && item.exetype != 4){ %>
+			<div class="opt_title"><%= App.lc.translate('Exe Price').fetch() %>:</div>
+			<div class="opt"><span id="credits_exe">0</span> <%= App.lc.translate('Points').fetch() %></div>
+			<% } %>
+			<% } %>
+			<% if(config.use_socket == 1){ %>
+			<% if(config.allow_select_socket == 1){ %>
+			<% if(item.use_sockets == 1){ %>
+			<% if(typeof item.socket_info != 'undefined'){ %>
+			<% for(var ii = 1; ii <= config.max_sockets_to_show; ii++){ %>
+			<div class="opt_title"><%= App.lc.translate('Socket').fetch() %> <%= ii %>:</div>
+			<div class="opt">
+				<select name="socket<%= ii %>" id="socket<%= ii %>">
+					<% for(var i=0; i<item.socket_info.length; i++){ %>
+							<option id="socket<%= ii %>-seed-<%= item.socket_info[i].seed %>-<%= i %>" value="<%= item.socket_info[i].seed %>-<%= item.socket_info[i].socket_id %>"><%= item.socket_info[i].socket_name %></option>
+					<% } %>
+				</select>
+			</div>
+			<% } %>
+			<% if(config.max_sockets_to_show > 0){ %>
+			<div class="opt_title"><%= App.lc.translate('Socket Price').fetch() %></div>
+			<div class="opt"><span id="credits_socket">0</span> <%= App.lc.translate('Points').fetch() %></div>
+			<% } %>
+			<% } %>
+			<% } %>
+			<% } %>
+			<% } %>
+			<% } %>
+		</div>
+		<div style="clear:both;"></div>
+	</div>	
+	<div id="buy_buttons">
+		<button id="buy_item" class="buy_button" value="<%= App.lc.translate('Buy Now').fetch() %>" <% if(item.payment_type == 0){ %>data-modal-div="buy_windows"<% } %>><%= App.lc.translate('Buy Now').fetch() %></button>
+		<button id="add_to_card" class="buy_button" value="<%= App.lc.translate('Add To Card').fetch() %>" <% if(item.payment_type == 0){ %>data-modal-div="add_to_card_windows"<% } %>><%= App.lc.translate('Add To Card').fetch() %></button>
+	</div>
+	<div style="clear:both;"></div>
+	<% if(item.payment_type == 0){ %>
+	<div id="buy_windows">
+		<div class="modal-header">
+			<h2><%= App.lc.translate('Select Payment Method').fetch() %></h2>
+			<a class="close" href="javascript:;"></a>
+		</div>
+		<div class="payment-method-button">
+		   <label>
+			 <input type="radio" value="1" name="payment_method" id="credits_1" style="display: none;" /><span><%= credits %></span>
+		   </label>
+		</div>
+		<div class="payment-method-button">
+		   <label>
+			 <input type="radio" value="2" name="payment_method" id="gold_credits_1" style="display: none;" /><span><%= g_credits %></span>
+		   </label>
+		</div>
+		<div class="btn-fld">
+			<button type="submit" id="buy_item_switch" class="buttonn"><%= App.lc.translate('Buy Now').fetch() %> &raquo;</button>
+		</div>
+	</div>
+	<div id="add_to_card_windows">
+		<div class="modal-header">
+			<h2><%= App.lc.translate('Select Payment Method').fetch() %></h2>
+			<a class="close" href="javascript:;"></a>
+		</div>
+		<div class="payment-method-button">
+		   <label>
+			 <input type="radio" value="1" name="payment_method_2" id="credits_2" style="display: none;" /><span><%= credits %></span>
+		   </label>
+		</div>
+		<div class="payment-method-button">
+		   <label>
+			 <input type="radio" value="2" name="payment_method_2" id="gold_credits_2" style="display: none;" /><span><%= g_credits %></span>
+		   </label>
+		</div>
+		<div class="btn-fld">
+			<button type="submit" id="add_to_card_item_switch" class="buttonn"><%= App.lc.translate('Add To Card').fetch() %> &raquo;</button>
+		</div>
+	</div>
+	<% } %>
+</form>	
+<% }else{ %>
+<div class="e_note"><%= App.lc.translate('Invalid Item').fetch() %></div>
+<% } %>

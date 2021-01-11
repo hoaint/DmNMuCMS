@@ -1,0 +1,23 @@
+[06:59AM] [0.0.0.0] Item file load - error category with id: 0 not found
+[07:04AM] [0.0.0.0] Item file load - error category with id:  not found
+[02:18PM] [0.0.0.0] Item file load - error category with id: 0 not found
+[02:25PM] [0.0.0.0] Item file load - error category with id: 0 not found
+[03:37PM] [0.0.0.0] Item file load - error category with id: 0 not found
+[07:37PM] [0.0.0.0] Item file load error - item with id: 49 not found in category: 3
+[07:56PM] [0.0.0.0] Item file load error - item with id: 49 not found in category: 3
+[08:02PM] [0.0.0.0] Item file load error - item with id: 49 not found in category: 3
+[08:03PM] [0.0.0.0] Item file load error - item with id: 49 not found in category: 3
+[08:09PM] [0.0.0.0] Item file load error - item with id: 49 not found in category: 3
+[08:13PM] [0.0.0.0] Item file load error - item with id: 49 not found in category: 3
+[08:30PM] [0.0.0.0] Item file load error - item with id: 266 not found in category: 12
+[08:30PM] [0.0.0.0] Item file load error - item with id: 221 not found in category: 12
+[08:30PM] [0.0.0.0] Item file load error - item with id: 221 not found in category: 12
+[08:31PM] [0.0.0.0] Item file load error - item with id: 221 not found in category: 12
+[08:31PM] [0.0.0.0] Item file load error - item with id: 266 not found in category: 12
+[08:40PM] [0.0.0.0] Item file load error - item with id: 49 not found in category: 3
+[09:39PM] [0.0.0.0] Item file load error - item with id: 49 not found in category: 3
+[09:46PM] [0.0.0.0] Item file load error - item with id: 49 not found in category: 3
+[09:53PM] [0.0.0.0] Item file load error - item with id: 266 not found in category: 12
+[09:53PM] [0.0.0.0] Item file load error - item with id: 221 not found in category: 12
+[10:32PM] [0.0.0.0] Item file load error - item with id: 51 not found in category: 3
+[11:24PM] [0.0.0.0] Item file load error - item with id: 48 not found in category: 3

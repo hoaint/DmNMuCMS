@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<warehouse_conf>
+  <warehouse>
+    <module_status>1</module_status>
+    <allow_sell_for_credits>1</allow_sell_for_credits>
+    <allow_sell_for_gcredits>1</allow_sell_for_gcredits>
+    <allow_sell_for_zen>1</allow_sell_for_zen>
+    <allow_sell_for_chaos>1</allow_sell_for_chaos>
+    <allow_sell_for_bless>1</allow_sell_for_bless>
+    <allow_sell_for_soul>1</allow_sell_for_soul>
+    <allow_sell_for_life>1</allow_sell_for_life>
+    <allow_sell_for_creation>1</allow_sell_for_creation>
+    <allow_sell_for_harmony>1</allow_sell_for_harmony>
+    <allow_delete_item>0</allow_delete_item>
+    <allow_item_upgrade>0</allow_item_upgrade>
+    <allow_move_to_web_warehouse>1</allow_move_to_web_warehouse>
+    <web_wh_item_expires_after>1 month</web_wh_item_expires_after>
+    <web_items_per_page>25</web_items_per_page>
+  </warehouse>
+</warehouse_conf>

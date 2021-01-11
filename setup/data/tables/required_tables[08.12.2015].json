@@ -1,0 +1,18 @@
+{
+    "DmN_Guides": {
+        "query": "CREATE TABLE [dbo].[DmN_Guides]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+	"DmN_Donate_Interkassa_Orders": {
+        "query": "CREATE TABLE [dbo].[DmN_Donate_Interkassa_Orders]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+	"DmN_Donate_Interkassa_Packages": {
+        "query": "CREATE TABLE [dbo].[DmN_Donate_Interkassa_Packages]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    },
+	"DmN_Donate_Interkassa_Transactions": {
+        "query": "CREATE TABLE [dbo].[DmN_Donate_Interkassa_Transactions]([id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL) ON [PRIMARY]",
+        "db": "web"
+    }
+}

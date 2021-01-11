@@ -1,0 +1,391 @@
+VERSION 1.0.2
+[UPDATE]Multilingual support
+[UPDATE]New item filter in market more advanced filter features
+[UPDATE]Added shop cart now can buy multiple items at once
+[FIX]Fixed xss vulnerability in character info page
+[UPDATE]New configuration for meta tags application/config/meta_info.php
+[UPDATE]Added recaptcha support
+[UPDATE]Recoded xss security function
+[UPDATE]Market new config for removing item limit only after item is expired
+[UPDATE]Skilltree reset support for TitansTech, IGCN, ZTeam
+[UPDATE]Added Suncore (Latvia) payment system support
+[UPDATE]Paymentwall can use different application for each server
+[FIX]Added pagination support for news page
+[UPDATE]New configuration for event timers application/config/events.php
+[UPDATE]Vip Support IGCN Server Files
+[UPDATE]Added top killers rankings
+[UPDATE]Added online players list
+[FIX]Not reloading user stats after adding
+[UPDATE]Added top players in sidebar block
+[UPDATE]Added credits manager admincp
+[FIX]WCoin Loading in sidebar from character db
+[UPDATE]Added votereward manager admincp
+[FIX]Market item purchase page not showing correct price
+[UPDATE]AdminCP added warehouse editor
+[UPDATE]Implemented support for legacy mssql driver
+[UPDATE]Implemented new licensing system
+VERSION 1.0.3
+[UPDATE]Added facebook authorization plugin
+[FIX]Socket limit per each credits type
+[FIX]Check socket part type
+[FIX]Login with lower and upper letters not checking properly
+[UPDATE]New multi language system possible to add, edit languages from admincp
+[UPDATE]Recoded item parsing library, now reading item data from file is much faster
+[UPDATE]Removed unnecessary columns from DmN_Shopp table
+[UPDATE]Added exe type for item importer in admincp
+[UPDATE]Added multiple server support with different accounts for each server
+[UPDATE]Possible to edit each credits type and from which database they are loaded
+[UPDATE]Added logs for paypal and paymentwall transactions AdminCP
+[UPDATE]Added option to switch reward credits type in votereward
+[UPDATE]Added online hours exchange
+VERSION 1.0.4
+[UPDATE]User is able to change his email
+[UPDATE]User is able to recover his master key supported only by muengine server files
+[FIX]Comparing shop table items and item file items, loading into shop only existing items.
+[UPDATE]Added referrer reward config after referral have made registration
+[FIX]Possible to buy item from shop if module is disabled, directly with javascript
+[FIX]If choosing swords category in shop showing invalid category
+[FIX]If using non-unicode characters for item name in item file not loading item
+[UPDATE]Added logs for Gm status purchases
+[FIX]Change class module not checking correctly character equipment on igcn server files
+[UPDATE]Added config for not reseting master level and master points after reseting skilltree
+[FIX]Fixed some issues with mssql driver
+[FIX]GM CP unable to search character or account
+[UPDATE]Added logs support for sql server 2000
+[FIX]Invalid parameter number in prepared statement when importing items
+[UPDATE]Added second serial for market only used by IGCN server files
+[UPDATE]Added fast price editor in admincp item 
+[UPDATE]Added new fortumo allowed ip list
+[UPDATE]Added option to disable harmony system in webshop from admincp
+[UPDATE]Added option to allow only excellent or only socket item in webshop
+[UPDATE]Possible to disable server from template if not used
+[UPDATE]Added all ancient sets to list including ex702
+[FIX]Fixed sometimes bugging warehouse when adding item to warehouse from admincp
+[UPDATE]Added support for reseting skill tree MuEngine server files
+[UPDATE]New payment module for http://2checkout.com payments
+[UPDATE]Added discount notice to webshop
+[FIX]Showing wrong price for items when shop discount is enabled.
+[UPDATE]Added credits adder for gm with limited amount of credits per day
+[UPDATE]Added IGCN GM system support
+[UPDATE]Added license information in AdminCP
+[UPDATE]Added referral IP check
+VERSION 1.0.5
+[FIX]Fixed not showing proper guild logo in guild info page
+[FIX]Small issue with resetting skill tree for IGCN server files
+[UPDATE]Added option to disable any of rankings
+[UPDATE]Added Master level rankings
+[UPDATE]Added option to show or hide master level in top level rankings
+[UPDATE]Removed xmlrpc requirement for easier setup on any php version starting from 5.3
+[FIX]Showing wrong event times
+[FIX]Not adding credits on any donation method when using memb_guid as account identifier
+[FIX]Fixed some collation issues in online players list
+[UPDATE]Added vip module for ZTeam server files
+[UPDATE]Added missed function for ban player on donation refund before it was doing nothing
+[FIX]Unable to buy empty seed spheres in webshop
+[FIX]Fixed issue when user making refund not decreasing credits but adding in very rare scenarios with paymentwall donation method
+[UPDATE]Possible to set different item price in shop for each server
+[FIX]Market item filter not filtering properly items when mssql driver is used
+[FIX]Statistics module reading wrong castle siege time from MuCastleData.dat
+[UPDATE]In admincp now can see when license will expire and direct renewal link
+[UPDATE]Possible to release license from admincp if you decide to move your website to another hosting, ip.
+[FIX]Online list loading online time from all servers
+[UPDATE]New ranking for top online time
+[FIX]License validation consumes a lot of memory in some php versions
+[UPDATE]Possible to set how many sockets can see in shop from 0 to 5
+[UPDATE]Possible to load website news from Rss Feeds
+VERSION 1.0.5 RC 1
+[FIX]Shop not possible to buy socket item when socket limit is set lower than 5
+[FIX]Not counting properly online hours in online rankings
+VERSION 1.1.0
+[FIX]Wrong pagination in market and market history
+[FIX]Configuration class not adding missing values to configuration files in some scenarios
+[UPDATE]New Change Name Module need testing
+[UPDATE]Added Gens Ranking
+[FIX]When limiting socket count to lower than 5 in item info showing 5 sockets
+[FIX]Corrected allowed password length to 20 symbols in settings page same as for registration
+[UPDATE]Removed some unnecessary constants from constants.php
+[FIX]Fixed server opening countdown timer reading not server time but client in default template
+[UPDATE]Possible to add different donation packages for each server paypal and 2checkout donation methods
+[UPDATE]Now if your license is registered to domain name it is possible to access website also from ip to which domain is registered, except if using cloudflare, incapsula or some other proxy this will not work
+[UPDATE]Added exception for license validation if admincp is accessed from local ip's
+[UPDATE]Added config for grand reset to clear all resets or only required after grand reset function use
+[UPDATE]Extended wcoin exchange module now possible to change wcoins back to credits
+[UPDATE]Added GameMaster list
+[UPDATE]Added Ban List
+[UPDATE]New payment module for https://pagseguro.uol.com.br/ payments
+[UPDATE]New Support / Ticket System Module
+[UPDATE]Added account, pagseguro logs AdminCP modules
+[UPDATE]Reorganised website settings
+[UPDATE]Added website install page for easy website installation
+[UPDATE]Added website update page for easy website version upgrade
+[UPDATE]Added XtremeTop100 post back api support for vote validation
+[FIX]Fixed all know dupe bugs
+[UPDATE]Added option to allow / disallow selling webshop items in market
+[FIX]Fixed News composer breaking style attribute when adding or editing news
+[FIX]Fixed guild logo in character info page
+[UPDATE]GMCP Ban Manager new permanent ban option and reason
+[FIX]Fixed pdo_odbc driver issues with varbinary fields
+[FIX]Fixed string could not be parsed as string error if invalid xml document is loaded in latest forum posts module.
+[UPDATE]Added IGCN item.xml file support for latest IGCN server files version
+[FIX]Website not sending email's when is used PHP Mail function
+[UPDATE]Manage user accounts AdminCP module
+[UPDATE]Search account ip's AdminCP module
+[UPDATE]Ban user accounts AdminCP module
+[UPDATE]Delete user accounts AdminCP module
+[UPDATE]Manage characters AdminCP module
+[UPDATE]Ban characters AdminCP module
+[UPDATE]Moved website news from database to file
+[UPDATE]Added option to disable resets from rankings for no reset servers
+[UPDATE]Added option to disable / enable stats reassign option
+[UPDATE]Removed file serverlist.dmn
+[UPDATE]Removed server settings from constants.php
+[UPDATE]Added file serverlist.json moved all server information into it
+[UPDATE]Server List Manager AdminCP module
+VERSION 1.1.1
+[FIX]Fixed some upgrade errors
+[FIX]Unable to login into admincp
+VERSION 1.1.2
+[FIX]Not working session on IIS web server
+[FIX]Not showing proper online count in statistics page
+[FIX]Not reading properly servers from server list which has numeric keys
+[FIX]Fix some small issues in ticket system 
+[FIX]PDO ODBC driver lastInsertId() not working
+[UPDATE]New dynamic reset system
+[FIX]Fixed small license validation issue
+[UPDATE]Recoded Meta information and Title system now possible to add translations
+[UPDATE]Recoded Buy Level system
+[FIX]Getting sql error when adding voting link if PDO ODBC driver is used
+[FIX]Shop card not calculating correct total price if selected item is removed
+[FIX]Driver not found in some admincp and gmcp functions when PDO ODBC driver is used
+[FIX]New excellent option count limit on item for selling in market
+[UPDATE]Added gm logs into admincp
+[FIX]Change class module wrongly checking if character have equipped items
+[UPDATE]Added pentagram information to item tooltip
+[UPDATE]Added errtel information to item tooltip
+[FIX]Showing wrong item exe options on some wings
+[UPDATE]Added ancient item information to item tooltip
+[UPDATE]Added Risk Engine parameters to paymentwall donation system
+[FIX]Fixed 2.5 Wings options in item tooltip and webshop
+[FIX]VoteReward mmotop.ru not adding votes into vote ranking
+[UPDATE]Added option in webshop to prevent purchase of harmony and ancient options in same item.
+[FIX]Account Editor if search account which length is 10 characters getting sql error
+[FIX]Market filter not filtering properly ancient items
+[FIX]Admincp Support Requests view not possible to switch pages
+[FIX]Fixed website generating invalid sessions in some rare scenarious
+[UPDATE]Web warehouse module with unlimited space
+[UPDATE]Added jewels as currency in market
+[FIX]Not remove item from inventory if remove item by serial option in admincp is used
+[FIX]Paypal vulnerability
+[UPDATE]Added support for SkillTree reset on X-Team files
+[FIX]ClearSkilltree for IGCN files clear normal skills also
+[FIX]Fixed some caching system issue
+[FIX]Online hours exchange module not reading properly online hours from all subservers
+[UPDATE]Import and Export Website Languages from AdminCP
+[UPDATE]Added pentagram support in webshop
+[UPDATE]Added Errtel support in webshop
+VERSION 1.1.3
+[FIX]Gallery upload passed by refference error
+[FIX]Items purchased in webshop comes with half durability
+[UPDATE]Added option to reset master level and experience on character level reset
+[FIX]Stats reset credits can go negative
+[FIX]Opening count down timer showing wrong time if user is in different timezone than server
+[FIX]Statistics, Warehouse, Account Logs pages driver could not be found if pdo_odbc is used and multi account server is enabled
+[FIX]When make paypal refund credits can go negative
+[UPDATE]Added maintenance page
+[UPDATE]Added into market filter option to search for item by its name
+[UPDATE]Added mouse tracking to tooltip
+[UPDATE]Added new GrandReset system [HOT]
+[FIX]Fixed local license file gets bugged in rare scenarious
+[UPDATE]Redesigned donation settings in admincp
+[UPDATE]New payment modules superrewards, paycall
+[UPDATE]New wcoin exchange module, settings moved to seperate section in admincp
+[UPDATE]Added option to load facebook page instead of news
+[UPDATE]Updated Facebook SDK for fb login to work with lattest oauth client
+[FIX]Fixed showing wrong ref and dd option in item tooltip for rings
+[FIX]When purchasing errtel calculating wrong price for selected options
+[UPDATE]In AdminCP added missing donation system logs
+[UPDATE]Added new referral system [HOT]
+[UPDATE]Now allowed non-alphanumeric characters in admin username and password also
+[FIX]Warehouse editor unable to create warehouse if not created in game
+[UPDATE]Added new vip system [HOT]
+[UPDATE]Added option to search for language string in translation module
+VERSION 1.1.4
+[UPDATE]Votereward system added additional voting api for:
+http://gtop100.com
+http://topg.org
+http://top100arena.com
+http://mmoserver.pro
+[FIX]Sql sintax error when shop discount and vip discount is activated
+[FIX]Cosmetic fixes in vip system
+[FIX]Small error in licensing system when windows hosting is used
+VERSION 1.1.5
+[UPDATE]Added Guides module
+[UPDATE]Added seed and seed sphere information into item tooltip
+[UPDATE]New payment module Interkassa
+[FIX]Fix item from shop bug when no harmony option is selected
+[FIX]Small fixes in Vip System
+[UPDATE]New Event Timers module
+[FIX]Load WCoin balance function & added option to display wcoins in sidebar
+[FIX]Unable to load item info from XTeam Server Item.txt
+[FIX]Wrong reset range in reset and grand reset system
+[FIX]Removed some unnecesarry checks from license system
+[FIX]Fixed guild mark show wrong colors in some scenarious
+[FIX]Fixed facebook login error
+[UPDATE]Market page will be now accessible without login
+[FIX]Fixed paycall payment module
+[UPDATE]Added support for custom igcn md5 password encoding
+[UPDATE]Ranking system has been recoded, added more ranking modules, much wider configuration options
+[FIX]Unable to exchange referral reward if on website GrandResets are disabled
+[FIX]LifeTime license not show properly in admincp
+[UPDATE]Added warehouse item hover effect
+[FIX]Wrongly canculating item id for some items
+[UPDATE]Modified AdminCP menus
+[UPDATE]Added posibility to reorder serverlist in admincp
+[FIX]Fixed some item image size and quality
+[UPDATE]Added original all item images from S1 till S10
+[FIX] Added compability to option Member Since to different bases
+[UPDATE]Added current user server cookie check to remember last used server on next login
+[UPDATE]Added buy level configuration into AdminCP
+[UPDATE]Removed old localization system, added new
+[UPDATE]Added new payment module CuentaDigital
+[UPDATE]Added table configuration module (This should be configured after website setup, or upgrade first)
+[UPDATE]Moved wcoin exchange table info to table configuration module
+[UPDATE]Added more configuration options to reset
+[UPDATE]Added character and guild search
+VERSION 1.1.6
+[UPDATE]Added EX-Team MU support
+[UPDATE]Added pt-BR language
+[FIX]Fixed not working exe limit when selling item in market
+[UPDATE]Updated Cuenta Digital payment method with direct api
+[UPDATE]Moved smtp settings from main settings to seperate config called email settings
+[UPDATE]Moved captcha settings from registration settings to seperate config called security settings
+[UPDATE]Added Google ReCaptcha v2 support
+[UPDATE]Added more configuration options into registration module
+[UPDATE]Added timezone switch into main website settings to set correct website time
+[UPDATE]Added gens ranking support for MuEngine & ExTeam
+[UPDATE]Added max level limit into Buy Level module
+[FIX]Vip time is not set for MuEngine server files
+[FIX]Wrong error message when referral has insufficient resets or grand resets
+[FIX]When adding or editing guide html span tag is breaking
+[FIX]AdminCP account editor unable to set new password if md5 is used
+[UPDATE]Added Grow Lancer support
+[UPDATE]Added flood protection can be turned off in constants.php
+[UPDATE]Added paypal fee settings
+[UPDATE]Added season 10 exe option support
+[UPDATE]Updated Market filter with s10 class and new exe options
+[UPDATE]Added new s10 class to reset and grand reset system
+[UPDATE]Removed hardcoded character class list and map list now can be edited in application/config/class_config.json and map_config.json files
+[UPDATE]Recoded Change Class module now it has wider configuration options
+[UPDATE]Download manager has now option to edit and order download files
+[UPDATE]Added welcome email option can be enabled or disabled in email settings
+[UPDATE]In vip system you can now set registration packages which will be added on registration
+[UPDATE]Option to notify user by email when he purchases vip package
+[UPDATE]Email notifications when someone donate to admin/user
+VERSION 1.1.6.1
+[FIX]Unable to reset skilltree for miracle lancer
+[FIX]Sql error when editing vip package
+VERSION 1.1.6.2
+[FIX]Reset skilltree module always display "Unable to reset skilltree." message
+VERSION 1.1.6.3
+[UPDATE]Added ipb 4 support for news storage
+[FIX]If vip package is set for registration it is displayed in vip puchase page
+[FIX]If email validation on registration is turned off displays error but creates account successfully
+VERSION 1.1.6.4
+[FIX]Registration vip package not add properly in some scenarious
+[FIX]If email validation on registration is turned off and welcome email is turned off displays error but creates account successfully
+VERSION 1.1.7
+[FIX]Sql error when adding download file
+[FIX]Reset skill tree module does not reset all miracle lancer skills
+[UPDATE]Email settings have been updated with more configuration options. Please reffer to AdminCP -> Website Settings -> Email Settings 
+[UPDATE]New PinCode protection for AdminCP Login
+[UPDATE]Votereward has now seperated config for each server Please reffer to AdminCP -> Website Settings -> VoteReward Settings
+[UPDATE]Configurable automatic rewards for top monthly voters
+[UPDATE]Added cron system for running background tasks. Please reffer to AdminCP -> Website Settings -> Scheduler Settings
+[UPDATE]Unbans are now handled automatically by scheduled task
+[FIX]Sql error installing cms which could happen in some scenarious
+[UPDATE]You can now see patch logs in admincp when ever there is new cms version
+[UPDATE]Some changes in cms upgrade system you can now download patches directly in upgrade process
+[UPDATE]Optimisations in licensing system
+[UPDATE]AdminCP now uses CKEditor instead of cleditor
+[UPDATE]You can now create bulk emails and send them to your players
+VERSION 1.1.7.1
+[FIX]Wrong bonus stats are added to gl and ml on reset and grand reset
+VERSION 1.1.8
+[FIX]If Generate Password is enabled but all Password Strength options are disabled email is sent with empty password
+[UPDATE]Activation email resend feature
+[UPDATE]Updated Errtel of Radiance to support Season 10 options
+[UPDATE]Plugin system you can now develope your own plugins
+[UPDATE]Licensing system fixes and optimisations
+[UPDATE]Now if you ban or unban someone in game, they will be automatically added / removed into / from website ban list
+[UPDATE]Added user filter to Bulk Mailer, latter to be extended
+[UPDATE]MMOTOP.Ru votes are now loaded with scheduler
+[UPDATE]New option in grand reset settings to clear all resets or only required
+[FIX]Muun pet disappear when change name function is used
+VERSION 1.1.9
+[FIX]When mssql driver is used guide gets broken when editing
+[UPDATE]Killer pk count in rankings is now saved even if pk clear is used
+[FIX]Character editor sql error when server has no reset system
+[FIX]Cron task to remove old not verified accounts was not working
+[FIX]Market when purchasing item by jewels and in vault not enought space, jewels are still charged
+[FIX]Admincp Mobile dropdown menu closes after opening
+[FIX]Error in bans check cron job
+[UPDATE]Bulk Email mail list moved to file instead of database
+[FIX]Gtop100 voting api not validating votes
+[FIX]When shop discount is turned on and exe option count is limited, when clicking more options price can go negative
+[UPDATE]Added more item images
+[UPDATE]Added ip ban feature, bans can be added in application/data/ban.txt
+[UPDATE]Any MuServer version from 97D to Season 14 is supported [HOT]
+[UPDATE]Support request are now filtered by Create Time descent by default
+[UPDATE]Added option to turn on/off online player list in rankings
+[UPDATE]Added BC, DS, CC, Dueler Monthly reward options, check in rankings settings
+[UPDATE]Added donator country info in paypal logs
+[FIX]A lots of small bug fixes
+[UPDATE]Added log into account logs when admin add or remove credits
+[FIX]When transfering zen to web wallet it can disappear
+[FIX]Shop index page showing wrong item image if item has stick level
+[UPDATE]Added option in shop settings to add expiration time on shopping card items
+[UPDATE]Votereward system postback urls have been modified, you should check new urls and update your topsites
+[UPDATE]Item Tooltip now displays even more info about items, mostly consumable items have been updated
+[UPDATE]All Item Tooltip text styles have been added into website style.css
+[UPDATE]Recent Forum Topics are now loaded with scheduler [Scheduler should be configured and working properly!]
+[UPDATE]Paypal Express Checkout as paypal donation option
+[FIX]When user switch server vip data is not updated for new server
+[UPDATE]Account manager in admincp has been completely rebuilt with new features
+[UPDATE]Referral system link will display now id instead of username
+[UPDATE]Cron tasks can now be run manually, enabled/disabled check Scheduler settings
+[FIX]Referrer can get infinity rewards if referral change character name
+[UPDATE]Added paymentwall new ip support
+[UPDATE]Shop support new wing options
+[UPDATE]PHP 7.2,7.3 is now supported
+VERSION 1.2.0
+[FIX]Shop not reading item skill correctly
+[FIX]Online player list not display country flag correctly
+[FIX]Not display proper country if user has ipv6
+[FIX]Not correct character classes for xteam server files
+[UPDATE]Updated paymentwall library, delivery api added
+[UPDATE]Paymentwall configuration has new parameter signature version [Check and reconfigure your settings]
+[UPDATE]Mssql driver was removed as it is not supported on php 7 and higher
+[UPDATE]New sqlsrv driver was added
+[UPDATE]Item tooltip was updated with new parameters
+[UPDATE]Season 15 support added
+[UPDATE]Account manager can not filter vip users
+[UPDATE]Account manager can edit user vip status
+[UPDATE]Guild rankings config added new settings Order By
+{UPDATE]Reworked account logs for better searching
+[UPDATE]This versions requires min php 7.1 so please check your webhosting settings before upgrading
+1.2.1
+[FIX]Shopping cart error undefined method iteminfo::item_info()
+[FIX]BC Monthly reward not working correctly
+[FIX]Dueler Monthly reward not working correctly
+[FIX]Warehouse editor undefined  method iteminfo::GetOptions()
+[FIX]Slayer class reset stats sql error
+[FIX]Facebook login error
+[UPDATE]Reset new settings for level to which reset char after making reset
+[UPDATE]Lost Password can now use Username/Email to restore password
+[FIX]Shop giving wrong pentagram options on purchase
+[FIX]Market Call to undefined method iteminfo::item_data()
+[FIX]Wrong Scheduler job time for market latest items
+[FIX]Sometimes license.txt is cleared
+[UPDATE]Vip added additional bonus points for reset
+[UPDATE]Vip give user bonus wcoins for vip purchase
+[FIX]Fixed chinese language support in some modules  

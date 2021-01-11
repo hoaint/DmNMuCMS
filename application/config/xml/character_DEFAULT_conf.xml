@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<character_DEFAULT_conf>
+  <character_DEFAULT>
+    <max_stats>65000</max_stats>
+    <allow_reset_skilltree>0</allow_reset_skilltree>
+    <skill_tree_type>xteam</skill_tree_type>
+    <skilltree_reset_price>500</skilltree_reset_price>
+    <skilltree_reset_price_type>1</skilltree_reset_price_type>
+    <skilltree_reset_level>0</skilltree_reset_level>
+    <skilltree_reset_points>0</skilltree_reset_points>
+    <skilltree_points_multiplier>1</skilltree_points_multiplier>
+    <pk_clear_price>9999</pk_clear_price>
+    <pk_clear_payment_method>0</pk_clear_payment_method>
+    <allow_reset_stats>1</allow_reset_stats>
+    <reset_stats_price>0</reset_stats_price>
+    <reset_stats_payment_type>1</reset_stats_payment_type>
+    <show_equipment>1</show_equipment>
+  </character_DEFAULT>
+</character_DEFAULT_conf>

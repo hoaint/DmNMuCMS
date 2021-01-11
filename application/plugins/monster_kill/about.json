@@ -1,0 +1,10 @@
+{
+  "name": "Top Monster Killers",
+  "version": "1.0.0",
+  "description": "This plugin allows your see players who have killed most monsters.",
+  "developed_by": "neo6",
+  "website": "http://dmncms.net",
+  "change_log":{
+	"1.0.0": "Initial Release"
+  }
+}

@@ -1,0 +1,40 @@
+Options +FollowSymlinks 
+RewriteEngine On
+ServerSignature Off
+RewriteRule ^news/(.*)/([0-9]+)\/?$ home/read-news/$1/$2 [NC,L]
+RewriteRule ^character/(.*)/(.*)\/?$ info/character/$1/$2 [NC,L]
+RewriteRule ^guild/(.*)/(.*)\/?$ info/guild/$1/$2 [NC,L]
+RewriteRule ^vote-reward\/?$ account-panel/vote-reward [NC,L]
+RewriteRule ^account-logs\/?$ account-panel/logs [NC,L]
+RewriteRule ^settings\/?$ account-panel/settings [NC,L]
+RewriteRule ^logout\/?$ account-panel/logout [NC,L]
+RewriteRule ^reset-character\/?$ account-panel/reset [NC,L]
+RewriteRule ^grand-reset-character\/?$ account-panel/grand-reset [NC,L]
+RewriteRule ^add-stats\/?$ account-panel/add-stats [NC,L]
+RewriteRule ^add-stats/(.*)\/?$ account-panel/add-stats/$1 [NC,L]
+RewriteRule ^reset-stats\/?$ account-panel/reset-stats [NC,L]
+RewriteRule ^hide-character-info\/?$ account-panel/hide-info [NC,L]
+RewriteRule ^exchange-wcoins\/?$ account-panel/exchange-wcoins [NC,L]
+RewriteRule ^warp-char\/?$ account-panel/warp-char [NC,L]
+RewriteRule ^pk-clear\/?$ account-panel/pk-clear [NC,L]
+RewriteRule ^clear-inventory\/?$ account-panel/clear-inventory [NC,L]
+RewriteRule ^zen-wallet\/?$ account-panel/zen-wallet [NC,L]
+RewriteRule ^clear-skilltree\/?$ account-panel/clear-skilltree [NC,L]
+RewriteRule ^logs\/?$ account-panel/logs [NC,L]
+
+RewriteCond %{REQUEST_URI} system.*
+RewriteRule ^(.*)$ index.php [L]
+RewriteCond %{REQUEST_URI} application.*
+RewriteRule ^(.*)$ index.php [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*) index.php?action=$1 [QSA,L]
+
+<FilesMatch "(?:license\.txt)$">
+Order allow,deny
+Deny from all
+</FilesMatch>
+
+
+
