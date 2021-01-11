@@ -60,9 +60,9 @@
 	 */
 
 	define('USERNAME',	'hoaint');
-	define('PASSWORD', 	'1122321');
+	define('PASSWORD', 	'hoaint@123');
 	define('PINCODE', 	'123456');
-	define('SECURITY_SALT','5vNl0TayQr');
+	define('SECURITY_SALT','rMcIAnN8FK');
 	define('ACP_IP_CHECK',false);
 	define('ACP_IP_WHITE_LIST','127.0.0.1');
 

@@ -12,3 +12,9 @@
 [03:11AM] [0.0.0.0] Task executed ParseServerFiles
 [03:12AM] [0.0.0.0] Task executed LastForumTopics
 [03:12AM] [0.0.0.0] Task executed LastMarketItems
+[09:19AM] [0.0.0.0] Task executed VoteMonthlyReward
+[09:19AM] [0.0.0.0] Task executed BCMonthlyReward
+[09:20AM] [0.0.0.0] Task executed DSMonthlyReward
+[09:20AM] [0.0.0.0] Task executed CCMonthlyReward
+[09:41AM] [0.0.0.0] Task executed ParseServerFiles
+[09:42AM] [0.0.0.0] Task executed LastMarketItems

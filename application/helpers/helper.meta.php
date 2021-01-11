@@ -15,7 +15,7 @@
             if(array_key_exists($this->lang, $this->meta)){
                 $this->data = $this->meta[$this->lang];
             } else{
-                $this->data = $this->meta['en_GB'];
+                $this->data = $this->meta['vi_VN'];
             }
         }
 

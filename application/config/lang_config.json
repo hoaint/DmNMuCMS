@@ -3,12 +3,12 @@
         "English": {
             "title": "English",
             "flag": "en",
-            "active": null
+            "active": 1
         },
-        "Vietnam": {
-            "title": "Vietnam",
+        "vi_VN": {
+            "title": "vi_VN",
             "flag": "vn",
-            "active": "1"
+            "active": 1
         }
     }
 }

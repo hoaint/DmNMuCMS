@@ -15,5 +15,22 @@
             "keywords": "%server_title%, DmN MuCMS 1.2.1, MuOnline, Website",
             "description": "Content Management System For MuOnline"
         }
+    },
+    "vi_VN": {
+        "default": {
+            "title": "%server_title%",
+            "keywords": "%server_title%, DmNMu CMS 1.2.1, MuOnline, Website",
+            "description": "Content Management System For MuOnline"
+        },
+        "home": {
+            "title": "%server_title% Trang chủ",
+            "keywords": "%server_title%, DmN MuCMS 1.2.1, MuOnline, Website",
+            "description": "Content Management System For MuOnline"
+        },
+        "registration": {
+            "title": "%server_title% Đăng Ký",
+            "keywords": "%server_title%, DmN MuCMS 1.2.1, MuOnline, Website",
+            "description": "Content Management System For MuOnline"
+        }
     }
 }

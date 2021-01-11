@@ -880,3 +880,84 @@
 [2021-01-11 14-31-37] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/vote-reward 
 [2021-01-11 14-31-38] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 
 [2021-01-11 14-31-40] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 
+[2021-01-11 15-17-18] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-11 15-17-23] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/registration 
+[2021-01-11 15-18-01] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/registration 
+[2021-01-11 15-20-24] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-11 15-20-27] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/registration 
+[2021-01-11 15-20-54] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/registration/success 
+[2021-01-11 15-21-11] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 15-21-28] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-11 15-21-31] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 15-22-55] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 15-23-01] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/settings 
+[2021-01-11 15-23-08] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/settings 
+[2021-01-11 15-23-16] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/settings 
+[2021-01-11 15-26-06] PHP Warning: scandir(E:\xampp7.1.33\htdocs\\assets\flags,E:\xampp7.1.33\htdocs\\assets\flags): The system cannot find the file specified. (code: 2) in E:\xampp7.1.33\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-11 15-26-06] PHP Warning: scandir(E:\xampp7.1.33\htdocs\\assets\flags): failed to open dir: No such file or directory in E:\xampp7.1.33\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-11 15-26-06] PHP Warning: scandir(): (errno 2): No such file or directory in E:\xampp7.1.33\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-11 15-26-06] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\models\model.admin.php:2282  @  http://localhost/admincp/add-language 
+[2021-01-11 15-26-40] PHP Notice: Undefined variable: translations in E:\xampp7.1.33\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/vi_VN 
+[2021-01-11 15-26-40] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/vi_VN 
+[2021-01-11 15-26-47] PHP Notice: Undefined variable: translations in E:\xampp7.1.33\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/en_GB 
+[2021-01-11 15-26-47] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/en_GB 
+[2021-01-11 15-39-26] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-11 15-39-29] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-11 15-39-32] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-11 15-39-38] PHP Warning: A non-numeric value encountered in E:\xampp7.1.33\htdocs\application\models\model.shop.php:500  @  http://localhost/shop/cart 
+[2021-01-11 15-39-38] PHP Warning: A non-numeric value encountered in E:\xampp7.1.33\htdocs\application\models\model.shop.php:500  @  http://localhost/shop/cart 
+[2021-01-11 15-39-38] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/cart 
+[2021-01-11 15-41-12] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-11 15-42-09] PHP Warning: A non-numeric value encountered in E:\xampp7.1.33\htdocs\application\models\model.shop.php:500  @  http://localhost/shop/cart 
+[2021-01-11 15-42-09] PHP Warning: A non-numeric value encountered in E:\xampp7.1.33\htdocs\application\models\model.shop.php:500  @  http://localhost/shop/cart 
+[2021-01-11 15-42-11] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/cart 
+[2021-01-11 15-42-18] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 15-42-33] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/exchange-online 
+[2021-01-11 15-42-35] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/exchange-online 
+[2021-01-11 15-42-41] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 
+[2021-01-11 15-42-48] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop 
+[2021-01-11 15-42-50] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/index/5 
+[2021-01-11 15-42-53] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/index/7 
+[2021-01-11 15-42-57] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories 
+[2021-01-11 15-43-00] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/5 
+[2021-01-11 15-43-02] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/4 
+[2021-01-11 15-43-19] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/shop/category/accessories/4 
+[2021-01-11 15-44-56] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/registration 
+[2021-01-11 17-32-11] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-11 17-32-14] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-11 17-32-23] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel 
+[2021-01-11 17-32-26] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/account-panel/reset 
+[2021-01-11 17-32-30] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/market 
+[2021-01-11 17-32-32] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse/web 
+[2021-01-11 17-32-33] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-11 17-32-46] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-11 17-32-50] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/warehouse 
+[2021-01-11 17-40-58] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/rules 
+[2021-01-11 18-02-18] PHP Notice: Undefined variable: translations in E:\xampp7.1.33\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/en_GB 
+[2021-01-11 18-02-18] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/en_GB 
+[2021-01-11 18-04-08] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-11 18-06-11] PHP Warning: scandir(E:\xampp7.1.33\htdocs\\assets\flags,E:\xampp7.1.33\htdocs\\assets\flags): The system cannot find the file specified. (code: 2) in E:\xampp7.1.33\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-11 18-06-11] PHP Warning: scandir(E:\xampp7.1.33\htdocs\\assets\flags): failed to open dir: No such file or directory in E:\xampp7.1.33\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-11 18-06-11] PHP Warning: scandir(): (errno 2): No such file or directory in E:\xampp7.1.33\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-11 18-06-11] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\models\model.admin.php:2282  @  http://localhost/admincp/add-language 
+[2021-01-11 18-06-31] PHP Notice: Undefined variable: translations in E:\xampp7.1.33\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/vi_VN 
+[2021-01-11 18-06-31] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/vi_VN 
+[2021-01-11 18-06-36] PHP Notice: Undefined variable: translations in E:\xampp7.1.33\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/en_GB 
+[2021-01-11 18-06-36] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/en_GB 
+[2021-01-11 18-06-48] PHP Warning: scandir(E:\xampp7.1.33\htdocs\\assets\flags,E:\xampp7.1.33\htdocs\\assets\flags): The system cannot find the file specified. (code: 2) in E:\xampp7.1.33\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-11 18-06-48] PHP Warning: scandir(E:\xampp7.1.33\htdocs\\assets\flags): failed to open dir: No such file or directory in E:\xampp7.1.33\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-11 18-06-48] PHP Warning: scandir(): (errno 2): No such file or directory in E:\xampp7.1.33\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-11 18-06-48] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\models\model.admin.php:2282  @  http://localhost/admincp/add-language 
+[2021-01-11 18-06-59] PHP Warning: scandir(E:\xampp7.1.33\htdocs\\assets\flags,E:\xampp7.1.33\htdocs\\assets\flags): The system cannot find the file specified. (code: 2) in E:\xampp7.1.33\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-11 18-06-59] PHP Warning: scandir(E:\xampp7.1.33\htdocs\\assets\flags): failed to open dir: No such file or directory in E:\xampp7.1.33\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-11 18-06-59] PHP Warning: scandir(): (errno 2): No such file or directory in E:\xampp7.1.33\htdocs\application\models\model.admin.php:2281  @  http://localhost/admincp/add-language 
+[2021-01-11 18-06-59] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\models\model.admin.php:2282  @  http://localhost/admincp/add-language 
+[2021-01-11 18-06-59] PHP Notice: Undefined index: flag in E:\xampp7.1.33\htdocs\application\models\model.admin.php:2271  @  http://localhost/admincp/add-language 
+[2021-01-11 18-06-59] PHP Notice: Undefined property: admincp::$translation, did you mean $translations? in E:\xampp7.1.33\htdocs\system\model.class.php:9  @  http://localhost/admincp/add-language 
+[2021-01-11 18-08-26] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-11 18-08-54] PHP Notice: Undefined variable: translations in E:\xampp7.1.33\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/vi_VN 
+[2021-01-11 18-08-54] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\views\admincp\language_manager\view.edit_language.php:56  @  http://localhost/admincp/edit-language/vi_VN 
+[2021-01-11 18-09-03] PHP Notice: Undefined property: admincp::$translation, did you mean $translations? in E:\xampp7.1.33\htdocs\application\controllers\controller.admincp.php:4722  @  http://localhost/admincp/export-language/vi_VN 
+[2021-01-11 18-09-32] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-11 18-09-36] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
+[2021-01-11 18-09-41] PHP Warning: Invalid argument supplied for foreach() in E:\xampp7.1.33\htdocs\application\helpers\helper.website.php:828  @  http://localhost/ 
